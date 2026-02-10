@@ -16,7 +16,7 @@ const Contact = () => {
           <h1 className="text-editorial-title text-foreground">Contact</h1>
         </FadeInView>
         <FadeInView delay={0.2}>
-          <p className="text-editorial-body text-muted-foreground mt-6 max-w-md">
+          <p className="text-editorial-body text-foreground mt-6 max-w-md">
             For inquiries, collaborations, or correspondence.
           </p>
         </FadeInView>

@@ -12,7 +12,6 @@ const About = () => {
 
       <section className="page-padding pb-20 md:pb-32">
         <div className="grid md:grid-cols-5 gap-12 md:gap-16 lg:gap-24">
-          {/* Portrait */}
           <FadeInView className="md:col-span-2">
             <img
               src={portrait}
@@ -22,20 +21,19 @@ const About = () => {
             />
           </FadeInView>
 
-          {/* Bio */}
           <FadeInView delay={0.2} className="md:col-span-3 max-w-lg">
-            <div className="space-y-6 text-editorial-body text-foreground/80">
+            <div className="space-y-6 text-editorial-body text-foreground">
               <p>
-                The work emerges from a sustained engagement with absence, silence, and the thresholds between visibility and disappearance. Over the past decade, the practice has centered on <em className="font-serif">Void</em> — a body of work that resists fixed interpretation and instead asks the viewer to remain in the space of not-knowing.
+                I am a visual artist whose practice follows a fixed internal sequence: I feel, I see, then I create. There is no logic, concept, or meaning guiding the work in advance. Meaning comes only after the act of making.
               </p>
               <p>
-                Working across photography, digital media, and text, the approach is deliberately slow. Each piece is the result of extended observation rather than production. The interest is not in creating images, but in discovering what an image can hold when it is stripped to its most essential form.
+                My work often centers on the human figure, not as representation, but as absence — a trace left behind when identity dissolves. The process requires entering a state I refer to as the void: a condition in which perception fractures and the familiar self temporarily disappears.
               </p>
               <p>
-                The practice draws from traditions of contemplative art, land art, and minimalism — not as stylistic references but as ethical commitments to attention, duration, and restraint.
+                Creation begins only after this internal rupture. Emotion precedes form, and feeling determines what becomes visible. Across bodies of work, this process remains constant, even as materials, subjects, and forms shift.
               </p>
               <p className="text-muted-foreground text-editorial-sm pt-4">
-                Based between studios. Working continuously.
+                The practice is ongoing.
               </p>
             </div>
           </FadeInView>

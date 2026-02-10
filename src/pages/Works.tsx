@@ -34,17 +34,27 @@ const Works = () => {
           <h1 className="text-editorial-title text-foreground">Works</h1>
         </FadeInView>
         <FadeInView delay={0.2}>
-          <p className="text-editorial-body text-muted-foreground mt-6 max-w-lg">
-            Selected works across photography, digital, and other media.
+          <div className="mt-10 max-w-2xl space-y-6 text-editorial-body text-foreground">
+            <p>
+              This section gathers selected works outside the VOID BODY practice.
+            </p>
+            <p>
+              These works move across forms, materials, and periods, and are shared as part of an ongoing artistic life rather than a complete archive.
+            </p>
+          </div>
+        </FadeInView>
+        <FadeInView delay={0.3}>
+          <p className="text-editorial-sm text-muted-foreground mt-8 max-w-xl">
+            Each body of work emerges through the same internal process, even as form and material change.
           </p>
         </FadeInView>
       </section>
 
-      {series.map((s, si) => (
+      {series.map((s) => (
         <section key={s.title} className="page-padding pb-20 md:pb-32">
           <FadeInView>
             <div className="flex items-baseline gap-4 mb-10 md:mb-14 border-b border-border pb-4">
-              <h2 className="font-serif text-2xl md:text-3xl text-foreground">{s.title}</h2>
+              <h2 className="text-editorial-section text-foreground">{s.title}</h2>
               <span className="text-editorial-sm text-muted-foreground">{s.medium}</span>
             </div>
           </FadeInView>

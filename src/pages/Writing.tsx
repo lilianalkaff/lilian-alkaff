@@ -20,7 +20,7 @@ const notes: Note[] = [
       "",
       "I held my breath",
       "and the room held me.",
-      "What remained was not silence—",
+      "What remained was not silence —",
       "it was the shape of listening.",
     ],
   },
@@ -46,22 +46,32 @@ const notes: Note[] = [
   },
 ];
 
-const Notes = () => {
+const Writing = () => {
   return (
     <div>
       <section className="page-padding section-spacing">
         <FadeInView>
-          <h1 className="text-editorial-title text-foreground">Notes</h1>
+          <h1 className="text-editorial-title text-foreground">Writing</h1>
+        </FadeInView>
+        <FadeInView delay={0.2}>
+          <div className="mt-10 max-w-2xl space-y-6 text-editorial-body text-foreground">
+            <p>
+              A space for text that exists alongside the visual work.
+            </p>
+            <p>
+              These writings are not explanations, but traces — fragments that emerge from the same process as the artworks themselves.
+            </p>
+          </div>
         </FadeInView>
       </section>
 
       <section className="page-padding pb-20 md:pb-32 max-w-2xl">
         <div className="space-y-20 md:space-y-28">
-          {notes.map((note, i) => (
+          {notes.map((note) => (
             <FadeInView key={note.title} delay={0.1}>
               <article>
                 <header className="mb-8">
-                  <h2 className="font-serif text-2xl md:text-3xl text-foreground italic">
+                  <h2 className="text-editorial-section text-foreground">
                     {note.title}
                   </h2>
                   <p className="text-editorial-sm text-muted-foreground mt-2">{note.date}</p>
@@ -72,8 +82,8 @@ const Notes = () => {
                       key={li}
                       className={`${
                         note.type === "poem"
-                          ? "font-serif text-lg md:text-xl text-foreground leading-relaxed"
-                          : "text-editorial-body text-foreground/80"
+                          ? "text-lg md:text-xl text-foreground leading-relaxed"
+                          : "text-editorial-body text-foreground"
                       } ${line === "" ? "h-4" : ""}`}
                     >
                       {line || "\u00A0"}
@@ -89,4 +99,4 @@ const Notes = () => {
   );
 };
 
-export default Notes;
+export default Writing;
