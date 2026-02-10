@@ -5,7 +5,7 @@ import void03 from "@/assets/void-03.jpg";
 import voidHero from "@/assets/void-hero.jpg";
 const voidWorks = [{
   src: void01,
-  title: "Void I",
+  title: "Stuck",
   year: "2022"
 }, {
   src: void02,
