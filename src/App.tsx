@@ -7,7 +7,7 @@ import Layout from "./components/Layout";
 import Index from "./pages/Index";
 import Void from "./pages/Void";
 import Works from "./pages/Works";
-import Notes from "./pages/Notes";
+import Writing from "./pages/Writing";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
@@ -25,7 +25,7 @@ const App = () => (
             <Route path="/" element={<Index />} />
             <Route path="/void" element={<Void />} />
             <Route path="/works" element={<Works />} />
-            <Route path="/notes" element={<Notes />} />
+            <Route path="/writing" element={<Writing />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
