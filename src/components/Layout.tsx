@@ -32,7 +32,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                 <Link
                   to={item.path}
                   className={`text-editorial-sm transition-colors duration-500 ${
-                    location.pathname === item.path
+                    location.pathname === item.path || (item.path === "/void" && location.pathname.startsWith("/void"))
                       ? "text-foreground"
                       : "text-muted-foreground hover:text-foreground"
                   }`}

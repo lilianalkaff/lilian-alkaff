@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import Index from "./pages/Index";
 import Void from "./pages/Void";
+import VoidSeries from "./pages/VoidSeries";
 import Works from "./pages/Works";
 import Writing from "./pages/Writing";
 import About from "./pages/About";
@@ -24,6 +25,7 @@ const App = () => (
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/void" element={<Void />} />
+            <Route path="/void/:slug" element={<VoidSeries />} />
             <Route path="/works" element={<Works />} />
             <Route path="/writing" element={<Writing />} />
             <Route path="/about" element={<About />} />
