@@ -23,14 +23,14 @@ const About = () => {
 
           <FadeInView delay={0.2} className="md:col-span-3 max-w-lg">
             <div className="space-y-6 text-editorial-body text-foreground">
-              <p>
-                I am a visual artist whose practice follows a fixed internal sequence: I feel, I see, then I create. There is no logic, concept, or meaning guiding the work in advance. Meaning comes only after the act of making.
+              <p>Lilian Alkaff is a visual artist whose practice follows a fixed internal sequence: feeling, seeing, making.
+
               </p>
-              <p>
-                My work often centers on the human figure, not as representation, but as absence — a trace left behind when identity dissolves. The process requires entering a state I refer to as the void: a condition in which perception fractures and the familiar self temporarily disappears.
+              <p>The work does not begin with concept or intention. It begins with an internal shift — a moment when perception no longer aligns with expectation. From that rupture, images become visible. Only then are they made.
+
               </p>
-              <p>
-                Creation begins only after this internal rupture. Emotion precedes form, and feeling determines what becomes visible. Across bodies of work, this process remains constant, even as materials, subjects, and forms shift.
+              <p>Across bodies of work, the human figure often appears through absence rather than representation. Identity dissolves; presence remains.
+
               </p>
               <p className="text-muted-foreground text-editorial-sm pt-4">
                 The practice is ongoing.
