@@ -8,9 +8,9 @@ import voidLife from "@/assets/void-life.jpg";
 import voidLighter from "@/assets/void-lighter.jpg";
 import voidBare from "@/assets/void-bare.jpg";
 import voidSoft from "@/assets/void-soft.jpg";
-import void03 from "@/assets/void-03.jpg";
-import voidHero from "@/assets/void-hero.jpg";
-import void01 from "@/assets/void-01.jpg";
+import voidEmbracing from "@/assets/void-embracing.jpg";
+import voidBlue from "@/assets/void-blue.jpg";
+import voidRedPeriod from "@/assets/void-redperiod.jpg";
 
 export interface VoidWork {
   src: string;
@@ -99,21 +99,21 @@ export const voidSeries: VoidSeriesData[] = [
     slug: "embracing-the-void",
     title: "Embracing The Void",
     year: "2023",
-    cover: void03,
+    cover: voidEmbracing,
     works: [],
   },
   {
     slug: "blue",
     title: "Blue",
     year: "2023",
-    cover: voidHero,
+    cover: voidBlue,
     works: [],
   },
   {
     slug: "red-period",
     title: "Red Period",
     year: "2023",
-    cover: void01,
+    cover: voidRedPeriod,
     works: [],
   },
 ];
