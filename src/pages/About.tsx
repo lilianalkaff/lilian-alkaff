@@ -14,11 +14,11 @@ const About = () => {
         <div className="grid md:grid-cols-5 gap-12 md:gap-16 lg:gap-24">
           <FadeInView className="md:col-span-2">
             <img
-              src={portrait}
+
               alt="Artist portrait"
               className="w-full max-w-sm"
-              loading="lazy"
-            />
+              loading="lazy" src="/lovable-uploads/eceed8eb-9786-4a00-a742-6b07eb3117e3.jpg" />
+
           </FadeInView>
 
           <FadeInView delay={0.2} className="md:col-span-3 max-w-lg">
@@ -39,8 +39,8 @@ const About = () => {
           </FadeInView>
         </div>
       </section>
-    </div>
-  );
+    </div>);
+
 };
 
 export default About;
