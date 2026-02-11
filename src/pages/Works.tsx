@@ -5,26 +5,26 @@ import work02 from "@/assets/work-02.jpg";
 interface WorkSeries {
   title: string;
   medium: string;
-  works: { src: string; caption: string }[];
+  works: {src: string;caption: string;}[];
 }
 
 const series: WorkSeries[] = [
-  {
-    title: "Threshold",
-    medium: "Photography",
-    works: [
-      { src: work01, caption: "Threshold I, 2023" },
-      { src: work02, caption: "Threshold II, 2024" },
-    ],
-  },
-  {
-    title: "Still Room",
-    medium: "Digital",
-    works: [
-      { src: work01, caption: "Still Room I, 2024" },
-    ],
-  },
-];
+{
+  title: "Threshold",
+  medium: "Photography",
+  works: [
+  { src: work01, caption: "Threshold I, 2023" },
+  { src: work02, caption: "Threshold II, 2024" }]
+
+},
+{
+  title: "Still Room",
+  medium: "Digital",
+  works: [
+  { src: work01, caption: "Still Room I, 2024" }]
+
+}];
+
 
 const Works = () => {
   return (
@@ -35,8 +35,8 @@ const Works = () => {
         </FadeInView>
         <FadeInView delay={0.2}>
           <div className="mt-10 max-w-2xl space-y-6 text-editorial-body text-foreground">
-            <p>
-              This section gathers selected works outside the VOID BODY practice.
+            <p>This section gathers selected works outside the Void Body practice.
+
             </p>
             <p>
               These works move across forms, materials, and periods, and are shared as part of an ongoing artistic life rather than a complete archive.
@@ -50,8 +50,8 @@ const Works = () => {
         </FadeInView>
       </section>
 
-      {series.map((s) => (
-        <section key={s.title} className="page-padding pb-20 md:pb-32">
+      {series.map((s) =>
+      <section key={s.title} className="page-padding pb-20 md:pb-32">
           <FadeInView>
             <div className="flex items-baseline gap-4 mb-10 md:mb-14 border-b border-border pb-4">
               <h2 className="text-editorial-section text-foreground">{s.title}</h2>
@@ -60,26 +60,26 @@ const Works = () => {
           </FadeInView>
 
           <div className={`grid gap-8 md:gap-12 ${s.works.length > 1 ? "md:grid-cols-2" : "max-w-3xl"}`}>
-            {s.works.map((work, wi) => (
-              <FadeInView key={work.caption} delay={wi * 0.1}>
+            {s.works.map((work, wi) =>
+          <FadeInView key={work.caption} delay={wi * 0.1}>
                 <figure>
                   <img
-                    src={work.src}
-                    alt={work.caption}
-                    className="w-full"
-                    loading="lazy"
-                  />
+                src={work.src}
+                alt={work.caption}
+                className="w-full"
+                loading="lazy" />
+
                   <figcaption className="mt-3 text-editorial-sm text-muted-foreground">
                     {work.caption}
                   </figcaption>
                 </figure>
               </FadeInView>
-            ))}
+          )}
           </div>
         </section>
-      ))}
-    </div>
-  );
+      )}
+    </div>);
+
 };
 
 export default Works;
