@@ -11,6 +11,20 @@ const Void = () => {
             Void Body of Work
           </h1>
         </FadeInView>
+        <FadeInView delay={0.2}>
+          <div className="mt-10 max-w-2xl space-y-6 text-editorial-body text-foreground">
+            <p>Void Body is a process-driven artistic practice that investigates the body as absence, the self as dissolution, and emotion as environment.</p>
+            <p>
+              The work originates from a fixed internal sequence: feeling precedes seeing, and seeing precedes making. Creation begins only after this sequence has fully occurred.
+            </p>
+            <p className="text-muted-foreground">
+              Within this practice, the void is not treated as a metaphor or aesthetic theme, but as an operative state — a condition entered when perception fractures and certainty dissolves. The body appears through absence rather than representation, registering the trace of disappearance rather than depicting form.
+            </p>
+            <p className="text-muted-foreground">
+              Emotion functions as structure. Color and environment externalize internal states, situating the work without narrating it and allowing feeling to remain unresolved.
+            </p>
+          </div>
+        </FadeInView>
       </section>
 
       <section className="page-padding pb-20 md:pb-32">
