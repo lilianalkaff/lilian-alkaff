@@ -18,37 +18,42 @@ const series: WorkSeries[] = [
     title: "Headless People",
     medium: "Digital",
     year: "2019",
-    works: [{ src: worksHeadless, caption: "Headless People, 2019" }],
+    works: [
+      { src: worksHeadless, caption: "Headless People I, 2019" },
+    ],
   },
   {
     title: "Flower People",
     medium: "Digital",
     year: "2020",
-    works: [{ src: worksFlower, caption: "Flower People, 2020" }],
+    works: [
+      { src: worksFlower, caption: "Flower People I, 2020" },
+    ],
   },
   {
-    title: "Close Up — Hands",
+    title: "Close Up",
     medium: "Digital",
     year: "2022",
-    works: [{ src: worksHands, caption: "Close Up — Hands, 2022" }],
-  },
-  {
-    title: "Close Up — Lips",
-    medium: "Digital",
-    year: "2022",
-    works: [{ src: worksLips, caption: "Close Up — Lips, 2022" }],
+    works: [
+      { src: worksHands, caption: "Close Up — Hands, 2022" },
+      { src: worksLips, caption: "Close Up — Lips, 2022" },
+    ],
   },
   {
     title: "Lines",
     medium: "Digital",
     year: "2022–23",
-    works: [{ src: worksLines, caption: "Lines, 2022–23" }],
+    works: [
+      { src: worksLines, caption: "Lines, 2022–23" },
+    ],
   },
   {
     title: "Gray City",
     medium: "Photography",
     year: "2024",
-    works: [{ src: worksGraycity, caption: "Gray City, 2024" }],
+    works: [
+      { src: worksGraycity, caption: "Gray City, 2024" },
+    ],
   },
 ];
 
@@ -77,7 +82,7 @@ const Works = () => {
         </FadeInView>
       </section>
 
-      {series.map((s) =>
+      {series.map((s, si) =>
       <section key={s.title} className="page-padding pb-20 md:pb-32">
           <FadeInView>
             <div className="flex items-baseline gap-4 mb-10 md:mb-14 border-b border-border pb-4">
@@ -86,7 +91,13 @@ const Works = () => {
             </div>
           </FadeInView>
 
-          <div className={`grid gap-8 md:gap-12 ${s.works.length > 1 ? "md:grid-cols-2" : "max-w-3xl"}`}>
+          <div className={`grid gap-8 md:gap-12 ${
+            s.works.length > 1
+              ? "md:grid-cols-2"
+              : si % 2 === 0
+                ? "max-w-2xl"
+                : "max-w-2xl md:ml-auto"
+          }`}>
             {s.works.map((work, wi) =>
           <FadeInView key={work.caption} delay={wi * 0.1}>
                 <figure>
