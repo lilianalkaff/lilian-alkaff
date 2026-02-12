@@ -17,11 +17,11 @@ const Void = () => {
             <p>
               The work originates from a fixed internal sequence: feeling precedes seeing, and seeing precedes making. Creation begins only after this sequence has fully occurred.
             </p>
-            <p className="text-muted-foreground">
-              Within this practice, the void is not treated as a metaphor or aesthetic theme, but as an operative state — a condition entered when perception fractures and certainty dissolves. The body appears through absence rather than representation, registering the trace of disappearance rather than depicting form.
+            <p className="text-muted-foreground">The void is not symbolic. It is an operative state entered when perception fractures and certainty dissolves. The body appears through absence rather than representation.
+
             </p>
-            <p className="text-muted-foreground">
-              Emotion functions as structure. Color and environment externalize internal states, situating the work without narrating it and allowing feeling to remain unresolved.
+            <p className="text-muted-foreground">Color forms the emotional environment surrounding the void. It externalizes the internal condition that precedes seeing and making.
+
             </p>
           </div>
         </FadeInView>
@@ -29,20 +29,20 @@ const Void = () => {
 
       <section className="page-padding pb-20 md:pb-32">
         <div className="space-y-20 md:space-y-32 lg:space-y-40">
-          {voidSeries.map((series, i) => (
-            <FadeInView key={series.slug} delay={i === 0 ? 0.1 : 0}>
+          {voidSeries.map((series, i) =>
+          <FadeInView key={series.slug} delay={i === 0 ? 0.1 : 0}>
               <Link
-                to={`/void/${series.slug}`}
-                className="block group"
-              >
+              to={`/void/${series.slug}`}
+              className="block group">
+
                 <figure>
                   <div className="overflow-hidden">
                     <img
-                      src={series.cover}
-                      alt={series.title}
-                      className="w-full transition-opacity duration-700 group-hover:opacity-90"
-                      loading="lazy"
-                    />
+                    src={series.cover}
+                    alt={series.title}
+                    className="w-full transition-opacity duration-700 group-hover:opacity-90"
+                    loading="lazy" />
+
                   </div>
                   <figcaption className="mt-4 flex justify-between items-baseline">
                     <span className="text-editorial-sm text-muted-foreground">
@@ -55,11 +55,11 @@ const Void = () => {
                 </figure>
               </Link>
             </FadeInView>
-          ))}
+          )}
         </div>
       </section>
-    </div>
-  );
+    </div>);
+
 };
 
 export default Void;
