@@ -95,8 +95,8 @@ const Works = () => {
             s.works.length > 1
               ? "md:grid-cols-2"
               : si % 2 === 0
-                ? "max-w-2xl"
-                : "max-w-2xl md:ml-auto"
+                ? "max-w-sm"
+                : "max-w-sm md:ml-auto"
           }`}>
             {s.works.map((work, wi) =>
           <FadeInView key={work.caption} delay={wi * 0.1}>
