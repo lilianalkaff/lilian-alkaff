@@ -1,29 +1,56 @@
 import FadeInView from "@/components/FadeInView";
-import work01 from "@/assets/work-01.jpg";
-import work02 from "@/assets/work-02.jpg";
+import worksHeadless from "@/assets/works-headless.jpg";
+import worksFlower from "@/assets/works-flower.jpg";
+import worksHands from "@/assets/works-hands.jpg";
+import worksLips from "@/assets/works-lips.jpg";
+import worksLines from "@/assets/works-lines.jpg";
+import worksGraycity from "@/assets/works-graycity.jpg";
 
 interface WorkSeries {
   title: string;
   medium: string;
-  works: {src: string;caption: string;}[];
+  year: string;
+  works: {src: string; caption: string;}[];
 }
 
 const series: WorkSeries[] = [
-{
-  title: "Threshold",
-  medium: "Photography",
-  works: [
-  { src: work01, caption: "Threshold I, 2023" },
-  { src: work02, caption: "Threshold II, 2024" }]
-
-},
-{
-  title: "Still Room",
-  medium: "Digital",
-  works: [
-  { src: work01, caption: "Still Room I, 2024" }]
-
-}];
+  {
+    title: "Headless People",
+    medium: "Digital",
+    year: "2019",
+    works: [{ src: worksHeadless, caption: "Headless People, 2019" }],
+  },
+  {
+    title: "Flower People",
+    medium: "Digital",
+    year: "2020",
+    works: [{ src: worksFlower, caption: "Flower People, 2020" }],
+  },
+  {
+    title: "Close Up — Hands",
+    medium: "Digital",
+    year: "2022",
+    works: [{ src: worksHands, caption: "Close Up — Hands, 2022" }],
+  },
+  {
+    title: "Close Up — Lips",
+    medium: "Digital",
+    year: "2022",
+    works: [{ src: worksLips, caption: "Close Up — Lips, 2022" }],
+  },
+  {
+    title: "Lines",
+    medium: "Digital",
+    year: "2022–23",
+    works: [{ src: worksLines, caption: "Lines, 2022–23" }],
+  },
+  {
+    title: "Gray City",
+    medium: "Photography",
+    year: "2024",
+    works: [{ src: worksGraycity, caption: "Gray City, 2024" }],
+  },
+];
 
 
 const Works = () => {
@@ -55,7 +82,7 @@ const Works = () => {
           <FadeInView>
             <div className="flex items-baseline gap-4 mb-10 md:mb-14 border-b border-border pb-4">
               <h2 className="text-editorial-section text-foreground">{s.title}</h2>
-              <span className="text-editorial-sm text-muted-foreground">{s.medium}</span>
+              <span className="text-editorial-sm text-muted-foreground">{s.medium}, {s.year}</span>
             </div>
           </FadeInView>
 
