@@ -19,6 +19,14 @@ const Contact = () => {
           <p className="text-editorial-body text-foreground mt-6 max-w-md">
             For inquiries or correspondence.
           </p>
+          <p className="text-editorial-sm text-muted-foreground mt-4">
+            <a
+              href="mailto:liliankaff@gmail.com"
+              className="hover:text-foreground transition-colors duration-500"
+            >
+              liliankaff@gmail.com
+            </a>
+          </p>
         </FadeInView>
       </section>
 

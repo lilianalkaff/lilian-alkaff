@@ -1,53 +1,6 @@
+import { Link } from "react-router-dom";
 import FadeInView from "@/components/FadeInView";
-import worksHeadless from "@/assets/works-headless.jpg";
-import worksFlower from "@/assets/works-flower.jpg";
-import worksHands from "@/assets/works-hands.jpg";
-import worksLips from "@/assets/works-lips.jpg";
-import worksLines from "@/assets/works-lines.jpg";
-import worksGraycity from "@/assets/works-graycity.jpg";
-
-interface WorkSeries {
-  title: string;
-  medium: string;
-  year: string;
-  works: { src: string; caption: string }[];
-}
-
-const series: WorkSeries[] = [
-  {
-    title: "Headless People",
-    medium: "Digital",
-    year: "2019",
-    works: [{ src: worksHeadless, caption: "Headless People I, 2019" }],
-  },
-  {
-    title: "Flower People",
-    medium: "Digital",
-    year: "2020",
-    works: [{ src: worksFlower, caption: "Flower People I, 2020" }],
-  },
-  {
-    title: "Close Up",
-    medium: "Digital",
-    year: "2022",
-    works: [
-      { src: worksHands, caption: "Close Up — Hands, 2022" },
-      { src: worksLips, caption: "Close Up — Lips, 2022" },
-    ],
-  },
-  {
-    title: "Lines",
-    medium: "Digital",
-    year: "2022–23",
-    works: [{ src: worksLines, caption: "Lines, 2022–23" }],
-  },
-  {
-    title: "Gray City",
-    medium: "Photography",
-    year: "2024",
-    works: [{ src: worksGraycity, caption: "Gray City, 2024" }],
-  },
-];
+import { worksSeries } from "@/data/worksSeries";
 
 const Works = () => {
   return (
@@ -66,8 +19,8 @@ const Works = () => {
         </FadeInView>
       </section>
 
-      {series.map((s, si) => (
-        <section key={s.title} className="page-padding pb-20 md:pb-32">
+      {worksSeries.map((s, si) => (
+        <section key={s.slug} className="page-padding pb-20 md:pb-32">
           <FadeInView>
             <div className="flex items-baseline gap-4 mb-10 md:mb-14 border-b border-border pb-4">
               <h2 className="text-editorial-section text-foreground">{s.title}</h2>
@@ -77,30 +30,22 @@ const Works = () => {
             </div>
           </FadeInView>
 
-          <div
-            className={`grid gap-8 md:gap-12 ${
-              s.works.length > 1
-                ? "md:grid-cols-2"
-                : si % 2 === 0
-                ? "max-w-sm"
-                : "max-w-sm md:ml-auto"
-            }`}
-          >
-            {s.works.map((work, wi) => (
-              <FadeInView key={work.caption} delay={wi * 0.1}>
+          <div className={`${si % 2 === 0 ? "max-w-sm" : "max-w-sm md:ml-auto"}`}>
+            <FadeInView>
+              <Link to={`/works/${s.slug}`} className="block group">
                 <figure>
                   <img
-                    src={work.src}
-                    alt={work.caption}
+                    src={s.cover}
+                    alt={s.title}
                     className="w-full"
                     loading="lazy"
                   />
                   <figcaption className="mt-3 text-editorial-sm text-muted-foreground">
-                    {work.caption}
+                    {s.title}, {s.year}
                   </figcaption>
                 </figure>
-              </FadeInView>
-            ))}
+              </Link>
+            </FadeInView>
           </div>
         </section>
       ))}

@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import Void from "./pages/Void";
 import VoidSeries from "./pages/VoidSeries";
 import Works from "./pages/Works";
+import WorksSeries from "./pages/WorksSeries";
 import Writing from "./pages/Writing";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -27,6 +28,7 @@ const App = () => (
             <Route path="/void" element={<Void />} />
             <Route path="/void/:slug" element={<VoidSeries />} />
             <Route path="/works" element={<Works />} />
+            <Route path="/works/:slug" element={<WorksSeries />} />
             <Route path="/writing" element={<Writing />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
