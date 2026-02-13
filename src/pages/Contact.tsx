@@ -17,26 +17,20 @@ const Contact = () => {
         </FadeInView>
         <FadeInView delay={0.2}>
           <p className="text-editorial-body text-foreground mt-6 max-w-md">
-            For inquiries, collaborations, or correspondence.
+            For inquiries or correspondence.
           </p>
         </FadeInView>
       </section>
 
       <section className="page-padding pb-20 md:pb-32 max-w-lg">
         <FadeInView delay={0.3}>
-          <div className="mb-12">
-            <a
-              href="mailto:studio@artist.com"
-              className="text-editorial-sm text-muted-foreground hover:text-foreground transition-colors duration-500 border-b border-border pb-1"
-            >
-              studio@artist.com
-            </a>
-          </div>
-
           {!sent ? (
             <form onSubmit={handleSubmit} className="space-y-8">
               <div>
-                <label htmlFor="name" className="text-editorial-sm text-muted-foreground block mb-2">
+                <label
+                  htmlFor="name"
+                  className="text-editorial-sm text-muted-foreground block mb-2"
+                >
                   Name
                 </label>
                 <input
@@ -47,7 +41,10 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <label htmlFor="email" className="text-editorial-sm text-muted-foreground block mb-2">
+                <label
+                  htmlFor="email"
+                  className="text-editorial-sm text-muted-foreground block mb-2"
+                >
                   Email
                 </label>
                 <input
@@ -58,7 +55,10 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <label htmlFor="message" className="text-editorial-sm text-muted-foreground block mb-2">
+                <label
+                  htmlFor="message"
+                  className="text-editorial-sm text-muted-foreground block mb-2"
+                >
                   Message
                 </label>
                 <textarea

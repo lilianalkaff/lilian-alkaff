@@ -3,7 +3,6 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navItems = [
-  { path: "/", label: "Home" },
   { path: "/void", label: "Void" },
   { path: "/works", label: "Works" },
   { path: "/writing", label: "Writing" },
@@ -14,6 +13,11 @@ const navItems = [
 const Layout = ({ children }: { children: React.ReactNode }) => {
   const location = useLocation();
   const [menuOpen, setMenuOpen] = useState(false);
+  const isHome = location.pathname === "/";
+
+  if (isHome) {
+    return <>{children}</>;
+  }
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -27,7 +31,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
           </Link>
 
           <ul className="hidden md:flex items-center gap-8">
-            {navItems.slice(1).map((item) => (
+            {navItems.map((item) => (
               <li key={item.path}>
                 <Link
                   to={item.path}
