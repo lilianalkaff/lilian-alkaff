@@ -162,8 +162,11 @@ const Writing = () => {
 
       <section className="page-padding pb-20 md:pb-32 max-w-2xl">
         <div className="space-y-20 md:space-y-28">
-          {notes.map((note) => (
+          {notes.map((note, ni) => (
             <FadeInView key={note.title} delay={0.1}>
+              {ni > 0 && (
+                <hr className="border-border mb-20 md:mb-28" />
+              )}
               <article>
                 <header className="mb-8">
                   <h2 className="text-editorial-section text-foreground">

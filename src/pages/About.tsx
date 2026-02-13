@@ -1,4 +1,5 @@
 import FadeInView from "@/components/FadeInView";
+import artistPortrait from "@/assets/artist-portrait.jpg";
 
 const About = () => {
   return (
@@ -10,22 +11,32 @@ const About = () => {
       </section>
 
       <section className="page-padding pb-20 md:pb-32">
-        <FadeInView delay={0.2}>
-          <div className="max-w-2xl space-y-6 text-editorial-body text-foreground">
-            <p>
-              Lilian Alkaff is a visual artist whose practice follows a fixed internal sequence: she feels, she sees, then she creates. There is no predetermined concept or meaning guiding the work. Meaning emerges only after the act of making.
-            </p>
-            <p>
-              Her work approaches the human figure as absence rather than representation — a trace of dissolution rather than a stable identity. The void refers to a specific internal condition entered before creation begins.
-            </p>
-            <p>
-              Creation begins only after this internal rupture. Emotion precedes form. Across bodies of work, the process remains constant, even as materials and forms change.
-            </p>
-            <p className="text-muted-foreground text-editorial-sm pt-4">
-              The practice is ongoing.
-            </p>
-          </div>
-        </FadeInView>
+        <div className="grid md:grid-cols-2 gap-12 md:gap-20">
+          <FadeInView delay={0.2}>
+            <div className="space-y-6 text-editorial-body text-foreground">
+              <p>
+                Lilian Alkaff is a visual artist whose practice follows a fixed internal sequence: she feels, she sees, then she creates. There is no predetermined concept or meaning guiding the work. Meaning emerges only after the act of making.
+              </p>
+              <p>
+                Her work approaches the human figure as absence rather than representation — a trace of dissolution rather than a stable identity. The void refers to a specific internal condition entered before creation begins.
+              </p>
+              <p>
+                Creation begins only after this internal rupture. Emotion precedes form. Across bodies of work, the process remains constant, even as materials and forms change.
+              </p>
+              <p className="text-muted-foreground text-editorial-sm pt-4">
+                The practice is ongoing.
+              </p>
+            </div>
+          </FadeInView>
+          <FadeInView delay={0.3}>
+            <img
+              src={artistPortrait}
+              alt="Lilian Alkaff"
+              className="w-full"
+              loading="lazy"
+            />
+          </FadeInView>
+        </div>
       </section>
     </div>
   );

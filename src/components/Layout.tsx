@@ -104,7 +104,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       <footer className="page-padding py-12 md:py-16">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
           <p className="text-editorial-sm text-muted-foreground">
-            © {new Date().getFullYear()}
+            © Lilian Alkaff
           </p>
           <p className="text-editorial-sm text-muted-foreground">
             Selected works from an ongoing practice.
