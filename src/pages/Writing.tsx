@@ -154,12 +154,8 @@ const Writing = () => {
         </FadeInView>
         <FadeInView delay={0.2}>
           <div className="mt-10 max-w-2xl space-y-6 text-editorial-body text-foreground">
-            <p>
-              A space for text that exists alongside the visual work.
-            </p>
-            <p>
-              These writings are not explanations, but traces — fragments that emerge from the same process as the artworks themselves.
-            </p>
+            <p>Texts that exist alongside the visual work.</p>
+            <p>Fragments emerging from the same internal process.</p>
           </div>
         </FadeInView>
       </section>
@@ -173,7 +169,9 @@ const Writing = () => {
                   <h2 className="text-editorial-section text-foreground">
                     {note.title}
                   </h2>
-                  <p className="text-editorial-sm text-muted-foreground mt-2">{note.date}</p>
+                  <p className="text-editorial-sm text-muted-foreground mt-2">
+                    {note.date}
+                  </p>
                 </header>
                 <div className={note.type === "poem" ? "space-y-1" : "space-y-5"}>
                   {note.body.map((line, li) => (

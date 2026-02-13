@@ -1,29 +1,30 @@
 import { motion } from "framer-motion";
-import voidHero from "@/assets/void-hero.jpg";
-const Index = () => {
-  return <div>
-      <motion.div className="w-full h-screen" initial={{
-      opacity: 0
-    }} animate={{
-      opacity: 1
-    }} transition={{
-      duration: 1.2
-    }}>
-        <img alt="" className="w-full h-full object-cover" src="/lovable-uploads/f9021205-6ecb-41b2-bd62-1ad42abad47b.jpg" />
-      </motion.div>
+import { Link } from "react-router-dom";
 
-      <div className="page-padding py-20 md:py-32">
-        <motion.p className="text-editorial-subtitle text-foreground max-w-2xl" initial={{
-        opacity: 0
-      }} animate={{
-        opacity: 1
-      }} transition={{
-        duration: 1.2,
-        delay: 0.3
-      }}>
+const Index = () => {
+  return (
+    <div className="min-h-screen bg-[#0D0D0D] flex items-center justify-center px-6">
+      <motion.div
+        className="text-center max-w-[900px]"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1.2 }}
+      >
+        <p
+          className="text-[#EDEDED] font-normal leading-[1.2]"
+          style={{ fontSize: "clamp(32px, 5vw, 58px)" }}
+        >
           An artistic practice shaped by feeling, perception, and the act of making.
-        </motion.p>
-      </div>
-    </div>;
+        </p>
+        <Link
+          to="/void"
+          className="inline-block mt-12 text-[#EDEDED]/60 hover:text-[#EDEDED] text-sm tracking-[0.05em] no-underline hover:underline transition-all duration-500"
+        >
+          enter the void
+        </Link>
+      </motion.div>
+    </div>
+  );
 };
+
 export default Index;
