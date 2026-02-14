@@ -24,6 +24,12 @@ import voidYours06 from "@/assets/void-yours-06.jpg";
 import voidYours07 from "@/assets/void-yours-07.jpg";
 import voidYours08 from "@/assets/void-yours-08.jpg";
 import voidPiece from "@/assets/void-piece.jpg";
+import voidPiece02 from "@/assets/void-piece-02.jpg";
+import voidPiece03 from "@/assets/void-piece-03.jpg";
+import voidPiece04 from "@/assets/void-piece-04.jpg";
+import voidPiece05 from "@/assets/void-piece-05.jpg";
+import voidPiece06 from "@/assets/void-piece-06.jpg";
+import voidPiece07 from "@/assets/void-piece-07.jpg";
 import voidTakeMeHome from "@/assets/void-takemehome.jpg";
 import voidNutritious from "@/assets/void-nutritious.jpg";
 import voidLife from "@/assets/void-life.jpg";
@@ -98,7 +104,14 @@ export const voidSeries: VoidSeriesData[] = [
     title: "A Piece, Missing",
     year: "2024",
     cover: voidPiece,
-    works: [],
+    works: [
+      { src: voidPiece02 },
+      { src: voidPiece03 },
+      { src: voidPiece04 },
+      { src: voidPiece05 },
+      { src: voidPiece06 },
+      { src: voidPiece07 },
+    ],
   },
   {
     slug: "take-me-home",

@@ -49,27 +49,37 @@ const VoidSeries = () => {
 
       <section className="page-padding pb-20 md:pb-32">
         <div className="space-y-16 md:space-y-24 lg:space-y-32">
-          {/* Always show the cover as the first work */}
-          <FadeInView delay={0.1}>
-            <img
-              src={series.cover}
-              alt={`${series.title} — 1`}
-              className="w-full"
-              loading="lazy"
-            />
-
-          </FadeInView>
-
-          {hasWorks &&
-          series.works.map((work, i) =>
-          <FadeInView key={i} delay={0}>
+          {hasWorks ? (
+            <>
+              {series.works.map((work, i) => (
+                <FadeInView key={i} delay={i === 0 ? 0.1 : 0}>
+                  <img
+                    src={work.src}
+                    alt={`${series.title} — ${i + 1}`}
+                    className="w-full"
+                    loading="lazy"
+                  />
+                </FadeInView>
+              ))}
+              {/* Cover shown last */}
+              <FadeInView delay={0}>
                 <img
-              src={work.src}
-              alt={`${series.title} — ${i + 2}`}
-              className="w-full"
-              loading="lazy" />
-
+                  src={series.cover}
+                  alt={`${series.title} — ${series.works.length + 1}`}
+                  className="w-full"
+                  loading="lazy"
+                />
               </FadeInView>
+            </>
+          ) : (
+            <FadeInView delay={0.1}>
+              <img
+                src={series.cover}
+                alt={`${series.title} — 1`}
+                className="w-full"
+                loading="lazy"
+              />
+            </FadeInView>
           )}
         </div>
       </section>
