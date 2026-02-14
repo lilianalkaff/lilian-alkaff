@@ -51,11 +51,12 @@ const VoidSeries = () => {
         <div className="space-y-16 md:space-y-24 lg:space-y-32">
           {/* Always show the cover as the first work */}
           <FadeInView delay={0.1}>
-            
-
-
-
-
+            <img
+              src={series.cover}
+              alt={`${series.title} — 1`}
+              className="w-full"
+              loading="lazy"
+            />
 
           </FadeInView>
 
