@@ -30,6 +30,8 @@ import voidPiece04 from "@/assets/void-piece-04.jpg";
 import voidPiece05 from "@/assets/void-piece-05.jpg";
 import voidPiece06 from "@/assets/void-piece-06.jpg";
 import voidPiece07 from "@/assets/void-piece-07.jpg";
+import voidPiece08 from "@/assets/void-piece-08.jpg";
+import voidPiece09 from "@/assets/void-piece-09.jpg";
 import voidTakeMeHome from "@/assets/void-takemehome.jpg";
 import voidNutritious from "@/assets/void-nutritious.jpg";
 import voidLife from "@/assets/void-life.jpg";
@@ -109,8 +111,9 @@ export const voidSeries: VoidSeriesData[] = [
       { src: voidPiece03 },
       { src: voidPiece04 },
       { src: voidPiece05 },
-      { src: voidPiece06 },
+      { src: voidPiece09 },
       { src: voidPiece07 },
+      { src: voidPiece08 },
     ],
   },
   {
