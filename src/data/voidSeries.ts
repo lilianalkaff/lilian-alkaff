@@ -1,4 +1,12 @@
 import voidStuck from "@/assets/void-stuck.jpg";
+import voidStuck02 from "@/assets/void-stuck-02.jpg";
+import voidStuck03 from "@/assets/void-stuck-03.jpg";
+import voidStuck04 from "@/assets/void-stuck-04.jpg";
+import voidStuck05 from "@/assets/void-stuck-05.jpg";
+import voidStuck06 from "@/assets/void-stuck-06.jpg";
+import voidStuck07 from "@/assets/void-stuck-07.jpg";
+import voidStuck08 from "@/assets/void-stuck-08.jpg";
+import voidStuck09 from "@/assets/void-stuck-09.jpg";
 import voidForce from "@/assets/void-force.jpg";
 import voidYours from "@/assets/void-yours.jpg";
 import voidPiece from "@/assets/void-piece.jpg";
@@ -30,7 +38,16 @@ export const voidSeries: VoidSeriesData[] = [
     title: "Stuck",
     year: "2024",
     cover: voidStuck,
-    works: [],
+    works: [
+      { src: voidStuck02 },
+      { src: voidStuck03 },
+      { src: voidStuck04 },
+      { src: voidStuck05 },
+      { src: voidStuck06 },
+      { src: voidStuck07 },
+      { src: voidStuck08 },
+      { src: voidStuck09 },
+    ],
   },
   {
     slug: "a-force-unbreakable",
