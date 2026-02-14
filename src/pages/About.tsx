@@ -30,16 +30,16 @@ const About = () => {
           </FadeInView>
           <FadeInView delay={0.3}>
             <img
-              src={artistPortrait}
+
               alt="Lilian Alkaff"
               className="w-full"
-              loading="lazy"
-            />
+              loading="lazy" src="/lovable-uploads/1e64b4a0-91bb-417a-959a-e56584512df7.jpg" />
+
           </FadeInView>
         </div>
       </section>
-    </div>
-  );
+    </div>);
+
 };
 
 export default About;
