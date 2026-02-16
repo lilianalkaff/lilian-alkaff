@@ -44,7 +44,17 @@ import voidNutritious from "@/assets/void-nutritious.jpg";
 import voidNutritious02 from "@/assets/void-nutritious-02.jpg";
 import voidNutritious03 from "@/assets/void-nutritious-03.jpg";
 import voidNutritious04 from "@/assets/void-nutritious-04.jpg";
+import voidNutritious05 from "@/assets/void-nutritious-05.jpg";
+import voidNutritious06 from "@/assets/void-nutritious-06.jpg";
+import voidNutritious07 from "@/assets/void-nutritious-07.jpg";
+import voidNutritious08 from "@/assets/void-nutritious-08.jpg";
 import voidLife from "@/assets/void-life.jpg";
+import voidLife02 from "@/assets/void-life-02.jpg";
+import voidLife03 from "@/assets/void-life-03.jpg";
+import voidLife04 from "@/assets/void-life-04.jpg";
+import voidLife05 from "@/assets/void-life-05.jpg";
+import voidLife06 from "@/assets/void-life-06.jpg";
+import voidLife07 from "@/assets/void-life-07.jpg";
 import voidLighter from "@/assets/void-lighter.jpg";
 import voidBare from "@/assets/void-bare.jpg";
 import voidSoft from "@/assets/void-soft.jpg";
@@ -87,13 +97,13 @@ export const voidSeries: VoidSeriesData[] = [
     year: "2024",
     cover: voidForce,
     works: [
+      { src: voidForce08 },
       { src: voidForce02 },
       { src: voidForce03 },
       { src: voidForce04 },
       { src: voidForce05 },
       { src: voidForce06 },
       { src: voidForce07 },
-      { src: voidForce08 },
     ],
   },
   {
@@ -102,13 +112,13 @@ export const voidSeries: VoidSeriesData[] = [
     year: "2024",
     cover: voidYours,
     works: [
+      { src: voidYours08 },
       { src: voidYours02 },
       { src: voidYours03 },
       { src: voidYours04 },
       { src: voidYours05 },
       { src: voidYours06 },
       { src: voidYours07 },
-      { src: voidYours08 },
     ],
   },
   {
@@ -132,13 +142,13 @@ export const voidSeries: VoidSeriesData[] = [
     year: "2024",
     cover: voidTakeMeHome,
     works: [
+      { src: voidTakeMeHome08 },
       { src: voidTakeMeHome02 },
       { src: voidTakeMeHome03 },
       { src: voidTakeMeHome04 },
       { src: voidTakeMeHome05 },
       { src: voidTakeMeHome06 },
       { src: voidTakeMeHome07 },
-      { src: voidTakeMeHome08 },
     ],
   },
   {
@@ -147,9 +157,13 @@ export const voidSeries: VoidSeriesData[] = [
     year: "2023",
     cover: voidNutritious,
     works: [
+      { src: voidNutritious04 },
       { src: voidNutritious02 },
       { src: voidNutritious03 },
-      { src: voidNutritious04 },
+      { src: voidNutritious05 },
+      { src: voidNutritious06 },
+      { src: voidNutritious07 },
+      { src: voidNutritious08 },
     ],
   },
   {
@@ -157,7 +171,14 @@ export const voidSeries: VoidSeriesData[] = [
     title: "Life",
     year: "2023",
     cover: voidLife,
-    works: [],
+    works: [
+      { src: voidLife02 },
+      { src: voidLife03 },
+      { src: voidLife04 },
+      { src: voidLife05 },
+      { src: voidLife06 },
+      { src: voidLife07 },
+    ],
   },
   {
     slug: "lighter",
