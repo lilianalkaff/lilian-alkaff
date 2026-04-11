@@ -80,7 +80,17 @@ import voidEmbracing04 from "@/assets/void-embracing-04.jpg";
 import voidEmbracing05 from "@/assets/void-embracing-05.jpg";
 import voidEmbracing06 from "@/assets/void-embracing-06.jpg";
 import voidBlue from "@/assets/void-blue.jpg";
+import voidBlue02 from "@/assets/void-blue-02.jpg";
+import voidBlue03 from "@/assets/void-blue-03.jpg";
+import voidBlue04 from "@/assets/void-blue-04.jpg";
+import voidBlue05 from "@/assets/void-blue-05.jpg";
+import voidBlue06 from "@/assets/void-blue-06.jpg";
 import voidRedPeriod from "@/assets/void-redperiod.jpg";
+import voidRedPeriod02 from "@/assets/void-redperiod-02.jpg";
+import voidRedPeriod03 from "@/assets/void-redperiod-03.jpg";
+import voidRedPeriod04 from "@/assets/void-redperiod-04.jpg";
+import voidRedPeriod05 from "@/assets/void-redperiod-05.jpg";
+import voidRedPeriod06 from "@/assets/void-redperiod-06.jpg";
 
 export interface VoidWork {
   src: string;
@@ -257,13 +267,25 @@ export const voidSeries: VoidSeriesData[] = [
     title: "Blue",
     year: "2023",
     cover: voidBlue,
-    works: [],
+    works: [
+      { src: voidBlue02 },
+      { src: voidBlue03 },
+      { src: voidBlue04 },
+      { src: voidBlue05 },
+      { src: voidBlue06 },
+    ],
   },
   {
     slug: "red-period",
     title: "Red Period",
     year: "2023",
     cover: voidRedPeriod,
-    works: [],
+    works: [
+      { src: voidRedPeriod02 },
+      { src: voidRedPeriod03 },
+      { src: voidRedPeriod04 },
+      { src: voidRedPeriod05 },
+      { src: voidRedPeriod06 },
+    ],
   },
 ];
