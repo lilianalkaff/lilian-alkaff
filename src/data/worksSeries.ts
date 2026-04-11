@@ -1,5 +1,15 @@
 import worksHeadless from "@/assets/works-headless.jpg";
+import worksHeadless02 from "@/assets/works-headless-02.jpg";
+import worksHeadless03 from "@/assets/works-headless-03.jpg";
+import worksHeadless04 from "@/assets/works-headless-04.jpg";
+import worksHeadless05 from "@/assets/works-headless-05.jpg";
+import worksHeadless06 from "@/assets/works-headless-06.jpg";
 import worksFlower from "@/assets/works-flower.jpg";
+import worksFlower02 from "@/assets/works-flower-02.jpg";
+import worksFlower03 from "@/assets/works-flower-03.jpg";
+import worksFlower04 from "@/assets/works-flower-04.jpg";
+import worksFlower05 from "@/assets/works-flower-05.jpg";
+import worksFlower06 from "@/assets/works-flower-06.jpg";
 import worksLips from "@/assets/works-lips.jpg";
 import worksLines from "@/assets/works-lines.jpg";
 import worksGraycity from "@/assets/works-graycity.jpg";
@@ -20,7 +30,13 @@ export const worksSeries: WorksSeriesItem[] = [
     medium: "Digital",
     year: "2019",
     cover: worksHeadless,
-    works: [],
+    works: [
+      { src: worksHeadless02 },
+      { src: worksHeadless03 },
+      { src: worksHeadless04 },
+      { src: worksHeadless05 },
+      { src: worksHeadless06 },
+    ],
   },
   {
     slug: "flower-people",
@@ -28,7 +44,13 @@ export const worksSeries: WorksSeriesItem[] = [
     medium: "Digital",
     year: "2020",
     cover: worksFlower,
-    works: [],
+    works: [
+      { src: worksFlower02 },
+      { src: worksFlower03 },
+      { src: worksFlower04 },
+      { src: worksFlower05 },
+      { src: worksFlower06 },
+    ],
   },
   {
     slug: "close-up",
