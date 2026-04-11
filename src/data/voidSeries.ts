@@ -56,7 +56,17 @@ import voidLife05 from "@/assets/void-life-05.jpg";
 import voidLife06 from "@/assets/void-life-06.jpg";
 import voidLife07 from "@/assets/void-life-07.jpg";
 import voidLighter from "@/assets/void-lighter.jpg";
+import voidLighter02 from "@/assets/void-lighter-02.jpg";
+import voidLighter03 from "@/assets/void-lighter-03.jpg";
+import voidLighter04 from "@/assets/void-lighter-04.jpg";
+import voidLighter05 from "@/assets/void-lighter-05.jpg";
+import voidLighter06 from "@/assets/void-lighter-06.jpg";
 import voidBare from "@/assets/void-bare.jpg";
+import voidBare02 from "@/assets/void-bare-02.jpg";
+import voidBare03 from "@/assets/void-bare-03.jpg";
+import voidBare04 from "@/assets/void-bare-04.jpg";
+import voidBare05 from "@/assets/void-bare-05.jpg";
+import voidBare06 from "@/assets/void-bare-06.jpg";
 import voidSoft from "@/assets/void-soft.jpg";
 import voidEmbracing from "@/assets/void-embracing.jpg";
 import voidBlue from "@/assets/void-blue.jpg";
@@ -185,14 +195,26 @@ export const voidSeries: VoidSeriesData[] = [
     title: "Lighter",
     year: "2023",
     cover: voidLighter,
-    works: [],
+    works: [
+      { src: voidLighter02 },
+      { src: voidLighter03 },
+      { src: voidLighter04 },
+      { src: voidLighter05 },
+      { src: voidLighter06 },
+    ],
   },
   {
     slug: "bare",
     title: "Bare",
     year: "2023",
     cover: voidBare,
-    works: [],
+    works: [
+      { src: voidBare02 },
+      { src: voidBare03 },
+      { src: voidBare04 },
+      { src: voidBare05 },
+      { src: voidBare06 },
+    ],
   },
   {
     slug: "soft",
