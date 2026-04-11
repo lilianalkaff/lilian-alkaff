@@ -11,7 +11,17 @@ import worksFlower04 from "@/assets/works-flower-04.jpg";
 import worksFlower05 from "@/assets/works-flower-05.jpg";
 import worksFlower06 from "@/assets/works-flower-06.jpg";
 import worksLips from "@/assets/works-lips.jpg";
+import worksLips02 from "@/assets/works-lips-02.jpg";
+import worksLips03 from "@/assets/works-lips-03.jpg";
+import worksLips04 from "@/assets/works-lips-04.jpg";
+import worksLips05 from "@/assets/works-lips-05.jpg";
+import worksLips06 from "@/assets/works-lips-06.jpg";
 import worksLines from "@/assets/works-lines.jpg";
+import worksLines02 from "@/assets/works-lines-02.jpg";
+import worksLines03 from "@/assets/works-lines-03.jpg";
+import worksLines04 from "@/assets/works-lines-04.jpg";
+import worksLines05 from "@/assets/works-lines-05.jpg";
+import worksLines06 from "@/assets/works-lines-06.jpg";
 import worksGraycity from "@/assets/works-graycity.jpg";
 
 export interface WorksSeriesItem {
