@@ -68,7 +68,17 @@ import voidBare04 from "@/assets/void-bare-04.jpg";
 import voidBare05 from "@/assets/void-bare-05.jpg";
 import voidBare06 from "@/assets/void-bare-06.jpg";
 import voidSoft from "@/assets/void-soft.jpg";
+import voidSoft02 from "@/assets/void-soft-02.jpg";
+import voidSoft03 from "@/assets/void-soft-03.jpg";
+import voidSoft04 from "@/assets/void-soft-04.jpg";
+import voidSoft05 from "@/assets/void-soft-05.jpg";
+import voidSoft06 from "@/assets/void-soft-06.jpg";
 import voidEmbracing from "@/assets/void-embracing.jpg";
+import voidEmbracing02 from "@/assets/void-embracing-02.jpg";
+import voidEmbracing03 from "@/assets/void-embracing-03.jpg";
+import voidEmbracing04 from "@/assets/void-embracing-04.jpg";
+import voidEmbracing05 from "@/assets/void-embracing-05.jpg";
+import voidEmbracing06 from "@/assets/void-embracing-06.jpg";
 import voidBlue from "@/assets/void-blue.jpg";
 import voidRedPeriod from "@/assets/void-redperiod.jpg";
 
@@ -221,14 +231,26 @@ export const voidSeries: VoidSeriesData[] = [
     title: "Soft",
     year: "2023",
     cover: voidSoft,
-    works: [],
+    works: [
+      { src: voidSoft02 },
+      { src: voidSoft03 },
+      { src: voidSoft04 },
+      { src: voidSoft05 },
+      { src: voidSoft06 },
+    ],
   },
   {
     slug: "embracing-the-void",
     title: "Embracing The Void",
     year: "2023",
     cover: voidEmbracing,
-    works: [],
+    works: [
+      { src: voidEmbracing02 },
+      { src: voidEmbracing03 },
+      { src: voidEmbracing04 },
+      { src: voidEmbracing05 },
+      { src: voidEmbracing06 },
+    ],
   },
   {
     slug: "blue",
