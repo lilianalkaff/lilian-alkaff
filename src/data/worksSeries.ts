@@ -37,11 +37,20 @@ export const worksSeries: WorksSeriesItem[] = [
       { src: worksHeadless05 },
       { src: worksHeadless06 },
     ],
+  },
+  {
+    slug: "flower-people",
     title: "Flower People",
     medium: "Digital",
     year: "2020",
     cover: worksFlower,
-    works: [],
+    works: [
+      { src: worksFlower02 },
+      { src: worksFlower03 },
+      { src: worksFlower04 },
+      { src: worksFlower05 },
+      { src: worksFlower06 },
+    ],
   },
   {
     slug: "close-up",
