@@ -82,7 +82,13 @@ export const worksSeries: WorksSeriesItem[] = [
     medium: "Digital",
     year: "2022–23",
     cover: worksLines,
-    works: [],
+    works: [
+      { src: worksLines02 },
+      { src: worksLines03 },
+      { src: worksLines04 },
+      { src: worksLines05 },
+      { src: worksLines06 },
+    ],
   },
   {
     slug: "gray-city",
