@@ -68,7 +68,13 @@ export const worksSeries: WorksSeriesItem[] = [
     medium: "Digital",
     year: "2022",
     cover: worksLips,
-    works: [],
+    works: [
+      { src: worksLips02 },
+      { src: worksLips03 },
+      { src: worksLips04 },
+      { src: worksLips05 },
+      { src: worksLips06 },
+    ],
   },
   {
     slug: "lines",
