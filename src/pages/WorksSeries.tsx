@@ -51,7 +51,7 @@ const WorksSeries = () => {
             <img
               src={series.cover}
               alt={series.title}
-              className="w-full"
+               className="w-full md:max-h-[85vh] md:w-auto md:object-contain"
               loading="lazy"
             />
           </FadeInView>
@@ -61,7 +61,7 @@ const WorksSeries = () => {
               <img
                 src={work.src}
                 alt={`${series.title} — ${i + 2}`}
-                className="w-full"
+                className="w-full md:max-h-[85vh] md:w-auto md:object-contain"
                 loading="lazy"
               />
             </FadeInView>
