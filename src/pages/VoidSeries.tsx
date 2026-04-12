@@ -48,7 +48,7 @@ const VoidSeries = () => {
       </section>
 
       <section className="page-padding pb-20 md:pb-32">
-        <div className="space-y-16 md:space-y-24 lg:space-y-32">
+       <div className="max-w-2xl space-y-16 md:space-y-24">
           {hasWorks ? (
             <>
               {series.works.map((work, i) => (
@@ -56,17 +56,16 @@ const VoidSeries = () => {
                   <img
                     src={work.src}
                     alt={`${series.title} — ${i + 1}`}
-                    className="w-full md:max-h-[85vh] md:w-auto md:object-contain"
+                    className="w-full"
                     loading="lazy"
                   />
                 </FadeInView>
               ))}
-              {/* Cover shown last */}
               <FadeInView delay={0}>
                 <img
                   src={series.cover}
                   alt={`${series.title} — ${series.works.length + 1}`}
-                   className="w-full md:max-h-[85vh] md:w-auto md:object-contain"
+                  className="w-full"
                   loading="lazy"
                 />
               </FadeInView>
@@ -76,7 +75,7 @@ const VoidSeries = () => {
               <img
                 src={series.cover}
                 alt={`${series.title} — 1`}
-                className="w-full md:max-h-[85vh] md:w-auto md:object-contain"
+                className="w-full"
                 loading="lazy"
               />
             </FadeInView>
