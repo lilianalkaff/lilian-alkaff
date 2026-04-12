@@ -23,6 +23,15 @@ import worksLines04 from "@/assets/works-lines-04.jpg";
 import worksLines05 from "@/assets/works-lines-05.jpg";
 import worksLines06 from "@/assets/works-lines-06.jpg";
 import worksGraycity from "@/assets/works-graycity.jpg";
+import worksGraycity02 from "@/assets/works-graycity-02.jpg";
+import worksGraycity03 from "@/assets/works-graycity-03.jpg";
+import worksGraycity04 from "@/assets/works-graycity-04.jpg";
+import worksGraycity05 from "@/assets/works-graycity-05.jpg";
+import worksGraycity06 from "@/assets/works-graycity-06.jpg";
+import worksGraycity07 from "@/assets/works-graycity-07.jpg";
+import worksGraycity08 from "@/assets/works-graycity-08.jpg";
+import worksGraycity09 from "@/assets/works-graycity-09.jpg";
+import worksGraycity10 from "@/assets/works-graycity-10.jpg";
 
 export interface WorksSeriesItem {
   slug: string;
@@ -96,6 +105,16 @@ export const worksSeries: WorksSeriesItem[] = [
     medium: "Photography",
     year: "2024",
     cover: worksGraycity,
-    works: [],
+    works: [
+      { src: worksGraycity02 },
+      { src: worksGraycity03 },
+      { src: worksGraycity04 },
+      { src: worksGraycity05 },
+      { src: worksGraycity06 },
+      { src: worksGraycity07 },
+      { src: worksGraycity08 },
+      { src: worksGraycity09 },
+      { src: worksGraycity10 },
+    ],
   },
 ];
