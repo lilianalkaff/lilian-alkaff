@@ -56,7 +56,7 @@ const VoidSeries = () => {
                   <img
                     src={work.src}
                     alt={`${series.title} — ${i + 1}`}
-                    className="w-full"
+                    className="w-full md:max-h-[85vh] md:w-auto md:object-contain"
                     loading="lazy"
                   />
                 </FadeInView>
@@ -66,7 +66,7 @@ const VoidSeries = () => {
                 <img
                   src={series.cover}
                   alt={`${series.title} — ${series.works.length + 1}`}
-                  className="w-full"
+                   className="w-full md:max-h-[85vh] md:w-auto md:object-contain"
                   loading="lazy"
                 />
               </FadeInView>
@@ -76,7 +76,7 @@ const VoidSeries = () => {
               <img
                 src={series.cover}
                 alt={`${series.title} — 1`}
-                className="w-full"
+                className="w-full md:max-h-[85vh] md:w-auto md:object-contain"
                 loading="lazy"
               />
             </FadeInView>
