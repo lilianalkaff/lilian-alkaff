@@ -48,7 +48,7 @@ const VoidSeries = () => {
       </section>
 
       <section className="page-padding pb-20 md:pb-32">
-       <div className="max-w-2xl space-y-16 md:space-y-24">
+       <div className="max-w-3xl space-y-16 md:space-y-24">
           {hasWorks ? (
             <>
               {series.works.map((work, i) => (
