@@ -46,7 +46,7 @@ const WorksSeries = () => {
       </section>
 
       <section className="page-padding pb-20 md:pb-32">
-        <div className="max-w-3xl space-y-16 md:space-y-24">
+        <div className="mx-auto max-w-3xl space-y-16 md:space-y-24">
           <FadeInView delay={0.1}>
             <img
               src={series.cover}
