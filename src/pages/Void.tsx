@@ -1,16 +1,13 @@
 import { Link } from "react-router-dom";
 import FadeInView from "@/components/FadeInView";
-import VoidHero from "@/components/VoidHero";
 import { voidSeries } from "@/data/voidSeries";
 
 const featuredSlugs = ["a-force-unbreakable", "a-piece-missing", "nutritious", "embracing-the-void"];
 const featured = voidSeries.filter((s) => featuredSlugs.includes(s.slug));
-const heroSeries = voidSeries.find((s) => s.slug === "embracing-the-void") ?? voidSeries[0];
 
 const Void = () => {
   return (
     <div>
-      <VoidHero src={heroSeries.cover} alt={heroSeries.title} />
 
       <section className="page-padding section-spacing">
         <FadeInView>
