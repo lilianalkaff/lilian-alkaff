@@ -32,7 +32,7 @@ const About = () => {
     <div>
       <section className="page-padding section-spacing pb-20 md:pb-32">
         <FadeInView>
-          <div className="max-w-2xl mx-auto space-y-8 text-editorial-body text-foreground text-left">
+          <div className="max-w-2xl mx-auto space-y-10 text-editorial-body text-foreground text-left" style={{ lineHeight: 1.9 }}>
             {paragraphs.map((p, i) => (
               <p key={i}>{p}</p>
             ))}
