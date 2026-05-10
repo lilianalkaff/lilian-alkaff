@@ -14,13 +14,13 @@ const Index = () => {
           className="text-[#EDEDED] font-normal leading-[1.2]"
           style={{ fontSize: "clamp(32px, 5vw, 58px)" }}
         >
-          An artistic practice shaped by feeling, perception, and the act of making.
+          She feels. She sees. She makes.
         </p>
         <Link
           to="/void"
-          className="inline-block mt-12 text-[#EDEDED]/60 hover:text-[#EDEDED] text-sm tracking-[0.05em] no-underline hover:underline transition-all duration-500"
+          className="inline-block mt-16 text-[#EDEDED] text-sm tracking-[0.05em] no-underline hover:underline"
         >
-          enter the void
+          enter
         </Link>
       </motion.div>
     </div>
