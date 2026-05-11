@@ -176,25 +176,10 @@ const notes: Note[] = [
 const Writing = () => {
   return (
     <div>
-      <section className="page-padding section-spacing">
-        <FadeInView>
-          <h1 className="text-editorial-title text-foreground">Writing</h1>
-        </FadeInView>
-        <FadeInView delay={0.2}>
-          <div className="mt-10 max-w-2xl space-y-6 text-editorial-body text-foreground">
-            <p>Texts that exist alongside the visual work.</p>
-            <p>Fragments emerging from the same internal process.</p>
-          </div>
-        </FadeInView>
-      </section>
-
-      <section className="page-padding pb-20 md:pb-32 max-w-2xl">
+      <section className="page-padding section-spacing pb-20 md:pb-32 max-w-2xl">
         <div className="space-y-20 md:space-y-28">
           {notes.map((note, ni) => (
             <FadeInView key={note.title} delay={0.1}>
-              {ni > 0 && (
-                <hr className="border-border mb-20 md:mb-28" />
-              )}
               <article>
                 <header className="mb-8">
                   <h2 className="text-editorial-section text-foreground">
