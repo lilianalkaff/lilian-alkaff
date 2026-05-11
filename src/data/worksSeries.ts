@@ -111,10 +111,6 @@ export const worksSeries: WorksSeriesItem[] = [
       { src: worksGraycity04 },
       { src: worksGraycity05 },
       { src: worksGraycity06 },
-      { src: worksGraycity07 },
-      { src: worksGraycity08 },
-      { src: worksGraycity09 },
-      { src: worksGraycity10 },
     ],
   },
 ];
