@@ -5,11 +5,6 @@ import { worksSeries } from "@/data/worksSeries";
 const Works = () => {
   return (
     <div className="page-padding section-spacing">
-      <FadeInView>
-        <h2 className="text-editorial-sm text-muted-foreground mb-10 md:mb-14">
-          FEATURED SERIES
-        </h2>
-      </FadeInView>
       <div className="space-y-24 md:space-y-32">
         {worksSeries.map((s) => {
           const images = [s.cover, ...s.works.map((w) => w.src)];
