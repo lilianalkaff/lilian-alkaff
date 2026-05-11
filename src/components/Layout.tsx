@@ -2,12 +2,12 @@ import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const navItems = [
-  { path: "/void", label: "Void" },
+const navItems: { path: string | null; label: string; disabled?: boolean }[] = [
+  { path: "/void", label: "Void Body" },
+  { path: null, label: "All Seeing Eyes", disabled: true },
   { path: "/works", label: "Works" },
   { path: "/writing", label: "Writing" },
   { path: "/about", label: "About" },
-  { path: "/contact", label: "Contact" },
 ];
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
@@ -18,6 +18,37 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
   if (isHome) {
     return <>{children}</>;
   }
+
+  const renderNavItem = (item: typeof navItems[number], onClick?: () => void) => {
+    const isActive =
+      item.path &&
+      (location.pathname === item.path ||
+        (item.path === "/void" && location.pathname.startsWith("/void")) ||
+        (item.path === "/works" && location.pathname.startsWith("/works")));
+
+    if (item.disabled || !item.path) {
+      return (
+        <span
+          aria-disabled="true"
+          className="text-editorial-sm text-muted-foreground/50 cursor-default select-none"
+        >
+          {item.label}
+        </span>
+      );
+    }
+
+    return (
+      <Link
+        to={item.path}
+        onClick={onClick}
+        className={`text-editorial-sm transition-colors duration-500 ${
+          isActive ? "text-foreground" : "text-muted-foreground hover:text-foreground"
+        }`}
+      >
+        {item.label}
+      </Link>
+    );
+  };
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -32,18 +63,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
 
           <ul className="hidden md:flex items-center gap-8">
             {navItems.map((item) => (
-              <li key={item.path}>
-                <Link
-                  to={item.path}
-                  className={`text-editorial-sm transition-colors duration-500 ${
-                    location.pathname === item.path || (item.path === "/void" && location.pathname.startsWith("/void"))
-                      ? "text-foreground"
-                      : "text-muted-foreground hover:text-foreground"
-                  }`}
-                >
-                  {item.label}
-                </Link>
-              </li>
+              <li key={item.label}>{renderNavItem(item)}</li>
             ))}
           </ul>
 
@@ -67,18 +87,8 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
             >
               <ul className="page-padding pb-8 flex flex-col gap-4">
                 {navItems.map((item) => (
-                  <li key={item.path}>
-                    <Link
-                      to={item.path}
-                      onClick={() => setMenuOpen(false)}
-                      className={`text-editorial-sm transition-colors duration-500 ${
-                        location.pathname === item.path
-                          ? "text-foreground"
-                          : "text-muted-foreground hover:text-foreground"
-                      }`}
-                    >
-                      {item.label}
-                    </Link>
+                  <li key={item.label}>
+                    {renderNavItem(item, () => setMenuOpen(false))}
                   </li>
                 ))}
               </ul>
@@ -101,15 +111,13 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         </AnimatePresence>
       </main>
 
-      <footer className="page-padding py-12 md:py-16">
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-          <p className="text-editorial-sm text-muted-foreground">
-            © Lilian Alkaff
-          </p>
-          <p className="text-editorial-sm text-muted-foreground">
-            Selected works from an ongoing practice.
-          </p>
-        </div>
+      <footer className="page-padding py-20 md:py-28 flex justify-center">
+        <a
+          href="mailto:liliankaff@gmail.com"
+          className="text-editorial-sm text-muted-foreground hover:text-foreground hover:underline underline-offset-4 transition-colors duration-500"
+        >
+          liliankaff@gmail.com
+        </a>
       </footer>
     </div>
   );

@@ -10,6 +10,11 @@ const Void = () => {
     <div>
       {/* Featured Series */}
       <section className="page-padding section-spacing pb-20 md:pb-32">
+        <FadeInView>
+          <h2 className="text-editorial-sm text-muted-foreground mb-10 md:mb-14">
+            FEATURED SERIES
+          </h2>
+        </FadeInView>
         <div className="space-y-20 md:space-y-32 lg:space-y-40">
           {featured.map((series) => (
             <FadeInView key={series.slug}>
