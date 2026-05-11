@@ -8,35 +8,8 @@ const featured = voidSeries.filter((s) => featuredSlugs.includes(s.slug));
 const Void = () => {
   return (
     <div>
-
-      <section className="page-padding section-spacing">
-        <FadeInView>
-          <h1 className="text-editorial-title text-foreground font-medium">
-            Void Body of Work
-          </h1>
-        </FadeInView>
-        <FadeInView delay={0.2}>
-          <div className="mt-10 max-w-2xl space-y-6 text-editorial-body text-foreground">
-            <p>
-              Void Body is a process-driven practice centered on the body as absence, the self as dissolution, and emotion as environment.
-            </p>
-            <p>
-              The work originates from a fixed internal sequence: feeling precedes seeing, and seeing precedes making. Creation begins only after this sequence has fully occurred.
-            </p>
-            <p className="text-muted-foreground">
-              The void is not symbolic. It is an operative state entered when perception fractures and certainty dissolves. The body appears through absence rather than representation.
-            </p>
-          </div>
-        </FadeInView>
-      </section>
-
       {/* Featured Series */}
-      <section className="page-padding pb-20 md:pb-32">
-        <FadeInView>
-          <h2 className="text-editorial-sm text-muted-foreground mb-12 md:mb-16">
-            FEATURED SERIES
-          </h2>
-        </FadeInView>
+      <section className="page-padding section-spacing pb-20 md:pb-32">
         <div className="space-y-20 md:space-y-32 lg:space-y-40">
           {featured.map((series) => (
             <FadeInView key={series.slug}>
