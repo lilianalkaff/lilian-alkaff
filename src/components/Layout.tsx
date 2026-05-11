@@ -114,7 +114,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       <footer className="page-padding py-20 md:py-28 flex justify-center">
         <a
           href="mailto:liliankaff@gmail.com"
-          className="text-editorial-sm text-muted-foreground hover:text-foreground hover:underline underline-offset-4 transition-colors duration-500"
+          className="text-editorial-sm text-muted-foreground hover:text-foreground no-underline transition-colors duration-500"
         >
           liliankaff@gmail.com
         </a>
