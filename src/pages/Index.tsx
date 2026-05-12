@@ -18,7 +18,7 @@ const Index = () => {
         </p>
         <Link
           to="/void"
-          className="inline-block mt-16 text-[#EDEDED] text-sm tracking-[0.05em] no-underline hover:underline"
+          className="inline-block mt-16 text-[#EDEDED] text-sm tracking-[0.05em] no-underline hover:text-[#EDEDED]/60 transition-colors duration-500"
         >
           enter
         </Link>
