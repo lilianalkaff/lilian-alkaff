@@ -116,7 +116,7 @@ const notes: Note[] = [
     type: "poem",
     body: [
       "248",
-      "369",
+      "369\n\n",
       "\n\nA circle,",
       "and a triangle.",
       "Perfect fit—",
