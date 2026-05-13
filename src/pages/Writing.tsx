@@ -117,7 +117,7 @@ const notes: Note[] = [
     body: [
       "248",
       "369",
-      "A circle,",
+      "\n\nA circle,",
       "and a triangle.",
       "Perfect fit—",
       "or complete insanity?",
