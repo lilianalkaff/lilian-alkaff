@@ -115,6 +115,7 @@ export const worksSeries: WorksSeriesItem[] = [
     year: "2024",
     cover: worksGraycity,
     works: [
+      { src: worksGraycity },
       { src: worksGraycity02 },
       { src: worksGraycity03 },
       { src: worksGraycity04 },

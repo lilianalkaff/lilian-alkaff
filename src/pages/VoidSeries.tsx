@@ -3,7 +3,7 @@ import FadeInView from "@/components/FadeInView";
 import { voidSeries } from "@/data/voidSeries";
 
 const VoidSeries = () => {
-  const { slug } = useParams<{slug: string;}>();
+  const { slug } = useParams<{ slug: string }>();
   const series = voidSeries.find((s) => s.slug === slug);
 
   if (!series) {
@@ -14,15 +14,13 @@ const VoidSeries = () => {
         </p>
         <Link
           to="/void"
-          className="text-editorial-sm text-muted-foreground hover:text-foreground transition-colors duration-500 mt-8 inline-block">
-
+          className="text-editorial-sm text-muted-foreground hover:text-foreground transition-colors duration-500 mt-8 inline-block"
+        >
           ← BACK TO VOID
         </Link>
-      </div>);
-
+      </div>
+    );
   }
-
-  const hasWorks = series.works.length > 0;
 
   return (
     <div>
@@ -30,8 +28,8 @@ const VoidSeries = () => {
         <FadeInView>
           <Link
             to="/void"
-            className="text-editorial-sm text-muted-foreground hover:text-foreground transition-colors duration-500">
-
+            className="text-editorial-sm text-muted-foreground hover:text-foreground transition-colors duration-500"
+          >
             VOID
           </Link>
         </FadeInView>
@@ -48,42 +46,28 @@ const VoidSeries = () => {
       </section>
 
       <section className="page-padding pb-20 md:pb-32">
-       <div className="mx-auto max-w-3xl space-y-16 md:space-y-24">
-          {hasWorks ? (
-            <>
-              {series.works.map((work, i) => (
-                <FadeInView key={i} delay={i === 0 ? 0.1 : 0}>
-                  <img
-                    src={work.src}
-                    alt={`${series.title} — ${i + 1}`}
-                    className="w-full"
-                    loading="lazy"
-                  />
-                </FadeInView>
-              ))}
-              <FadeInView delay={0}>
+        <div className="mx-auto max-w-3xl space-y-16 md:space-y-24">
+          {series.works.map((work, i) => (
+            <FadeInView key={i} delay={i === 0 ? 0.1 : 0}>
+              <figure>
                 <img
-                  src={series.cover}
-                  alt={`${series.title} — ${series.works.length + 1}`}
+                  src={work.src}
+                  alt={`${series.title}${work.caption ? ` — ${work.caption}` : ""}`}
                   className="w-full"
                   loading="lazy"
                 />
-              </FadeInView>
-            </>
-          ) : (
-            <FadeInView delay={0.1}>
-              <img
-                src={series.cover}
-                alt={`${series.title} — 1`}
-                className="w-full"
-                loading="lazy"
-              />
+                {work.caption && (
+                  <figcaption className="mt-4 text-editorial-sm text-muted-foreground">
+                    {work.caption}
+                  </figcaption>
+                )}
+              </figure>
             </FadeInView>
-          )}
+          ))}
         </div>
       </section>
-    </div>);
-
+    </div>
+  );
 };
 
 export default VoidSeries;
