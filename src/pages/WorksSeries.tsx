@@ -47,23 +47,21 @@ const WorksSeries = () => {
 
       <section className="page-padding pb-20 md:pb-32">
         <div className="mx-auto max-w-3xl space-y-16 md:space-y-24">
-          <FadeInView delay={0.1}>
-            <img
-              src={series.cover}
-              alt={series.title}
-              className="w-full"
-              loading="lazy"
-            />
-          </FadeInView>
-
           {series.works.map((work, i) => (
-            <FadeInView key={i} delay={0}>
-              <img
-                src={work.src}
-                alt={`${series.title} — ${i + 2}`}
-                className="w-full"
-                loading="lazy"
-              />
+            <FadeInView key={i} delay={i === 0 ? 0.1 : 0}>
+              <figure>
+                <img
+                  src={work.src}
+                  alt={`${series.title}${work.caption ? ` — ${work.caption}` : ""}`}
+                  className="w-full"
+                  loading="lazy"
+                />
+                {work.caption && (
+                  <figcaption className="mt-4 text-editorial-sm text-muted-foreground">
+                    {work.caption}
+                  </figcaption>
+                )}
+              </figure>
             </FadeInView>
           ))}
         </div>

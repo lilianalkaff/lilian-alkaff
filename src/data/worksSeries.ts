@@ -33,13 +33,18 @@ import worksGraycity08 from "@/assets/works-graycity-08.jpg";
 import worksGraycity09 from "@/assets/works-graycity-09.jpg";
 import worksGraycity10 from "@/assets/works-graycity-10.jpg";
 
+export interface WorksWork {
+  src: string;
+  caption?: string;
+}
+
 export interface WorksSeriesItem {
   slug: string;
   title: string;
   medium: string;
   year: string;
   cover: string;
-  works: { src: string }[];
+  works: WorksWork[];
 }
 
 export const worksSeries: WorksSeriesItem[] = [
@@ -50,11 +55,12 @@ export const worksSeries: WorksSeriesItem[] = [
     year: "2019",
     cover: worksHeadless,
     works: [
-      { src: worksHeadless02 },
-      { src: worksHeadless03 },
-      { src: worksHeadless04 },
-      { src: worksHeadless05 },
-      { src: worksHeadless06 },
+      { src: worksHeadless, caption: "Figure" },
+      { src: worksHeadless02, caption: "Ballerina" },
+      { src: worksHeadless03, caption: "Rope" },
+      { src: worksHeadless04, caption: "Up & Beyond" },
+      { src: worksHeadless05, caption: "Creation of Eve" },
+      { src: worksHeadless06, caption: "Stop" },
     ],
   },
   {
@@ -64,11 +70,12 @@ export const worksSeries: WorksSeriesItem[] = [
     year: "2020",
     cover: worksFlower,
     works: [
-      { src: worksFlower02 },
-      { src: worksFlower03 },
-      { src: worksFlower04 },
-      { src: worksFlower05 },
-      { src: worksFlower06 },
+      { src: worksFlower, caption: "Up" },
+      { src: worksFlower02, caption: "Falling" },
+      { src: worksFlower03, caption: "Not Sure" },
+      { src: worksFlower04, caption: "Free" },
+      { src: worksFlower05, caption: "Hold on to Me" },
+      { src: worksFlower06, caption: "Parallel" },
     ],
   },
   {
@@ -78,11 +85,12 @@ export const worksSeries: WorksSeriesItem[] = [
     year: "2022",
     cover: worksLips,
     works: [
-      { src: worksLips02 },
-      { src: worksLips03 },
-      { src: worksLips04 },
-      { src: worksLips05 },
-      { src: worksLips06 },
+      { src: worksLips, caption: "Lips #01" },
+      { src: worksLips02, caption: "Lips #05" },
+      { src: worksLips03, caption: "Lips #06" },
+      { src: worksLips04, caption: "Lips #07" },
+      { src: worksLips05, caption: "Lips #08" },
+      { src: worksLips06, caption: "Lips #10" },
     ],
   },
   {
@@ -92,11 +100,12 @@ export const worksSeries: WorksSeriesItem[] = [
     year: "2022–23",
     cover: worksLines,
     works: [
-      { src: worksLines02 },
-      { src: worksLines03 },
-      { src: worksLines04 },
-      { src: worksLines05 },
-      { src: worksLines06 },
+      { src: worksLines, caption: "#04" },
+      { src: worksLines02, caption: "#03" },
+      { src: worksLines03, caption: "#07" },
+      { src: worksLines04, caption: "#08" },
+      { src: worksLines05, caption: "#09" },
+      { src: worksLines06, caption: "#10" },
     ],
   },
   {
@@ -106,6 +115,7 @@ export const worksSeries: WorksSeriesItem[] = [
     year: "2024",
     cover: worksGraycity,
     works: [
+      { src: worksGraycity },
       { src: worksGraycity02 },
       { src: worksGraycity03 },
       { src: worksGraycity04 },

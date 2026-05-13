@@ -7,7 +7,7 @@ const Works = () => {
     <div className="page-padding section-spacing">
       <div className="space-y-24 md:space-y-32">
         {worksSeries.map((s) => {
-          const images = [s.cover, ...s.works.map((w) => w.src)];
+          const images = s.works.map((w) => w.src);
           return (
             <section key={s.slug}>
               <FadeInView>
