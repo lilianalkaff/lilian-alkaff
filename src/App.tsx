@@ -10,6 +10,8 @@ import Void from "./pages/Void";
 import VoidSeries from "./pages/VoidSeries";
 import Works from "./pages/Works";
 import WorksSeries from "./pages/WorksSeries";
+import Eyes from "./pages/Eyes";
+import EyesSeries from "./pages/EyesSeries";
 import Writing from "./pages/Writing";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -31,6 +33,8 @@ const App = () => (
             <Route path="/void/:slug" element={<VoidSeries />} />
             <Route path="/works" element={<Works />} />
             <Route path="/works/:slug" element={<WorksSeries />} />
+            <Route path="/all-seeing-eyes" element={<Eyes />} />
+            <Route path="/all-seeing-eyes/:slug" element={<EyesSeries />} />
             <Route path="/writing" element={<Writing />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
