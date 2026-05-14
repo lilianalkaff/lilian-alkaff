@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const navItems: { path: string | null; label: string; disabled?: boolean }[] = [
   { path: "/void", label: "Void Body" },
-  { path: null, label: "All Seeing Eyes", disabled: true },
+  { path: "/all-seeing-eyes", label: "All Seeing Eyes" },
   { path: "/works", label: "Works" },
   { path: "/writing", label: "Writing" },
   { path: "/about", label: "About" },
@@ -24,6 +24,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       item.path &&
       (location.pathname === item.path ||
         (item.path === "/void" && location.pathname.startsWith("/void")) ||
+        (item.path === "/all-seeing-eyes" && location.pathname.startsWith("/all-seeing-eyes")) ||
         (item.path === "/works" && location.pathname.startsWith("/works")));
 
     if (item.disabled || !item.path) {
