@@ -15,26 +15,19 @@ const Void = () => {
             FEATURED SERIES
           </h2>
         </FadeInView>
-        <div className="space-y-20 md:space-y-32 lg:space-y-40">
+        <div className="mx-auto max-w-3xl space-y-20 md:space-y-32 lg:space-y-40">
           {featured.map((series) => (
             <FadeInView key={series.slug}>
               <Link to={`/void/${series.slug}`} className="block group">
                 <figure>
-                  <div className="overflow-hidden">
                   <img
                     src={series.cover}
                     alt={series.title}
-                    className="max-h-[75vh] w-auto mx-auto block object-contain"
+                    className="w-full"
                     loading="lazy"
                   />
-                  </div>
-                  <figcaption className="mt-4 flex justify-between items-baseline">
-                    <span className="text-editorial-sm text-muted-foreground">
-                      {series.title.toUpperCase()}
-                    </span>
-                    <span className="text-editorial-sm text-muted-foreground">
-                      {series.year}
-                    </span>
+                  <figcaption className="mt-4 text-editorial-sm text-muted-foreground">
+                    {series.title.toUpperCase()} <span className="ml-4 text-muted-foreground/60">{series.year}</span>
                   </figcaption>
                 </figure>
               </Link>
