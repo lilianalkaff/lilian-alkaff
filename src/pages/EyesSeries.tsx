@@ -58,7 +58,7 @@ const EyesSeries = () => {
                     muted
                     playsInline
                     controls
-                    className="w-full aspect-square object-cover"
+                    className="w-full aspect-square object-contain bg-black"
                   />
                 ) : work.src ? (
                   <img
