@@ -17,12 +17,12 @@ const Eyes = () => {
               <Link to={`/all-seeing-eyes/${work.slug}`} className="block group">
                 <figure>
                   <div className="overflow-hidden">
-                    <img
-                      src={work.src}
-                      alt={work.title}
-                      className="w-full"
-                      loading="lazy"
-                    />
+                  <img
+                    src={work.src}
+                    alt={work.title}
+                    className="max-h-[75vh] w-auto mx-auto block object-contain"
+                    loading="lazy"
+                  />
                   </div>
                   <figcaption className="mt-4 flex justify-between items-baseline">
                     <span className="text-editorial-sm text-muted-foreground">
