@@ -50,11 +50,21 @@ const EyesSeries = () => {
           {series.works.map((work, i) => (
             <FadeInView key={i} delay={i === 0 ? 0.1 : 0}>
               <figure>
-                {work.src ? (
+                {work.video ? (
+                  <video
+                    src={work.video}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    controls
+                    className="w-full aspect-square object-cover"
+                  />
+                ) : work.src ? (
                   <img
                     src={work.src}
                     alt={`${series.title}${work.caption ? ` — ${work.caption}` : ""}`}
-                    className="w-full"
+                    className="w-full aspect-square object-cover"
                     loading="lazy"
                   />
                 ) : (
