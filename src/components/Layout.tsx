@@ -112,12 +112,20 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         </AnimatePresence>
       </main>
 
-      <footer className="page-padding py-20 md:py-28 flex justify-center">
+      <footer className="page-padding py-20 md:py-28 flex justify-center gap-12">
         <a
           href="mailto:liliankaff@gmail.com"
           className="text-editorial-sm text-muted-foreground hover:text-foreground no-underline transition-colors duration-500"
         >
           liliankaff@gmail.com
+        </a>
+        <a
+          href="https://instagram.com/lilian.alkaff"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-editorial-sm text-muted-foreground hover:text-foreground no-underline transition-colors duration-500"
+        >
+          @lilian.alkaff
         </a>
       </footer>
     </div>
