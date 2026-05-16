@@ -5,6 +5,18 @@ import { eyesFeatured, eyesSeries } from "@/data/eyesSeries";
 const Eyes = () => {
   return (
     <div>
+      {/* Series Statement */}
+      <section className="page-padding section-spacing pb-0">
+        <FadeInView>
+          <div className="max-w-2xl text-editorial-body text-foreground space-y-8" style={{ lineHeight: 1.9 }}>
+            <p>Every work in this series begins the same way: she looks at an eye.</p>
+            <p>She moves through it slowly — a fragment of the iris, the edge of the pupil, a piece of the surround. When she finds the right place, she takes it. That is a Still.</p>
+            <p>Then she steps back and lets the Still go. Something else takes it from there. She watches without directing. What grows is a Dream. Each Dream runs for exactly 2:34 and stops — not at a resolution, mid-motion, the way all dreams do.</p>
+            <p>The first eye is hers.</p>
+          </div>
+        </FadeInView>
+      </section>
+
       <section className="page-padding section-spacing pb-20 md:pb-32">
         <FadeInView>
           <h2 className="text-editorial-sm text-muted-foreground mb-10 md:mb-14">
