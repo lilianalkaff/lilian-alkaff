@@ -22,8 +22,9 @@ const Eyes = () => {
                     className="w-full"
                     loading="lazy"
                   />
-                  <figcaption className="mt-4 text-editorial-sm text-muted-foreground">
-                    {work.title.toUpperCase()} <span className="ml-4 text-muted-foreground/60">{work.year}</span>
+                  <figcaption className="mt-4 flex justify-between text-editorial-sm text-muted-foreground">
+                    <span>{work.title.toUpperCase()}</span>
+                    <span className="text-muted-foreground/60">{work.year}</span>
                   </figcaption>
                 </figure>
               </Link>
