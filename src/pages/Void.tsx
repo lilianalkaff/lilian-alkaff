@@ -12,8 +12,8 @@ const Void = () => {
       <section className="page-padding section-spacing pb-0">
         <FadeInView>
           <div className="max-w-2xl text-editorial-body text-foreground space-y-8" style={{ lineHeight: 1.9 }}>
-            <p>The figure arrives before the title does. Silhouette against color — the body without a face, without a location, without the features that would make it one person instead of everyone. Then the title comes: Bare. Soft. Blue. Stuck. Not what you are looking at. What was happening when it came through.</p>
-            <p>The color is the emotional state. The body is the vessel. She is not in these images. Neither are you. Both of you are.</p>
+            <p>The color comes first. It tells you what state the work was born in. Then the body: a silhouette, no face, no location, nothing that would make it one person instead of everyone.</p>
+            <p>The titles name what was happening when it came through. Bare. Soft. Blue. Embracing the Void. The void is not a symbol here. It is what happens when everything you believed collapses and nothing has formed yet to replace it. She has been there. These works came through it.</p>
           </div>
         </FadeInView>
       </section>

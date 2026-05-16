@@ -178,7 +178,7 @@ const Writing = () => {
     <div>
       <section className="page-padding section-spacing pb-20 md:pb-32 max-w-2xl">
         <FadeInView>
-          <p className="text-editorial-body text-foreground mb-20 md:mb-28" style={{ lineHeight: 1.9 }}>
+          <p className="text-editorial-body text-foreground mb-40 md:mb-56 lg:mb-64" style={{ lineHeight: 1.9 }}>
             Writing arrives the same way the images do — on walks, in the middle of the night, without warning. The poems are not commentary on the visual work. They are part of the same process. Another form the same interior weather takes.
           </p>
         </FadeInView>

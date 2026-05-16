@@ -6,8 +6,8 @@ const Works = () => {
   return (
     <div className="page-padding section-spacing">
       <FadeInView>
-        <div className="max-w-2xl text-editorial-body text-foreground mb-20 md:mb-28" style={{ lineHeight: 1.9 }}>
-          <p>Between 2019 and 2024. Bodies without heads. Flowers instead of faces. Lips. Lines. A city that wasn't gray. What they add up to, she is still deciding.</p>
+        <div className="max-w-2xl text-editorial-body text-foreground mb-40 md:mb-56 lg:mb-64" style={{ lineHeight: 1.9 }}>
+          <p>Between 2019 and 2024. Bodies without heads. Flowers instead of faces. Lips. Lines. A city that wasn't gray. Same source. Different weather.</p>
         </div>
       </FadeInView>
       <div className="space-y-24 md:space-y-32">
