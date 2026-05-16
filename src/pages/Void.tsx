@@ -8,6 +8,16 @@ const featured = voidSeries.filter((s) => featuredSlugs.includes(s.slug));
 const Void = () => {
   return (
     <div>
+      {/* Series Statement */}
+      <section className="page-padding section-spacing pb-0">
+        <FadeInView>
+          <div className="max-w-2xl text-editorial-body text-foreground space-y-8" style={{ lineHeight: 1.9 }}>
+            <p>The figure arrives before the title does. Silhouette against color — the body without a face, without a location, without the features that would make it one person instead of everyone. Then the title comes: Bare. Soft. Blue. Stuck. Not what you are looking at. What was happening when it came through.</p>
+            <p>The color is the emotional state. The body is the vessel. She is not in these images. Neither are you. Both of you are.</p>
+          </div>
+        </FadeInView>
+      </section>
+
       {/* Featured Series */}
       <section className="page-padding section-spacing pb-20 md:pb-32">
         <FadeInView>
