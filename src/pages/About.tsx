@@ -40,8 +40,11 @@ const groups: string[][] = [
   [
     "The practice is ongoing. It goes where it goes. She follows.",
   ],
-  [
+    [
     "She has been making since 2015.",
+  ],
+  [
+    "Work is not currently available for commercial sale. Institutional inquiries — exhibitions, residencies, representation — are welcome.",
   ],
 ];
 
