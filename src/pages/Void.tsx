@@ -26,8 +26,9 @@ const Void = () => {
                     className="w-full"
                     loading="lazy"
                   />
-                  <figcaption className="mt-4 text-editorial-sm text-muted-foreground">
-                    {series.title.toUpperCase()} <span className="ml-4 text-muted-foreground/60">{series.year}</span>
+                  <figcaption className="mt-4 flex justify-between text-editorial-sm text-muted-foreground">
+                    <span>{series.title.toUpperCase()}</span>
+                    <span className="text-muted-foreground/60">{series.year}</span>
                   </figcaption>
                 </figure>
               </Link>
