@@ -41,12 +41,12 @@ export const eyesSeries: EyesSeriesData[] = [
     year: "2026",
     cover: eyesStill01,
     works: [
-      { src: eyesStill01New, caption: "Still 01" },
-      { video: "https://res.cloudinary.com/dvsrtp8m2/video/upload/v1778868256/AllSeeingEyes_Eye01_Dream01_v1cwwt.mp4", caption: "Dream 01" },
-      { src: eyesStill04New, caption: "Still 04" },
-      { video: "https://res.cloudinary.com/dvsrtp8m2/video/upload/v1778874854/AllSeeingEyes_Eye01_Dream04_wsvuai.mp4", caption: "Dream 04" },
-      { src: eyesStill10, caption: "Still 10" },
-      { video: "https://res.cloudinary.com/dvsrtp8m2/video/upload/v1778875010/AllSeeingEyes_Eye01_Dream10_zs18ee.mp4", caption: "Dream 10" },
+      { src: eyesStill01New, caption: "Still 01 · 1/1" },
+      { video: "https://res.cloudinary.com/dvsrtp8m2/video/upload/v1778868256/AllSeeingEyes_Eye01_Dream01_v1cwwt.mp4", caption: "Dream 01 · 1/1" },
+      { src: eyesStill04New, caption: "Still 04 · 1/1" },
+      { video: "https://res.cloudinary.com/dvsrtp8m2/video/upload/v1778874854/AllSeeingEyes_Eye01_Dream04_wsvuai.mp4", caption: "Dream 04 · 1/1" },
+      { src: eyesStill10, caption: "Still 10 · 1/1" },
+      { video: "https://res.cloudinary.com/dvsrtp8m2/video/upload/v1778875010/AllSeeingEyes_Eye01_Dream10_zs18ee.mp4", caption: "Dream 10 · 1/1" },
     ],
   },
 ];
