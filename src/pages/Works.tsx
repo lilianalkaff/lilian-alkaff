@@ -7,7 +7,7 @@ const Works = () => {
     <div className="page-padding section-spacing">
       <FadeInView>
         <div className="max-w-2xl text-editorial-body text-foreground mb-40 md:mb-56 lg:mb-64" style={{ lineHeight: 1.9 }}>
-          <p>Between 2019 and 2024. Bodies without heads. Flowers instead of faces. Lips. Lines. A city that wasn't gray. Same source. Different weather.</p>
+          <p>"Bodies without heads. Flowers instead of faces. Lips. Lines. A city that wasn't gray. Earlier works from the same source, before the later series fully named themselves."</p>
         </div>
       </FadeInView>
       <div className="space-y-24 md:space-y-32">
