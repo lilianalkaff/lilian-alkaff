@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const navItems: { path: string | null; label: string; disabled?: boolean }[] = [
   { path: "/void", label: "Void Body" },
   { path: "/all-seeing-eyes", label: "All Seeing Eyes" },
-  { path: "/works", label: "Works" },
+  { path: "/works", label: "Earlier Works" },
   { path: "/writing", label: "Writing" },
   { path: "/about", label: "About" },
 ];
