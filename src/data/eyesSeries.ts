@@ -32,7 +32,7 @@ export const eyesFeatured: EyesFeatured[] = [
   { src: eyesStill01, title: "Still 01 · Eye 01", year: "2026", slug: "eye-01" },
   { src: eyesStill04, title: "Still 04 · Eye 01", year: "2026", slug: "eye-01" },
   { src: eyesStill09, title: "Still 09 · Eye 01", year: "2026", slug: "eye-01" },
-  { src: eyesStill11, title: "Still 11 · Eye 01", year: "2026", slug: "eye-01" },
+  { src: eyesStill13, title: "Still 13 · Eye 01", year: "2026", slug: "eye-01" },
 ];
 
 export const eyesSeries: EyesSeriesData[] = [
