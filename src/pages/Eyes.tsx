@@ -8,6 +8,7 @@ const Eyes = () => {
       {/* Series Statement */}
       <section className="page-padding section-spacing pb-0">
         <FadeInView>
+          <h2 className="text-editorial-sm text-muted-foreground mb-10 md:mb-14">ALL SEEING EYES</h2>
           <div className="max-w-2xl text-editorial-body text-foreground space-y-8" style={{ lineHeight: 1.9 }}>
             <p>Every work in this series begins the same way: she looks at an eye.</p>
             <p>She moves through it slowly — a fragment of the iris, the edge of the pupil, a piece of the surround. When she finds the right place, she takes it. That is a Still.</p>
