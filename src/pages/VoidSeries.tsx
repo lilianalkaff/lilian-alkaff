@@ -16,7 +16,7 @@ const VoidSeries = () => {
           to="/void"
           className="text-editorial-sm text-muted-foreground hover:text-foreground transition-colors duration-500 mt-8 inline-block"
         >
-          ← BACK TO VOID
+          ← BACK TO VOID BODY
         </Link>
       </div>
     );
@@ -30,7 +30,7 @@ const VoidSeries = () => {
             to="/void"
             className="text-editorial-sm text-muted-foreground hover:text-foreground transition-colors duration-500"
           >
-            VOID
+            VOID BODY
           </Link>
         </FadeInView>
         <FadeInView delay={0.1}>
