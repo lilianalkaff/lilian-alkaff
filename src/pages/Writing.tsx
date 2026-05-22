@@ -116,8 +116,8 @@ const notes: Note[] = [
     type: "poem",
     body: [
       "248",
-      "369\n\n",
-      "\n\nA circle,",
+      "369\\n\\n",
+      "\\n\\nA circle,",
       "and a triangle.",
       "Perfect fit—",
       "or complete insanity?",
@@ -178,6 +178,7 @@ const Writing = () => {
     <div>
       <section className="page-padding section-spacing pb-20 md:pb-32 max-w-2xl">
         <FadeInView>
+          <h2 className="text-editorial-sm text-muted-foreground mb-10 md:mb-14">WRITING</h2>
           <p className="text-editorial-body text-foreground mb-40 md:mb-56 lg:mb-64" style={{ lineHeight: 1.9 }}>
             Writing arrives the same way the images do — on walks, in the middle of the night, without warning. The poems are not commentary on the visual work, but another form the same interior weather takes.
           </p>
