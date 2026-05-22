@@ -52,7 +52,7 @@ const Void = () => {
       <section className="page-padding pb-20 md:pb-32">
         <FadeInView>
           <h2 className="text-editorial-sm text-muted-foreground mb-10 md:mb-14">
-            VOID ARCHIVE
+            VOID BODY ARCHIVE
           </h2>
         </FadeInView>
         <ul className="space-y-4">
