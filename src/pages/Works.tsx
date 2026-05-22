@@ -6,6 +6,7 @@ const Works = () => {
   return (
     <div className="page-padding section-spacing">
       <FadeInView>
+        <h2 className="text-editorial-sm text-muted-foreground mb-10 md:mb-14">EARLIER WORKS</h2>
         <div className="max-w-2xl text-editorial-body text-foreground mb-40 md:mb-56 lg:mb-64" style={{ lineHeight: 1.9 }}>
           <p>Bodies without heads. Flowers instead of faces. Lips. Lines. A city that wasn't gray. Earlier works from the same source, before the later series fully named themselves.</p>
         </div>
