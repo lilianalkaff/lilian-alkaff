@@ -1,0 +1,1 @@
+{ "redirects": [ { "source": "/void/:path*", "destination": "/void-body/:path*", "permanent": true } ] }
