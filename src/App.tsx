@@ -2,7 +2,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"; // added Navigate
 import Layout from "./components/Layout";
 import ScrollToTop from "./components/ScrollToTop";
 import Index from "./pages/Index";
@@ -28,8 +28,15 @@ const App = () => (
         <Layout>
           <Routes>
             <Route path="/" element={<Index />} />
-            <Route path="/void" element={<Void />} />
-            <Route path="/void/:slug" element={<VoidSeries />} />
+
+            {/* new path */}
+            <Route path="/void-body" element={<Void />} />
+            <Route path="/void-body/:slug" element={<VoidSeries />} />
+
+            {/* redirects from old paths */}
+            <Route path="/void" element={<Navigate to="/void-body" replace />} />
+            <Route path="/void/:slug" element={<Navigate to="/void-body/:slug" replace />} />
+
             <Route path="/works" element={<Works />} />
             <Route path="/works/:slug" element={<WorksSeries />} />
             <Route path="/all-seeing-eyes" element={<Eyes />} />
