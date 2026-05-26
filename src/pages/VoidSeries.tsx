@@ -13,7 +13,7 @@ const VoidSeries = () => {
           Series not found.
         </p>
         <Link
-          to="/void"
+          to="/void-body"
           className="text-editorial-sm text-muted-foreground hover:text-foreground transition-colors duration-500 mt-8 inline-block"
         >
           ← BACK TO VOID BODY
@@ -27,7 +27,7 @@ const VoidSeries = () => {
       <section className="page-padding section-spacing">
         <FadeInView>
           <Link
-            to="/void"
+            to="/void-body"
             className="text-editorial-sm text-muted-foreground hover:text-foreground transition-colors duration-500"
           >
             VOID BODY
