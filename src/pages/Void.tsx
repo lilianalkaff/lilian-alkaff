@@ -29,7 +29,7 @@ const Void = () => {
         <div className="mx-auto max-w-3xl space-y-20 md:space-y-32 lg:space-y-40">
           {featured.map((series) => (
             <FadeInView key={series.slug}>
-              <Link to={`/void/${series.slug}`} className="block group">
+              <Link to={`/void-body/${series.slug}`} className="block group">
                 <figure>
                   <img
                     src={series.cover}
@@ -60,7 +60,7 @@ const Void = () => {
             <li key={series.slug}>
               <FadeInView>
                 <Link
-                  to={`/void/${series.slug}`}
+                  to={`/void-body/${series.slug}`}
                   className="text-editorial-sm text-muted-foreground hover:text-foreground transition-colors duration-500"
                 >
                   {series.title.toUpperCase()}
