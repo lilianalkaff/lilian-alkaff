@@ -1,11 +1,11 @@
-import eyesStill01 from "@/assets/eyes-still-01.jpg";
-import eyesStill04 from "@/assets/eyes-still-04.jpg";
-import eyesStill09 from "@/assets/eyes-still-09.jpg";
-import eyesStill11 from "@/assets/eyes-still-11.jpg";
-import eyesStill01New from "@/assets/eyes-still-01-new.jpg";
-import eyesStill04New from "@/assets/eyes-still-04-new.jpg";
-import eyesStill10 from "@/assets/eyes-still-10.jpg";
-import eyesStill13 from "@/assets/eyes-still-13.png";
+import eyesStill01 from "@/assets/eyes-still-01.webp";
+import eyesStill04 from "@/assets/eyes-still-04.webp";
+import eyesStill09 from "@/assets/eyes-still-09.webp";
+import eyesStill11 from "@/assets/eyes-still-11.webp";
+import eyesStill01New from "@/assets/eyes-still-01-new.webp";
+import eyesStill04New from "@/assets/eyes-still-04-new.webp";
+import eyesStill10 from "@/assets/eyes-still-10.webp";
+import eyesStill13 from "@/assets/eyes-still-13.webp";
 
 export interface EyesWork {
   src?: string;
