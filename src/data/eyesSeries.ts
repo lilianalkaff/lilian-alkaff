@@ -1,6 +1,5 @@
 import eyesStill01 from "@/assets/eyes-still-01.webp";
 import eyesStill04 from "@/assets/eyes-still-04.webp";
-import eyesStill09 from "@/assets/eyes-still-09.webp";
 import eyesStill11 from "@/assets/eyes-still-11.webp";
 import eyesStill01New from "@/assets/eyes-still-01-new.webp";
 import eyesStill04New from "@/assets/eyes-still-04-new.webp";
@@ -18,6 +17,10 @@ export interface EyesSeriesData {
   title: string;
   year: string;
   cover: string;
+  /** Short note on dates, e.g. when the source eye was drawn */
+  note?: string;
+  /** Technical details, one line per type of work */
+  details?: string[];
   works: EyesWork[];
 }
 
@@ -31,7 +34,7 @@ export interface EyesFeatured {
 export const eyesFeatured: EyesFeatured[] = [
   { src: eyesStill01, title: "Still 01 · Eye 01", year: "2026", slug: "eye-01" },
   { src: eyesStill04, title: "Still 04 · Eye 01", year: "2026", slug: "eye-01" },
-  { src: eyesStill09, title: "Still 09 · Eye 01", year: "2026", slug: "eye-01" },
+  { src: eyesStill10, title: "Still 10 · Eye 01", year: "2026", slug: "eye-01" },
   { src: eyesStill13, title: "Still 13 · Eye 01", year: "2026", slug: "eye-01" },
 ];
 
@@ -40,6 +43,11 @@ export const eyesSeries: EyesSeriesData[] = [
     slug: "eye-01",
     title: "Eye 01 · Stills and Dreams",
     year: "2026",
+    note: "Source eye drawn 2019 · Stills and Dreams made 2026",
+    details: [
+      "Stills: digital, fragments extracted from the source eye in Repper · variable dimensions · each 1/1",
+      "Dreams: single-channel generative video · 1600 × 1600 px · 2:34 · Repper (Dream Mode), OBS Studio, LosslessCut · each 1/1",
+    ],
     cover: eyesStill01,
     works: [
       { src: eyesStill01New, caption: "Still 01 · 1/1" },

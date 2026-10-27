@@ -40,9 +40,20 @@ const EyesSeries = () => {
         </FadeInView>
         <FadeInView delay={0.15}>
           <p className="text-editorial-sm text-muted-foreground mt-4">
-            {series.year}
+            {series.note ?? series.year}
           </p>
         </FadeInView>
+        {series.details && (
+          <FadeInView delay={0.2}>
+            <div className="max-w-2xl mt-8 space-y-2">
+              {series.details.map((d) => (
+                <p key={d} className="text-editorial-sm text-muted-foreground">
+                  {d}
+                </p>
+              ))}
+            </div>
+          </FadeInView>
+        )}
       </section>
 
       <section className="page-padding pb-20 md:pb-32">

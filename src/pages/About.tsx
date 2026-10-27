@@ -7,7 +7,7 @@ const groups: string[][] = [
     "When the war did arrive and the city went quiet in the way cities go quiet when everything collapses, the vessel was already open.",
   ],
   [
-    "Lilian Alkaff was born in 1998 to a Yemeni father and a Ukrainian mother, raised in Aden, educated in Malaysia, passed through Egypt, and has been living in Saudi Arabia since 2022. She has never fully arrived anywhere. The work knows this.",
+    "Lilian Alkaff was born in 1998 to a Yemeni father and a Ukrainian mother, raised in Aden, studied Visual Communication in Malaysia, passed through Egypt, and has been living in Saudi Arabia since 2022. She has never fully arrived anywhere. The work knows this.",
     "Her practice begins with a feeling that produces a vision — the work appears whole in the mind's eye before it exists anywhere else. Then she makes it. The act is not invention so much as materialization.",
     "She does not direct the work so much as follow it.",
   ],
@@ -17,7 +17,7 @@ const groups: string[][] = [
     "In 2019, she drew her own eye. It was the first digital line work she ever made. It was also, though she didn't know it yet, the source of everything that would follow: Headless People, Flower People, Close Up, and finally the work that named what had always been true — Void Body.",
   ],
   [
-    "Void Body is a practice centered on the body as absence. The silhouette is there but not there. It is the void made visible — not as symbol, not as metaphor, but as operative state.",
+    "Void Body is a practice centered on the body as absence. The body is drawn in full; the face is never given.",
     "The color is the emotional state. The body is universal — no face, no location, no fixed identity. It could be anyone. It is everyone who has been undone and had to wait in the dark for what comes next.",
     "The titles name the states, not the images: Bare. Soft. Blue. Embracing the Void. A Force, Unbreakable. They remain where they began: in the state that produced them.",
   ],
@@ -32,7 +32,7 @@ const groups: string[][] = [
     "Nine cycles. Thirteen Dreams per cycle. The thirteenth is what comes after completion: the new perception, the new reality.",
   ],
   [
-    "She kept the outside world out deliberately for years. No art history. No influences. No permission sought or given. She wanted the work to form from the inside out, not the outside in. Only when she was certain enough of her own voice did she begin to learn — not to absorb, but to recognize what had already arrived.",
+    "She trained in visual communication, not fine art, and for years she deliberately kept the art world at a distance. She wanted the work to form from the inside out, not the outside in. Only when she was certain enough of her own voice did she begin to learn — not to absorb, but to recognize what had already arrived.",
     "She writes too. Poems arrive on walks, in the middle of the night. They are part of the same process, not separate from it. Fragments of the same interior weather.",
   ],
   [
