@@ -15,6 +15,7 @@ import EyesSeries from "./pages/EyesSeries";
 import Writing from "./pages/Writing";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
+import VoidBodyStory from "./pages/VoidBodyStory";
 
 const queryClient = new QueryClient();
 
@@ -32,6 +33,9 @@ const App = () => (
             {/* new path */}
             <Route path="/void-body" element={<Void />} />
             <Route path="/void-body/:slug" element={<VoidSeries />} />
+
+            {/* .ART Award submission page (lilianalkaff.art points here) */}
+            <Route path="/void-body-story" element={<VoidBodyStory />} />
 
             {/* redirects from old paths */}
             <Route path="/void" element={<Navigate to="/void-body" replace />} />

@@ -104,7 +104,7 @@ export interface VoidSeriesData {
   year: string;
   /** The colour of the ground for this series */
   ground: string;
-  /** One line about the series, in the artist's voice */
+  /** One line about the series, in the artist's own words (first person; shown on the award page) */
   caption: string;
   cover: string;
   works: VoidWork[];
@@ -320,6 +320,7 @@ export const voidSeries: VoidSeriesData[] = [
       { src: voidStuck04, caption: "#04" },
       { src: voidStuck05, caption: "#05" },
       { src: voidStuck06, caption: "#06" },
+      { src: voidStuck, caption: "#16" },
       { src: voidStuck08, caption: "#0" },
       { src: voidStuck09, caption: "#00" },
     ],

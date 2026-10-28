@@ -17,7 +17,7 @@ const groups: string[][] = [
     "In 2019, she drew her own eye. It was the first digital line work she ever made. It was also, though she didn't know it yet, the source of everything that would follow: Headless People, Flower People, Close Up, and finally the work that named what had always been true — Void Body.",
   ],
   [
-    "Void Body is a practice centered on the body as absence. The body is drawn in full; the face is never given.",
+    "Void Body is a practice centered on the body as absence. The silhouette is there but not there. It is the void made visible — not as symbol, not as metaphor, but as operative state.",
     "The color is the emotional state. The body is universal — no face, no location, no fixed identity. It could be anyone. It is everyone who has been undone and had to wait in the dark for what comes next.",
     "The titles name the states, not the images: Bare. Soft. Blue. Embracing the Void. A Force, Unbreakable. They remain where they began: in the state that produced them.",
   ],

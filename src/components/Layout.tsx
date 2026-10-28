@@ -14,8 +14,10 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
   const location = useLocation();
   const [menuOpen, setMenuOpen] = useState(false);
   const isHome = location.pathname === "/";
+  // The award page stands on its own, without the site menu
+  const isStandalone = location.pathname === "/void-body-story";
 
-  if (isHome) {
+  if (isHome || isStandalone) {
     return <>{children}</>;
   }
 

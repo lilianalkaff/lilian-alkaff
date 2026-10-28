@@ -47,10 +47,7 @@ const VoidSeries = () => {
           </p>
         </FadeInView>
         <FadeInView delay={0.2}>
-          <div className="max-w-2xl mt-10 space-y-3">
-            <p className="text-editorial-body text-foreground" style={{ lineHeight: 1.7 }}>
-              {series.caption}
-            </p>
+          <div className="max-w-2xl mt-8">
             <p className="text-editorial-sm text-muted-foreground">
               Ground: {series.ground} · {voidMedium}
             </p>
