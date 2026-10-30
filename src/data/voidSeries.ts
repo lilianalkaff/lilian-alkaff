@@ -109,12 +109,14 @@ export interface VoidSeriesData {
   /** One line about the series, in the artist's own words (first person; shown on the award page) */
   caption: string;
   cover: string;
+  /** How many drawings the series has in total */
+  total: number;
   works: VoidWork[];
 }
 
 /** Medium line shown on every Void Body series page */
 export const voidMedium =
-  "Vector drawing from found photographs · Adobe Illustrator, custom brush · Variable dimensions";
+  "Vector drawing from found photographs · Adobe Illustrator, custom brushes · Variable dimensions";
 
 /** In order of creation: Red Period (first) to Stuck (thirteenth). */
 export const voidSeries: VoidSeriesData[] = [
@@ -124,6 +126,7 @@ export const voidSeries: VoidSeriesData[] = [
     year: "2023",
     ground: "Oxblood",
     caption: "The heat stayed after its source was gone.",
+    total: 28,
     cover: voidRedPeriod,
     works: [
       { src: voidRedPeriod02, ratio: 1.000, caption: "#02" },
@@ -140,6 +143,7 @@ export const voidSeries: VoidSeriesData[] = [
     year: "2023",
     ground: "Navy",
     caption: "The same longing, with the warmth pulled out of it.",
+    total: 24,
     cover: voidBlue,
     works: [
       { src: voidBlue02, ratio: 1.000, caption: "#01" },
@@ -156,6 +160,7 @@ export const voidSeries: VoidSeriesData[] = [
     year: "2023",
     ground: "Aubergine",
     caption: "So close I could no longer tell where one body ended.",
+    total: 13,
     cover: voidEmbracing,
     works: [
       { src: voidEmbracing, ratio: 1.069, caption: "#01" },
@@ -172,6 +177,7 @@ export const voidSeries: VoidSeriesData[] = [
     year: "2023",
     ground: "Charcoal",
     caption: "Strength, allowed to be gentle.",
+    total: 17,
     cover: voidSoft,
     works: [
       { src: voidSoft02, ratio: 0.763, caption: "#02" },
@@ -188,6 +194,7 @@ export const voidSeries: VoidSeriesData[] = [
     year: "2023",
     ground: "White",
     caption: "Nothing left to hide behind.",
+    total: 14,
     cover: voidBare,
     works: [
       { src: voidBare03, ratio: 0.668, caption: "#02" },
@@ -204,6 +211,7 @@ export const voidSeries: VoidSeriesData[] = [
     year: "2023",
     ground: "Forest green",
     caption: "Something lifted before I knew what it was.",
+    total: 16,
     cover: voidLighter,
     works: [
       { src: voidLighter02, ratio: 1.000, caption: "#01" },
@@ -220,6 +228,7 @@ export const voidSeries: VoidSeriesData[] = [
     year: "2023",
     ground: "Yellow",
     caption: "For once, the centre was full.",
+    total: 17,
     cover: voidLife,
     works: [
       { src: voidLife02, ratio: 0.826, caption: "#01" },
@@ -236,6 +245,7 @@ export const voidSeries: VoidSeriesData[] = [
     year: "2023",
     ground: "Black, with fruit",
     caption: "Hunger, before I knew what it was for.",
+    total: 11,
     cover: voidNutritious,
     works: [
       { src: voidNutritious, ratio: 0.662, caption: "#01" },
@@ -252,6 +262,7 @@ export const voidSeries: VoidSeriesData[] = [
     year: "2024",
     ground: "Indigo",
     caption: "Reaching for a home I could not yet name.",
+    total: 16,
     cover: voidTakeMeHome,
     works: [
       { src: voidTakeMeHome, ratio: 1.000, caption: "#01" },
@@ -268,6 +279,7 @@ export const voidSeries: VoidSeriesData[] = [
     year: "2024",
     ground: "Dark red",
     caption: "Understanding arrived as loss.",
+    total: 27,
     cover: voidPiece,
     works: [
       { src: voidPiece02, ratio: 1.000, caption: "#01" },
@@ -284,6 +296,7 @@ export const voidSeries: VoidSeriesData[] = [
     year: "2024",
     ground: "Ice-blue",
     caption: "The calm of being claimed.",
+    total: 21,
     cover: voidYours,
     works: [
       { src: voidYours, ratio: 1.000, caption: "#02" },
@@ -300,6 +313,7 @@ export const voidSeries: VoidSeriesData[] = [
     year: "2024",
     ground: "Orange / blue",
     caption: "What held us was force. What could not break was the split.",
+    total: 22,
     cover: voidForce,
     works: [
       { src: voidForce, ratio: 1.000, caption: "#01" },
@@ -316,6 +330,7 @@ export const voidSeries: VoidSeriesData[] = [
     year: "2024",
     ground: "Charcoal",
     caption: "One of us stuck in place. The other stuck in motion.",
+    total: 18,
     cover: voidStuck,
     works: [
       { src: voidStuck02, ratio: 1.000, caption: "#01" },
