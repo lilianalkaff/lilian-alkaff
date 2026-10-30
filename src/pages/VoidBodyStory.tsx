@@ -41,8 +41,8 @@ const story: React.ReactNode[] = [
     Sometimes the work understood things before I did. While making the twelfth series I was reading David
     Hawkins's <em>Power vs. Force</em>: power moves through things, while force pushes on them from outside, and
     what force holds together eventually breaks. I meant to call the series Power. The word that kept coming was
-    Force, and I let it stand: <em>A Force, Unbreakable</em>. Months later the relationship ended, and I understood
-    both words. What held us together was force, so it broke. What could not break was the split between us. I had
+    Force, and I let it stand: <em>A Force, Unbreakable</em>. Months later the bond ended, and I understood both
+    words. What held us together was force, so it broke. What could not break was the split between us. I had
     already drawn it: two bodies holding each other across a ground cut in two.
   </>,
   <>
