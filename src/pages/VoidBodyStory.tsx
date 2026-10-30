@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import FadeInView from "@/components/FadeInView";
+import JustifiedGallery from "@/components/JustifiedGallery";
 import { voidSeries, voidMedium } from "@/data/voidSeries";
 
 /**
@@ -146,20 +147,15 @@ const VoidBodyStory = () => {
                   </p>
                 </div>
               </FadeInView>
-              <div className="mt-10 md:mt-14 grid grid-cols-2 md:grid-cols-3 items-start gap-4 md:gap-6">
-                {series.works.map((work, j) => (
-                  <figure key={j}>
-                    <img
-                      src={work.src}
-                      alt={`${series.title}${work.caption ? `, ${work.caption}` : ""}`}
-                      className="w-full"
-                      loading="lazy"
-                    />
-                    {work.caption && (
-                      <figcaption className="mt-2 text-editorial-sm text-muted-foreground/60">{work.caption}</figcaption>
-                    )}
-                  </figure>
-                ))}
+              <div className="mt-10 md:mt-14">
+                <JustifiedGallery
+                  items={series.works.map((work) => ({
+                    src: work.src,
+                    ratio: work.ratio,
+                    caption: work.caption,
+                    alt: `${series.title}${work.caption ? `, ${work.caption}` : ""}`,
+                  }))}
+                />
               </div>
             </article>
           ))}
