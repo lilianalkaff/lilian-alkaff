@@ -2,6 +2,9 @@ import { useEffect } from "react";
 import FadeInView from "@/components/FadeInView";
 import JustifiedGallery from "@/components/JustifiedGallery";
 import { voidSeries, voidMedium } from "@/data/voidSeries";
+import eye01 from "@/assets/process-eye-01.webp";
+import eyeDetail from "@/assets/process-eye-detail.webp";
+import bareDetail from "@/assets/process-bare-detail.webp";
 
 /**
  * Void Body — submission page for the .ART Award.
@@ -119,6 +122,49 @@ const VoidBodyStory = () => {
             ))}
           </div>
         </FadeInView>
+      </section>
+
+      {/* Where the line comes from */}
+      <section className="page-padding pb-20 md:pb-32">
+        <FadeInView>
+          <h2 className="text-editorial-sm text-muted-foreground mb-10 md:mb-14">WHERE THE LINE COMES FROM</h2>
+        </FadeInView>
+        <div className="max-w-3xl space-y-10 md:space-y-14">
+          <div className="max-w-xl">
+          <JustifiedGallery
+            title="Eye 01"
+            items={[
+              {
+                src: eye01,
+                ratio: 1,
+                caption: "Eye 01, 2019. My right eye, my first digital line drawing.",
+                alt: "Eye 01, a line drawing of the artist's right eye, 2019",
+              },
+            ]}
+          />
+          </div>
+          <p className="max-w-2xl text-editorial-body text-foreground" style={{ lineHeight: 1.9 }}>
+            I turned the strokes of this eye into a custom brush in Illustrator: short marks, tapered at both ends,
+            joined one after another. Every line in Void Body is drawn with it.
+          </p>
+          <JustifiedGallery
+            title="The brush"
+            items={[
+              {
+                src: eyeDetail,
+                ratio: 1.281,
+                caption: "Strokes in Eye 01 (detail)",
+                alt: "Detail of the tapered strokes in Eye 01",
+              },
+              {
+                src: bareDetail,
+                ratio: 1.286,
+                caption: "The same brush in Bare, 2023 (detail)",
+                alt: "Detail of the white lines in Bare, drawn with the same brush",
+              },
+            ]}
+          />
+        </div>
       </section>
 
       {/* Each series */}
