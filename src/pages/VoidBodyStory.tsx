@@ -26,14 +26,14 @@ const story: React.ReactNode[] = [
   </>,
   <>
     The faces had been leaving my work for years. In 2019 I drew my own right eye, my first digital line drawing,
-    and made brushes from its strokes, in different thicknesses: short marks joined end to end. Every line I
-    have drawn since comes from that eye. After it came bodies without heads, then flowers where the heads should be, then only lips. In
+    with strokes I made myself: short marks joined end to end, in different weights. I have drawn every line since
+    with those same strokes. After the eye came bodies without heads, then flowers where the heads should be, then only lips. In
     Void Body the face is gone. I could not draw the people I felt this for, so I drew bodies that could belong to
     anyone.
   </>,
   <>
     Each began as a photograph of a stranger found online. I took away everything that made them someone
-    (the face, the skin, the setting, the photograph itself), kept only the outline, redrew it with my brushes in
+    (the face, the skin, the setting, the photograph itself), kept only the outline, redrew it with my own strokes in
     Adobe Illustrator and filled it with black. What the face would have said, I gave to the colour: oxblood when
     the heat had nowhere to go, navy when it turned cold, ice-blue for the calm after it.
   </>,
@@ -57,7 +57,7 @@ const story: React.ReactNode[] = [
 ];
 
 const bio =
-  "Lilian Alkaff (b. 1998, Aden, Yemen) is a Yemeni–Ukrainian artist based in Riyadh, Saudi Arabia. Born to a Yemeni father and a Ukrainian mother, she was raised in Aden, studied Visual Communication in Malaysia, lived in Egypt, and has lived in Saudi Arabia since 2022. Trained in design rather than fine art, she began drawing in 2015, at seventeen, and built her visual language on her own. Since 2019 she has worked digitally, drawing every line with brushes she made from the strokes of her first digital drawing, a study of her own right eye. Her series include Headless People (2019), Flower People (2020), Close Up (2022), Lines (2022–2023), Void Body (2023–2024) and All Seeing Eyes (2026, in progress). She also writes poetry.";
+  "Lilian Alkaff (b. 1998, Aden, Yemen) is a Yemeni–Ukrainian artist based in Riyadh, Saudi Arabia. Born to a Yemeni father and a Ukrainian mother, she was raised in Aden, studied Visual Communication in Malaysia, lived in Egypt, and has lived in Saudi Arabia since 2022. Trained in design rather than fine art, she began drawing in 2015, at seventeen, and built her visual language on her own. Since 2019 she has worked digitally, drawing every line with strokes she made herself and first used in 2019, to draw her own right eye. Her series include Headless People (2019), Flower People (2020), Close Up (2022), Lines (2022–2023), Void Body (2023–2024) and All Seeing Eyes (2026, in progress). She also writes poetry.";
 
 const pad = (n: number) => String(n).padStart(2, "0");
 
@@ -147,11 +147,11 @@ const VoidBodyStory = () => {
           />
           </div>
           <p className="max-w-2xl text-editorial-body text-foreground" style={{ lineHeight: 1.9 }}>
-            I turned the strokes of this eye into my own brushes in Illustrator, in different thicknesses: short marks,
-            tapered at both ends, joined one after another. Every line in Void Body is drawn with them.
+            The strokes in this eye are ones I made myself in Illustrator: short marks, tapered at both ends, joined
+            one after another, in different weights. Every line in Void Body is drawn with them.
           </p>
           <JustifiedGallery
-            title="The brushes"
+            title="The strokes"
             items={[
               {
                 src: eyeDetail,
@@ -162,7 +162,7 @@ const VoidBodyStory = () => {
               {
                 src: bareDetail,
                 ratio: 1.286,
-                caption: "Strokes in Bare, 2023 (detail)",
+                caption: "The same strokes in Bare, 2023 (detail)",
                 alt: "Detail of the white lines in Bare",
               },
             ]}
