@@ -62,11 +62,11 @@ import voidLighter04 from "@/assets/void-lighter-04.webp";
 import voidLighter05 from "@/assets/void-lighter-05.webp";
 import voidLighter06 from "@/assets/void-lighter-06.webp";
 import voidBare from "@/assets/void-bare.webp";
-import voidBare02 from "@/assets/void-bare-02.webp";
 import voidBare03 from "@/assets/void-bare-03.webp";
-import voidBare04 from "@/assets/void-bare-04.webp";
 import voidBare05 from "@/assets/void-bare-05.webp";
 import voidBare06 from "@/assets/void-bare-06.webp";
+import voidBare08 from "@/assets/void-bare-08.webp";
+import voidBare10 from "@/assets/void-bare-10.webp";
 import voidSoft from "@/assets/void-soft.webp";
 import voidSoft02 from "@/assets/void-soft-02.webp";
 import voidSoft03 from "@/assets/void-soft-03.webp";
@@ -190,11 +190,11 @@ export const voidSeries: VoidSeriesData[] = [
     caption: "Nothing left to hide behind.",
     cover: voidBare,
     works: [
-      { src: voidBare02, ratio: 0.687, caption: "#01" },
       { src: voidBare03, ratio: 0.668, caption: "#02" },
-      { src: voidBare04, ratio: 0.786, caption: "#03" },
+      { src: voidBare06, ratio: 0.814, caption: "#06" },
+      { src: voidBare08, ratio: 0.747, caption: "#08" },
       { src: voidBare05, ratio: 1.000, caption: "#09" },
-      { src: voidBare06, ratio: 0.746, caption: "#13" },
+      { src: voidBare10, ratio: 0.780, caption: "#10" },
       { src: voidBare, ratio: 0.781, caption: "#14" },
     ],
   },
