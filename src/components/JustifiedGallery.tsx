@@ -1,4 +1,5 @@
-import { useLayoutEffect, useRef, useState } from "react";
+import { useCallback, useLayoutEffect, useRef, useState } from "react";
+import Lightbox from "./Lightbox";
 
 export interface GalleryItem {
   src: string;
@@ -10,13 +11,17 @@ export interface GalleryItem {
 
 interface Props {
   items: GalleryItem[];
+  /** Shown in the full-screen view, e.g. the series title */
+  title?: string;
 }
 
 /**
  * Lays images out in rows that each fill the full width. Images in a row share one height,
  * every image is shown whole (no cropping), and the original order is kept.
  */
-const JustifiedGallery = ({ items }: Props) => {
+const JustifiedGallery = ({ items, title }: Props) => {
+  const [open, setOpen] = useState<number | null>(null);
+  const close = useCallback(() => setOpen(null), []);
   const ref = useRef<HTMLDivElement>(null);
   const [width, setWidth] = useState(0);
 
@@ -71,15 +76,22 @@ const JustifiedGallery = ({ items }: Props) => {
             const w = (item.ratio ?? 1) * row.height;
             return (
               <figure key={j} style={{ width: w, flex: "none" }}>
-                <img
-                  src={item.src}
-                  alt={item.alt}
-                  width={Math.round(w)}
-                  height={Math.round(row.height)}
-                  style={{ width: w, height: row.height }}
-                  className="block"
-                  loading="lazy"
-                />
+                <button
+                  type="button"
+                  onClick={() => setOpen(items.indexOf(item))}
+                  aria-label={`View ${item.alt} large`}
+                  className="block cursor-zoom-in group"
+                >
+                  <img
+                    src={item.src}
+                    alt={item.alt}
+                    width={Math.round(w)}
+                    height={Math.round(row.height)}
+                    style={{ width: w, height: row.height }}
+                    className="block transition-opacity duration-300 group-hover:opacity-90"
+                    loading="lazy"
+                  />
+                </button>
                 {item.caption && (
                   <figcaption className="mt-2 text-editorial-sm text-muted-foreground/60">{item.caption}</figcaption>
                 )}
@@ -88,6 +100,9 @@ const JustifiedGallery = ({ items }: Props) => {
           })}
         </div>
       ))}
+      {open !== null && (
+        <Lightbox items={items} index={open} title={title} onClose={close} onIndex={setOpen} />
+      )}
     </div>
   );
 };

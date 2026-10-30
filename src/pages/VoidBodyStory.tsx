@@ -149,6 +149,7 @@ const VoidBodyStory = () => {
               </FadeInView>
               <div className="mt-10 md:mt-14">
                 <JustifiedGallery
+                  title={series.title}
                   items={series.works.map((work) => ({
                     src: work.src,
                     ratio: work.ratio,
