@@ -54,7 +54,7 @@ const story: React.ReactNode[] = [
 ];
 
 const bio =
-  "Lilian Alkaff (b. 1998, Aden, Yemen) is a Yemeni–Ukrainian artist based in Riyadh, Saudi Arabia. Born to a Yemeni father and a Ukrainian mother, she was raised in Aden, studied Visual Communication in Malaysia, lived in Egypt, and has lived in Saudi Arabia since 2022. Trained in design rather than fine art, she began drawing in 2015, at seventeen, and built her visual language on her own. Since 2019 she has worked digitally, drawing every line with a custom brush made from the strokes of her first digital drawing, a study of her own right eye. Her series include Headless People (2019), Flower People (2020), Close Up (2022), Lines (2022–23), Void Body (2023–2024) and All Seeing Eyes (2026, in progress). She also writes poetry.";
+  "Lilian Alkaff (b. 1998, Aden, Yemen) is a Yemeni–Ukrainian artist based in Riyadh, Saudi Arabia. Born to a Yemeni father and a Ukrainian mother, she was raised in Aden, studied Visual Communication in Malaysia, lived in Egypt, and has lived in Saudi Arabia since 2022. Trained in design rather than fine art, she began drawing in 2015, at seventeen, and built her visual language on her own. Since 2019 she has worked digitally, drawing every line with a custom brush made from the strokes of her first digital drawing, a study of her own right eye. Her series include Headless People (2019), Flower People (2020), Close Up (2022), Lines (2022–2023), Void Body (2023–2024) and All Seeing Eyes (2026, in progress). She also writes poetry.";
 
 const pad = (n: number) => String(n).padStart(2, "0");
 
@@ -201,6 +201,7 @@ const VoidBodyStory = () => {
                     ratio: work.ratio,
                     caption: work.caption,
                     alt: `${series.title}${work.caption ? `, ${work.caption}` : ""}`,
+                    details: `${series.title} ${work.caption ?? ""}, ${series.year} · Ground: ${series.ground} · ${voidMedium}`,
                   }))}
                 />
               </div>

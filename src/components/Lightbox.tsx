@@ -5,6 +5,8 @@ export interface LightboxItem {
   src: string;
   alt: string;
   caption?: string;
+  /** Technical details shown under the image, e.g. year, medium */
+  details?: string;
 }
 
 interface Props {
@@ -84,7 +86,7 @@ const Lightbox = ({ items, index, title, onClose, onIndex }: Props) => {
         </button>
       </div>
 
-      <div className="relative flex-1 min-h-0 flex items-center justify-center px-4 md:px-20 pb-6 md:pb-10">
+      <div className="relative flex-1 min-h-0 flex items-center justify-center px-4 md:px-20 pb-4 md:pb-6">
         <img
           key={item.src}
           src={item.src}
@@ -119,6 +121,11 @@ const Lightbox = ({ items, index, title, onClose, onIndex }: Props) => {
           </button>
         )}
       </div>
+      {item.details && (
+        <p className="page-padding pb-5 md:pb-6 text-editorial-sm text-muted-foreground/70 text-center">
+          {item.details}
+        </p>
+      )}
     </div>,
     document.body,
   );

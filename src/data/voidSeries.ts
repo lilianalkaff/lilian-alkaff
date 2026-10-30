@@ -158,12 +158,12 @@ export const voidSeries: VoidSeriesData[] = [
     caption: "So close I could no longer tell where one body ended.",
     cover: voidEmbracing,
     works: [
+      { src: voidEmbracing, ratio: 1.069, caption: "#01" },
       { src: voidEmbracing02, ratio: 1.000, caption: "#03" },
       { src: voidEmbracing03, ratio: 1.000, caption: "#07" },
       { src: voidEmbracing04, ratio: 1.000, caption: "#10" },
       { src: voidEmbracing05, ratio: 1.000, caption: "#11" },
       { src: voidEmbracing06, ratio: 1.000, caption: "#13" },
-      { src: voidEmbracing, ratio: 1.069, caption: "#01" },
     ],
   },
   {
@@ -175,11 +175,11 @@ export const voidSeries: VoidSeriesData[] = [
     cover: voidSoft,
     works: [
       { src: voidSoft02, ratio: 0.763, caption: "#02" },
+      { src: voidSoft, ratio: 0.960, caption: "#03" },
       { src: voidSoft03, ratio: 1.257, caption: "#07" },
       { src: voidSoft04, ratio: 0.887, caption: "#08" },
       { src: voidSoft05, ratio: 1.000, caption: "#09" },
       { src: voidSoft06, ratio: 1.000, caption: "#11" },
-      { src: voidSoft, ratio: 0.960, caption: "#03" },
     ],
   },
   {
@@ -209,9 +209,9 @@ export const voidSeries: VoidSeriesData[] = [
       { src: voidLighter02, ratio: 1.000, caption: "#01" },
       { src: voidLighter03, ratio: 1.000, caption: "#02" },
       { src: voidLighter04, ratio: 1.000, caption: "#04" },
+      { src: voidLighter, ratio: 0.910, caption: "#11" },
       { src: voidLighter05, ratio: 1.034, caption: "#13" },
       { src: voidLighter06, ratio: 1.000, caption: "#14" },
-      { src: voidLighter, ratio: 0.910, caption: "#11" },
     ],
   },
   {
@@ -225,9 +225,9 @@ export const voidSeries: VoidSeriesData[] = [
       { src: voidLife02, ratio: 0.826, caption: "#01" },
       { src: voidLife03, ratio: 0.708, caption: "#02" },
       { src: voidLife04, ratio: 1.000, caption: "#03" },
+      { src: voidLife, ratio: 0.785, caption: "#04" },
       { src: voidLife05, ratio: 1.520, caption: "#05" },
       { src: voidLife06, ratio: 1.081, caption: "#08" },
-      { src: voidLife, ratio: 0.785, caption: "#04" },
     ],
   },
   {
@@ -238,12 +238,12 @@ export const voidSeries: VoidSeriesData[] = [
     caption: "Hunger, before I knew what it was for.",
     cover: voidNutritious,
     works: [
-      { src: voidNutritious04, ratio: 0.828, caption: "#04" },
+      { src: voidNutritious, ratio: 0.662, caption: "#01" },
       { src: voidNutritious03, ratio: 0.853, caption: "#03" },
+      { src: voidNutritious04, ratio: 0.828, caption: "#04" },
       { src: voidNutritious05, ratio: 0.725, caption: "#05" },
       { src: voidNutritious06, ratio: 0.720, caption: "#06" },
       { src: voidNutritious08, ratio: 1.000, caption: "#11" },
-      { src: voidNutritious, ratio: 0.662, caption: "#01" },
     ],
   },
   {
@@ -254,12 +254,12 @@ export const voidSeries: VoidSeriesData[] = [
     caption: "Reaching for a home I could not yet name.",
     cover: voidTakeMeHome,
     works: [
-      { src: voidTakeMeHome08, ratio: 1.000, caption: "#16" },
+      { src: voidTakeMeHome, ratio: 1.000, caption: "#01" },
       { src: voidTakeMeHome02, ratio: 1.000, caption: "#02" },
       { src: voidTakeMeHome04, ratio: 0.810, caption: "#08" },
       { src: voidTakeMeHome06, ratio: 1.000, caption: "#13" },
       { src: voidTakeMeHome07, ratio: 1.000, caption: "#14" },
-      { src: voidTakeMeHome, ratio: 1.000, caption: "#01" },
+      { src: voidTakeMeHome08, ratio: 1.000, caption: "#16" },
     ],
   },
   {
@@ -286,12 +286,12 @@ export const voidSeries: VoidSeriesData[] = [
     caption: "The calm of being claimed.",
     cover: voidYours,
     works: [
+      { src: voidYours, ratio: 1.000, caption: "#02" },
       { src: voidYours02, ratio: 0.714, caption: "#04" },
       { src: voidYours03, ratio: 1.000, caption: "#05" },
       { src: voidYours04, ratio: 0.766, caption: "#06" },
       { src: voidYours05, ratio: 1.123, caption: "#08" },
       { src: voidYours07, ratio: 1.000, caption: "#17" },
-      { src: voidYours, ratio: 1.000, caption: "#02" },
     ],
   },
   {
@@ -302,12 +302,12 @@ export const voidSeries: VoidSeriesData[] = [
     caption: "What held us was force. What could not break was the split.",
     cover: voidForce,
     works: [
-      { src: voidForce08, ratio: 0.798, caption: "#22" },
+      { src: voidForce, ratio: 1.000, caption: "#01" },
       { src: voidForce02, ratio: 1.000, caption: "#02" },
       { src: voidForce03, ratio: 1.000, caption: "#07" },
       { src: voidForce04, ratio: 1.000, caption: "#08" },
       { src: voidForce07, ratio: 1.000, caption: "#19" },
-      { src: voidForce, ratio: 1.000, caption: "#01" },
+      { src: voidForce08, ratio: 0.798, caption: "#22" },
     ],
   },
   {

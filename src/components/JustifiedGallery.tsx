@@ -7,6 +7,8 @@ export interface GalleryItem {
   ratio?: number;
   caption?: string;
   alt: string;
+  /** Technical details shown in the full-screen view */
+  details?: string;
 }
 
 interface Props {
