@@ -142,7 +142,7 @@ export const voidSeries: VoidSeriesData[] = [
     title: "Blue",
     year: "2023",
     ground: "Navy",
-    caption: "The same longing, with the warmth pulled out of it.",
+    caption: "The same longing, gone cold.",
     total: 24,
     cover: voidBlue,
     works: [
@@ -176,7 +176,7 @@ export const voidSeries: VoidSeriesData[] = [
     title: "Soft",
     year: "2023",
     ground: "Charcoal",
-    caption: "Strength, allowed to be gentle.",
+    caption: "Strength, set down for a while.",
     total: 17,
     cover: voidSoft,
     works: [
@@ -193,7 +193,7 @@ export const voidSeries: VoidSeriesData[] = [
     title: "Bare",
     year: "2023",
     ground: "White",
-    caption: "Nothing left to hide behind.",
+    caption: "Nothing to hide behind, not even colour.",
     total: 14,
     cover: voidBare,
     works: [
@@ -210,7 +210,7 @@ export const voidSeries: VoidSeriesData[] = [
     title: "Lighter",
     year: "2023",
     ground: "Forest green",
-    caption: "Something lifted before I knew what it was.",
+    caption: "Something lifted, and the body went with it.",
     total: 16,
     cover: voidLighter,
     works: [
@@ -244,7 +244,7 @@ export const voidSeries: VoidSeriesData[] = [
     title: "Nutritious",
     year: "2023",
     ground: "Black, with fruit",
-    caption: "Hunger, before I knew what it was for.",
+    caption: "Hunger, fed by hand.",
     total: 11,
     cover: voidNutritious,
     works: [
@@ -312,7 +312,7 @@ export const voidSeries: VoidSeriesData[] = [
     title: "A Force, Unbreakable",
     year: "2024",
     ground: "Orange / blue",
-    caption: "What held us was force. What could not break was the split.",
+    caption: "Heat and cold, held in one embrace.",
     total: 22,
     cover: voidForce,
     works: [
@@ -329,7 +329,7 @@ export const voidSeries: VoidSeriesData[] = [
     title: "Stuck",
     year: "2024",
     ground: "Charcoal",
-    caption: "One of us stuck in place. The other stuck in motion.",
+    caption: "The same frame, again and again.",
     total: 18,
     cover: voidStuck,
     works: [

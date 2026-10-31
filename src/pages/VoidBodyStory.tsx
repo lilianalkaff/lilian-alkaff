@@ -26,7 +26,7 @@ const story: React.ReactNode[] = [
   <>
     The faces had been leaving my work for years. In 2019 I drew just an eye, my own. After it came bodies without
     heads, then flowers where the heads should be, then only lips. In Void Body the face is gone. I could not draw
-    the people I felt this for, so I drew bodies that could belong to anyone.
+    the people themselves, so I drew bodies that could belong to anyone.
   </>,
   <>
     Each began as a photograph of a stranger found online. I took away everything that made them someone: the
@@ -56,7 +56,7 @@ const story: React.ReactNode[] = [
 ];
 
 const bio =
-  "Lilian Alkaff (b. 1998, Aden, Yemen) is a Yemeni–Ukrainian artist based in Riyadh, Saudi Arabia. Born to a Yemeni father and a Ukrainian mother, she was raised in Aden, studied Visual Communication in Malaysia, lived in Egypt, and has lived in Saudi Arabia since 2022. Trained in design rather than fine art, she began drawing in 2015, at seventeen, and built her visual language on her own. Since 2019 she has worked digitally, drawing every line with strokes she made herself, first used to draw her own right eye. Her series include Headless People (2019), Flower People (2020), Close Up (2022), Lines (2022–2023), Void Body (2023–2024) and All Seeing Eyes (2026, in progress). She also writes poetry.";
+  "Lilian Alkaff (b. 1998, Aden, Yemen) is an artist based in Riyadh, Saudi Arabia. Born to a Yemeni father and a Ukrainian mother, she grew up in Aden, studied Visual Communication in Malaysia, lived in Egypt, and moved to Riyadh in 2022. Trained in design rather than fine art, she began drawing in 2015, at seventeen, and built her visual language on her own. Since 2019 she has worked digitally, drawing every line with strokes she made herself, first used to draw her own right eye. Her series include Headless People (2019), Flower People (2020), Close Up (2022), Lines (2022–2023), Void Body (2023–2024) and All Seeing Eyes (2026, in progress). She also writes poetry.";
 
 const pad = (n: number) => String(n).padStart(2, "0");
 
@@ -146,8 +146,8 @@ const VoidBodyStory = () => {
           />
           </div>
           <p className="max-w-2xl text-editorial-body text-foreground" style={{ lineHeight: 1.9 }}>
-            The strokes in this eye are ones I made myself in Illustrator: short marks, tapered at both ends, joined
-            one after another, in different weights. Every line in Void Body is drawn with them.
+            I made the strokes in this eye myself, in Illustrator: short marks, tapered at both ends, joined one after
+            another, in different weights. Every line in Void Body is drawn with them.
           </p>
           <JustifiedGallery
             title="The strokes"
