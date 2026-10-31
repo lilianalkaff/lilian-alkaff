@@ -73,12 +73,12 @@ import voidSoft03 from "@/assets/void-soft-03.webp";
 import voidSoft04 from "@/assets/void-soft-04.webp";
 import voidSoft05 from "@/assets/void-soft-05.webp";
 import voidSoft06 from "@/assets/void-soft-06.webp";
-import voidEmbracing from "@/assets/void-embracing.webp";
-import voidEmbracing02 from "@/assets/void-embracing-02.webp";
-import voidEmbracing03 from "@/assets/void-embracing-03.webp";
-import voidEmbracing04 from "@/assets/void-embracing-04.webp";
-import voidEmbracing05 from "@/assets/void-embracing-05.webp";
-import voidEmbracing06 from "@/assets/void-embracing-06.webp";
+import voidEmbracing01 from "@/assets/void-embracing.webp";
+import voidEmbracing02 from "@/assets/void-embracing-n02.webp";
+import voidEmbracing06 from "@/assets/void-embracing-n06.webp";
+import voidEmbracing09 from "@/assets/void-embracing-n09.webp";
+import voidEmbracing10 from "@/assets/void-embracing-04.webp";
+import voidEmbracing11 from "@/assets/void-embracing-05.webp";
 import voidBlue02 from "@/assets/void-blue-n02.webp";
 import voidBlue13 from "@/assets/void-blue-06.webp";
 import voidBlue14 from "@/assets/void-blue-n14.webp";
@@ -160,14 +160,14 @@ export const voidSeries: VoidSeriesData[] = [
     ground: "Aubergine",
     caption: "So close I could no longer tell where one body ended.",
     total: 13,
-    cover: voidEmbracing,
+    cover: voidEmbracing02,
     works: [
-      { src: voidEmbracing, ratio: 1.069, caption: "#01" },
-      { src: voidEmbracing02, ratio: 1.000, caption: "#03" },
-      { src: voidEmbracing03, ratio: 1.000, caption: "#07" },
-      { src: voidEmbracing04, ratio: 1.000, caption: "#10" },
-      { src: voidEmbracing05, ratio: 1.000, caption: "#11" },
-      { src: voidEmbracing06, ratio: 1.000, caption: "#13" },
+      { src: voidEmbracing01, ratio: 1.069, caption: "#01" },
+      { src: voidEmbracing02, ratio: 0.922, caption: "#02" },
+      { src: voidEmbracing06, ratio: 1.000, caption: "#06" },
+      { src: voidEmbracing09, ratio: 0.792, caption: "#09" },
+      { src: voidEmbracing10, ratio: 1.000, caption: "#10" },
+      { src: voidEmbracing11, ratio: 1.000, caption: "#11" },
     ],
   },
   {
