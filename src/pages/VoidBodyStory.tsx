@@ -43,15 +43,14 @@ const story: React.ReactNode[] = [
     ground cut in two.
   </>,
   <>
-    <em>Stuck</em> was the last series. I knew which figure was which the moment I drew them. The one fixed at the
-    edge of every frame, cropped, never coming in, was the other person. The one moving through the centre, trying
-    every position, was me. Then the centre is empty and I am at the other edge. In the last two drawings each of
-    us is alone. I numbered them #0 and #00 and did not know why.
+    <em>Stuck</em> was the last series. In drawing after drawing, one figure is held at the edge of the frame,
+    cropped, never coming in, while the other moves through the centre, trying every position. I knew as I drew
+    them that the first was the other person and the second was me. In the last two, each of us is alone, and I
+    numbered them zero and double zero without knowing why.
   </>,
   <>
-    Two years later a mutual friend told me the other person had gone back. Then I understood what I had drawn: one
-    of us stuck in place, the other stuck in motion, unable to stop trying. The numbers took me longer. #0 and #00
-    are the two of us, back at zero. Then I begin again.
+    Two years later I heard the other person had gone back. Only then could I read what I had drawn: one of us
+    stuck in place, the other stuck in motion, and both of us, in the end, back at zero.
   </>,
 ];
 
@@ -229,7 +228,7 @@ const VoidBodyStory = () => {
       <footer className="page-padding pb-20 md:pb-28 space-y-6">
         <FadeInView>
           <a
-            href="https://lilianalkaff.com/void-body"
+            href="/"
             className="text-editorial-body text-foreground hover:text-muted-foreground transition-colors duration-500 no-underline"
           >
             See all my work at lilianalkaff.com →
