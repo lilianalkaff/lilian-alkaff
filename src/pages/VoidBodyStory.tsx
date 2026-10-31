@@ -14,50 +14,49 @@ import bareDetail from "@/assets/process-bare-detail.webp";
 
 const story: React.ReactNode[] = [
   <>
-    In 2023 I felt connections with people more intense than anything I had known: vivid, total, at the level of
-    the soul. For a while everything looked perfect, as if I had finally found what I had been looking for. Then
-    the ground was pulled out from under me and I was back at zero. Void Body is what I made inside that: thirteen
-    series of drawings, each one a state I was living in.
+    I started drawing at seventeen, on a school night in Aden, as the war was beginning. My life has moved in the
+    same cycle ever since. Something builds until it feels like the answer, then it falls away, and I am back at
+    zero.
   </>,
   <>
-    I know this cycle. I started drawing at seventeen, on a school night in Aden, as the war was beginning, and my
-    life has moved this way ever since. Something builds until it feels like the answer, then it falls away, and I
-    begin again.
+    In 2023 it came through people. I had never been that close to anyone. For a while it felt like the end of
+    looking. Then it fell away. Void Body is what I made inside that fall: thirteen series of drawings, each one a
+    state I was living in.
   </>,
   <>
-    The faces had been leaving my work for years. In 2019 I drew my own right eye, my first digital line drawing,
-    with strokes I made myself: short marks joined end to end, in different weights. I have drawn every line since
-    with those same strokes. After the eye came bodies without heads, then flowers where the heads should be, then only lips. In
-    Void Body the face is gone. I could not draw the people I felt this for, so I drew bodies that could belong to
-    anyone.
+    The faces had been leaving my work for years. In 2019 I drew just an eye, my own. After it came bodies without
+    heads, then flowers where the heads should be, then only lips. In Void Body the face is gone. I could not draw
+    the people I felt this for, so I drew bodies that could belong to anyone.
   </>,
   <>
-    Each began as a photograph of a stranger found online. I took away everything that made them someone
-    (the face, the skin, the setting, the photograph itself), kept only the outline, redrew it with my own strokes in
+    Each began as a photograph of a stranger found online. I took away everything that made them someone: the
+    face, the skin, the setting, the photograph itself. I kept only the outline, redrew it with my own strokes in
     Adobe Illustrator and filled it with black. What the face would have said, I gave to the colour: oxblood when
     the heat had nowhere to go, navy when it turned cold, ice-blue for the calm after it.
   </>,
   <>
-    Sometimes the work understood things before I did. While making the twelfth series I was reading David
-    Hawkins's <em>Power vs. Force</em>: power moves through things, while force pushes on them from outside, and
-    what force holds together eventually breaks. I meant to call the series Power. The word that kept coming was
-    Force, and I let it stand: <em>A Force, Unbreakable</em>. Months later the bond ended, and I understood both
-    words. What held us together was force, so it broke. What could not break was the split between us. I had
-    already drawn it: two bodies holding each other across a ground cut in two.
+    While making the twelfth series I was reading David Hawkins's <em>Power vs. Force</em>: power moves through
+    things, while force pushes on them from outside, and what force holds together eventually breaks. I meant to
+    call the series Power. The word that kept coming was Force, and I let it stand: <em>A Force, Unbreakable</em>.
+    Months later the bond ended, and I understood both words. What held us together was force, so it broke. What
+    could not break was the split between us. I had already drawn it: two bodies holding each other across a
+    ground cut in two.
   </>,
   <>
-    <em>Stuck</em> was the last series. While drawing it I knew the figure fixed at the edge of every frame was the
-    other person, and the one moving through the centre, trying every position until it was gone, was me. I didn't
-    know why. We had met in a place that was harming us both, left it together, and planned what we would build.
-    Then the other person got scared. Two years after I made <em>Stuck</em>, a friend told me they had gone back to
-    that same place and were doing exactly what they had done before, as if nothing had happened. That was the why.
-    One of us was stuck in place. The other was stuck in motion, trying alone to do what was meant to be done by
-    two.
+    <em>Stuck</em> was the last series. I knew which figure was which the moment I drew them. The one fixed at the
+    edge of every frame, cropped, never coming in, was the other person. The one moving through the centre, trying
+    every position, was me. Then the centre is empty and I am at the other edge. In the last two drawings each of
+    us is alone. I numbered them #0 and #00 and did not know why.
+  </>,
+  <>
+    Two years later a mutual friend told me the other person had gone back. Then I understood what I had drawn: one
+    of us stuck in place, the other stuck in motion, unable to stop trying. The numbers took me longer. #0 and #00
+    are the two of us, back at zero. Then I begin again.
   </>,
 ];
 
 const bio =
-  "Lilian Alkaff (b. 1998, Aden, Yemen) is a Yemeni–Ukrainian artist based in Riyadh, Saudi Arabia. Born to a Yemeni father and a Ukrainian mother, she was raised in Aden, studied Visual Communication in Malaysia, lived in Egypt, and has lived in Saudi Arabia since 2022. Trained in design rather than fine art, she began drawing in 2015, at seventeen, and built her visual language on her own. Since 2019 she has worked digitally, drawing every line with strokes she made herself and first used in 2019, to draw her own right eye. Her series include Headless People (2019), Flower People (2020), Close Up (2022), Lines (2022–2023), Void Body (2023–2024) and All Seeing Eyes (2026, in progress). She also writes poetry.";
+  "Lilian Alkaff (b. 1998, Aden, Yemen) is a Yemeni–Ukrainian artist based in Riyadh, Saudi Arabia. Born to a Yemeni father and a Ukrainian mother, she was raised in Aden, studied Visual Communication in Malaysia, lived in Egypt, and has lived in Saudi Arabia since 2022. Trained in design rather than fine art, she began drawing in 2015, at seventeen, and built her visual language on her own. Since 2019 she has worked digitally, drawing every line with strokes she made herself, first used to draw her own right eye. Her series include Headless People (2019), Flower People (2020), Close Up (2022), Lines (2022–2023), Void Body (2023–2024) and All Seeing Eyes (2026, in progress). She also writes poetry.";
 
 const pad = (n: number) => String(n).padStart(2, "0");
 
