@@ -43,10 +43,14 @@ const story: React.ReactNode[] = [
     ground cut in two.
   </>,
   <>
-    <em>Stuck</em> was the last series. Two figures: the other person, fixed at the edge, identical in every
-    frame, stuck in place; and me, moving through the centre, unable to land, stuck in motion. I knew who was who
-    as I drew them, but not why. Two years later a friend told me the other person had gone back. I had numbered
-    the last two drawings 0 and 00. Both of us, back at zero.
+    <em>Stuck</em> was the last series. Two figures, and I knew which was which the moment I drew them. The one
+    fixed at the edge, cropped, never whole, never entering, was the other person. The one moving through the
+    centre, trying every position, finally gone from one frame entirely, was me. What I did not know was why.
+  </>,
+  <>
+    Two kinds of stuck. The figure at the edge: stuck in space and time, identical in every frame. The figure in
+    the centre: stuck in motion, unable to stop, unable to land. Two years later, a friend said the sentence that
+    turned the series into a record: they went back. The last two drawings, 0 and 00: both of us, back at zero.
   </>,
 ];
 
