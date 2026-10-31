@@ -23,7 +23,7 @@ const story: React.ReactNode[] = [
   </>,
   <>
     In 2023 it was people. I had never been that close to anyone. For a while I thought I'd found it. Then it fell
-    apart. The drawings came the whole way up and the whole way down. That is Void Body:
+    apart. The drawings came going up and coming down. That is Void Body:
     thirteen series, each one a state I was in.
   </>,
   <>
