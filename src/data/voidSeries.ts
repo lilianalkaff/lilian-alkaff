@@ -24,10 +24,10 @@ import voidYours06 from "@/assets/void-yours-06.webp";
 import voidYours07 from "@/assets/void-yours-07.webp";
 import voidYours08 from "@/assets/void-yours-08.webp";
 import voidPiece from "@/assets/void-piece.webp";
-import voidPiece02 from "@/assets/void-piece-02.webp";
-import voidPiece03 from "@/assets/void-piece-03.webp";
+import voidPiece02n from "@/assets/void-piece-n02.webp";
+import voidPiece06n from "@/assets/void-piece-n06.webp";
 import voidPiece04 from "@/assets/void-piece-04.webp";
-import voidPiece05 from "@/assets/void-piece-05.webp";
+import voidPiece21n from "@/assets/void-piece-n21.webp";
 import voidPiece06 from "@/assets/void-piece-06.webp";
 import voidPiece07 from "@/assets/void-piece-07.webp";
 import voidPiece08 from "@/assets/void-piece-08.webp";
@@ -279,12 +279,12 @@ export const voidSeries: VoidSeriesData[] = [
     ground: "Dark red",
     caption: "Understanding arrived as loss.",
     total: 27,
-    cover: voidPiece,
+    cover: voidPiece21n,
     works: [
-      { src: voidPiece02, ratio: 1.000, caption: "#01" },
-      { src: voidPiece03, ratio: 0.708, caption: "#04" },
-      { src: voidPiece05, ratio: 1.166, caption: "#10" },
+      { src: voidPiece02n, ratio: 1.177, caption: "#02" },
+      { src: voidPiece06n, ratio: 1.000, caption: "#06" },
       { src: voidPiece09, ratio: 0.795, caption: "#14" },
+      { src: voidPiece21n, ratio: 1.000, caption: "#21" },
       { src: voidPiece08, ratio: 1.000, caption: "#26" },
       { src: voidPiece, ratio: 1.000, caption: "#27" },
     ],
