@@ -16,12 +16,12 @@ import voidForce06 from "@/assets/void-force-06.webp";
 import voidForce07 from "@/assets/void-force-07.webp";
 import voidForce08 from "@/assets/void-force-08.webp";
 import voidYours from "@/assets/void-yours.webp";
-import voidYours02 from "@/assets/void-yours-02.webp";
+import voidYours10n from "@/assets/void-yours-n10.webp";
 import voidYours03 from "@/assets/void-yours-03.webp";
 import voidYours04 from "@/assets/void-yours-04.webp";
 import voidYours05 from "@/assets/void-yours-05.webp";
 import voidYours06 from "@/assets/void-yours-06.webp";
-import voidYours07 from "@/assets/void-yours-07.webp";
+import voidYours21n from "@/assets/void-yours-n21.webp";
 import voidYours08 from "@/assets/void-yours-08.webp";
 import voidPiece from "@/assets/void-piece.webp";
 import voidPiece02n from "@/assets/void-piece-n02.webp";
@@ -296,14 +296,14 @@ export const voidSeries: VoidSeriesData[] = [
     ground: "Ice-blue",
     caption: "The calm of being claimed.",
     total: 21,
-    cover: voidYours,
+    cover: voidYours21n,
     works: [
       { src: voidYours, ratio: 1.000, caption: "#02" },
-      { src: voidYours02, ratio: 0.714, caption: "#04" },
       { src: voidYours03, ratio: 1.000, caption: "#05" },
       { src: voidYours04, ratio: 0.766, caption: "#06" },
       { src: voidYours05, ratio: 1.123, caption: "#08" },
-      { src: voidYours07, ratio: 1.000, caption: "#17" },
+      { src: voidYours10n, ratio: 1.099, caption: "#10" },
+      { src: voidYours21n, ratio: 1.000, caption: "#21" },
     ],
   },
   {
