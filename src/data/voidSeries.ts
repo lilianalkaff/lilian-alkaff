@@ -58,7 +58,7 @@ import voidLife07 from "@/assets/void-life-07.webp";
 import voidLighter from "@/assets/void-lighter.webp";
 import voidLighter02 from "@/assets/void-lighter-02.webp";
 import voidLighter03 from "@/assets/void-lighter-03.webp";
-import voidLighter04 from "@/assets/void-lighter-04.webp";
+import voidLighter08 from "@/assets/void-lighter-n08.webp";
 import voidLighter05 from "@/assets/void-lighter-05.webp";
 import voidLighter06 from "@/assets/void-lighter-06.webp";
 import voidBare from "@/assets/void-bare.webp";
@@ -211,11 +211,11 @@ export const voidSeries: VoidSeriesData[] = [
     ground: "Forest green",
     caption: "Something lifted, and the body went with it.",
     total: 16,
-    cover: voidLighter,
+    cover: voidLighter02,
     works: [
       { src: voidLighter02, ratio: 1.000, caption: "#01" },
       { src: voidLighter03, ratio: 1.000, caption: "#02" },
-      { src: voidLighter04, ratio: 1.000, caption: "#04" },
+      { src: voidLighter08, ratio: 1.000, caption: "#08" },
       { src: voidLighter, ratio: 0.910, caption: "#11" },
       { src: voidLighter05, ratio: 1.034, caption: "#13" },
       { src: voidLighter06, ratio: 1.000, caption: "#14" },
