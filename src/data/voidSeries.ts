@@ -37,9 +37,9 @@ import voidTakeMeHome02 from "@/assets/void-takemehome-02.webp";
 import voidTakeMeHome03 from "@/assets/void-takemehome-03.webp";
 import voidTakeMeHome04 from "@/assets/void-takemehome-04.webp";
 import voidTakeMeHome05 from "@/assets/void-takemehome-05.webp";
-import voidTakeMeHome06 from "@/assets/void-takemehome-06.webp";
-import voidTakeMeHome07 from "@/assets/void-takemehome-07.webp";
-import voidTakeMeHome08 from "@/assets/void-takemehome-08.webp";
+import voidTakeMeHome09 from "@/assets/void-takemehome-n09.webp";
+import voidTakeMeHome11 from "@/assets/void-takemehome-n11.webp";
+import voidTakeMeHome15 from "@/assets/void-takemehome-n15.webp";
 import voidNutritious from "@/assets/void-nutritious.webp";
 import voidNutritious02 from "@/assets/void-nutritious-02.webp";
 import voidNutritious03 from "@/assets/void-nutritious-03.webp";
@@ -267,9 +267,9 @@ export const voidSeries: VoidSeriesData[] = [
       { src: voidTakeMeHome, ratio: 1.000, caption: "#01" },
       { src: voidTakeMeHome02, ratio: 1.000, caption: "#02" },
       { src: voidTakeMeHome04, ratio: 0.810, caption: "#08" },
-      { src: voidTakeMeHome06, ratio: 1.000, caption: "#13" },
-      { src: voidTakeMeHome07, ratio: 1.000, caption: "#14" },
-      { src: voidTakeMeHome08, ratio: 1.000, caption: "#16" },
+      { src: voidTakeMeHome09, ratio: 1.000, caption: "#09" },
+      { src: voidTakeMeHome11, ratio: 1.000, caption: "#11" },
+      { src: voidTakeMeHome15, ratio: 1.000, caption: "#15" },
     ],
   },
   {
