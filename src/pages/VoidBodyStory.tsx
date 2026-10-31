@@ -14,43 +14,41 @@ import bareDetail from "@/assets/process-bare-detail.webp";
 
 const story: React.ReactNode[] = [
   <>
-    I started drawing at seventeen, on a school night in Aden, as the war was beginning. My life has moved in the
-    same cycle ever since. Something builds until it feels like the answer, then it falls away, and I am back at
+    I started drawing at seventeen, on a school night in Aden, as the war was starting. I didn't choose it. I draw
+    because I have to. Things come through me: a colour, a pose, a name. I draw them before I know what they are.
+  </>,
+  <>
+    My life runs in a loop. Something builds until it looks like the answer. Then it falls apart and I'm back at
     zero.
   </>,
   <>
-    In 2023 it came through people. I had never been that close to anyone. For a while it felt like the end of
-    looking. Then it fell away. Void Body is what I made inside that fall: thirteen series of drawings, each one a
-    state I was living in.
+    In 2023 it was people. I had never been that close to anyone. For a while I thought I'd found it. Then it fell
+    apart. Void Body is what came through me on the way down: thirteen series, each one a state I was in.
   </>,
   <>
-    The faces had been leaving my work for years. In 2019 I drew just an eye, my own. After it came bodies without
-    heads, then flowers where the heads should be, then only lips. In Void Body the face is gone. I could not draw
-    the people themselves, so I drew bodies that could belong to anyone.
+    The faces had been leaving my work for years. In 2019 I drew my own right eye, my first digital drawing, with
+    strokes I made myself. I've drawn every line since with those strokes. Then came bodies without heads. Then
+    flowers where the heads should be. Then only lips. Then heads made of tangled lines. In Void Body the face is
+    gone. I couldn't draw the people, so I drew bodies that could be anyone.
   </>,
   <>
-    Each began as a photograph of a stranger found online. I took away everything that made them someone: the
-    face, the skin, the setting, the photograph itself. I kept only the outline, redrew it with my own strokes in
-    Adobe Illustrator and filled it with black. What the face would have said, I gave to the colour: oxblood when
-    the heat had nowhere to go, navy when it turned cold, ice-blue for the calm after it.
+    Each one starts as a photo of a stranger I found online. I take away everything that makes them someone: face,
+    skin, setting, the photo itself. I keep the outline, redraw it with my strokes in Illustrator, and fill it
+    black. Whatever the face would have said, the colour says. Oxblood when the heat had nowhere to go. Navy when
+    it went cold. Ice-blue for the calm after.
   </>,
   <>
-    While making the twelfth series I was reading David Hawkins's <em>Power vs. Force</em>: power moves through
-    things, while force pushes on them from outside, and what force holds together eventually breaks. I meant to
-    call the series Power. The word that kept coming was Force, and I let it stand: <em>A Force, Unbreakable</em>.
-    Months later the bond ended, and I understood both words. What held us together was force, so it broke. What
-    could not break was the split between us. I had already drawn it: two bodies holding each other across a
-    ground cut in two.
+    While I was making the twelfth series I was reading David Hawkins's <em>Power vs. Force</em>. Power moves
+    through things; force pushes from outside, and what force holds together breaks. I meant to call the series
+    Power. Force kept coming, so I let it: <em>A Force, Unbreakable</em>. Months later the bond ended, and both
+    words made sense. What held us was force, so it broke. What couldn't break was the split between us. I'd
+    already drawn it: two bodies holding each other across a ground cut in two.
   </>,
   <>
-    <em>Stuck</em> was the last series. Two figures, and I knew which was which the moment I drew them. The one
-    fixed at the edge, cropped, never whole, never entering, was the other person. The one moving through the
-    centre, trying every position, finally gone from one frame entirely, was me. What I did not know was why.
-  </>,
-  <>
-    Two kinds of stuck. The figure at the edge: stuck in space and time, identical in every frame. The figure in
-    the centre: stuck in motion, unable to stop, unable to land. Two years later, a friend said the sentence that
-    turned the series into a record: they went back. The last two drawings, 0 and 00: both of us, back at zero.
+    <em>Stuck</em> was the last series. Two figures. I knew who was who, not why. The one at the edge, cropped,
+    never coming in, identical in every frame, was the other person: stuck in place. The one in the middle,
+    trying every position, never landing, was me: stuck in motion. Two years later a friend told me they'd gone
+    back. I had numbered the last two drawings 0 and 00. Both of us, back at zero.
   </>,
 ];
 
