@@ -85,13 +85,12 @@ import voidBlue03 from "@/assets/void-blue-03.webp";
 import voidBlue04 from "@/assets/void-blue-04.webp";
 import voidBlue05 from "@/assets/void-blue-05.webp";
 import voidBlue06 from "@/assets/void-blue-06.webp";
-import voidRedPeriod from "@/assets/void-redperiod.webp";
-import voidRedPeriod02 from "@/assets/void-redperiod-02.webp";
-import voidRedPeriod03 from "@/assets/void-redperiod-03.webp";
-import voidRedPeriod04 from "@/assets/void-redperiod-04.webp";
-import voidRedPeriod05 from "@/assets/void-redperiod-05.webp";
-import voidRedPeriod06 from "@/assets/void-redperiod-06.webp";
-import voidRedPeriod22 from "@/assets/void-redperiod-22.webp";
+import voidRedPeriod01 from "@/assets/void-redperiod-n01.webp";
+import voidRedPeriod09 from "@/assets/void-redperiod-n09.webp";
+import voidRedPeriod10 from "@/assets/void-redperiod-05.webp";
+import voidRedPeriod15 from "@/assets/void-redperiod-n15.webp";
+import voidRedPeriod18 from "@/assets/void-redperiod-n18.webp";
+import voidRedPeriod21 from "@/assets/void-redperiod-n21.webp";
 
 export interface VoidWork {
   src: string;
@@ -127,14 +126,14 @@ export const voidSeries: VoidSeriesData[] = [
     ground: "Oxblood",
     caption: "The heat stayed after its source was gone.",
     total: 28,
-    cover: voidRedPeriod,
+    cover: voidRedPeriod01,
     works: [
-      { src: voidRedPeriod02, ratio: 1.000, caption: "#02" },
-      { src: voidRedPeriod03, ratio: 1.000, caption: "#04" },
-      { src: voidRedPeriod04, ratio: 1.000, caption: "#07" },
-      { src: voidRedPeriod05, ratio: 1.522, caption: "#10" },
-      { src: voidRedPeriod06, ratio: 0.644, caption: "#16" },
-      { src: voidRedPeriod22, ratio: 0.667, caption: "#22" },
+      { src: voidRedPeriod01, ratio: 1.000, caption: "#01" },
+      { src: voidRedPeriod09, ratio: 0.743, caption: "#09" },
+      { src: voidRedPeriod10, ratio: 1.522, caption: "#10" },
+      { src: voidRedPeriod15, ratio: 1.503, caption: "#15" },
+      { src: voidRedPeriod18, ratio: 1.058, caption: "#18" },
+      { src: voidRedPeriod21, ratio: 1.000, caption: "#21" },
     ],
   },
   {
