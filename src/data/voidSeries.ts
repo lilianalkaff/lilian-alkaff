@@ -48,12 +48,12 @@ import voidNutritious05 from "@/assets/void-nutritious-05.webp";
 import voidNutritious06 from "@/assets/void-nutritious-06.webp";
 import voidNutritious07 from "@/assets/void-nutritious-07.webp";
 import voidNutritious08 from "@/assets/void-nutritious-08.webp";
-import voidLife from "@/assets/void-life.webp";
-import voidLife02 from "@/assets/void-life-02.webp";
-import voidLife03 from "@/assets/void-life-03.webp";
-import voidLife04 from "@/assets/void-life-04.webp";
-import voidLife05 from "@/assets/void-life-05.webp";
-import voidLife06 from "@/assets/void-life-06.webp";
+import voidLife02 from "@/assets/void-life-03.webp";
+import voidLife03 from "@/assets/void-life-04.webp";
+import voidLife08 from "@/assets/void-life-06.webp";
+import voidLife11 from "@/assets/void-life-n11.webp";
+import voidLife17 from "@/assets/void-life-n17.webp";
+import voidLife18 from "@/assets/void-life-n18.webp";
 import voidLife07 from "@/assets/void-life-07.webp";
 import voidLighter from "@/assets/void-lighter.webp";
 import voidLighter02 from "@/assets/void-lighter-02.webp";
@@ -228,14 +228,14 @@ export const voidSeries: VoidSeriesData[] = [
     ground: "Yellow",
     caption: "For once, the centre was full.",
     total: 17,
-    cover: voidLife,
+    cover: voidLife03,
     works: [
-      { src: voidLife02, ratio: 0.826, caption: "#01" },
-      { src: voidLife03, ratio: 0.708, caption: "#02" },
-      { src: voidLife04, ratio: 1.000, caption: "#03" },
-      { src: voidLife, ratio: 0.785, caption: "#04" },
-      { src: voidLife05, ratio: 1.520, caption: "#05" },
-      { src: voidLife06, ratio: 1.081, caption: "#08" },
+      { src: voidLife02, ratio: 0.708, caption: "#02" },
+      { src: voidLife03, ratio: 1.000, caption: "#03" },
+      { src: voidLife08, ratio: 1.081, caption: "#08" },
+      { src: voidLife11, ratio: 1.000, caption: "#11" },
+      { src: voidLife17, ratio: 0.812, caption: "#17" },
+      { src: voidLife18, ratio: 1.000, caption: "#18" },
     ],
   },
   {
