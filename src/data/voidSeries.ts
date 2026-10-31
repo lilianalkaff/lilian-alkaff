@@ -67,12 +67,12 @@ import voidBare05 from "@/assets/void-bare-05.webp";
 import voidBare06 from "@/assets/void-bare-06.webp";
 import voidBare08 from "@/assets/void-bare-08.webp";
 import voidBare10 from "@/assets/void-bare-10.webp";
-import voidSoft from "@/assets/void-soft.webp";
-import voidSoft02 from "@/assets/void-soft-02.webp";
-import voidSoft03 from "@/assets/void-soft-03.webp";
-import voidSoft04 from "@/assets/void-soft-04.webp";
-import voidSoft05 from "@/assets/void-soft-05.webp";
-import voidSoft06 from "@/assets/void-soft-06.webp";
+import voidSoft01 from "@/assets/void-soft-n01.webp";
+import voidSoft09 from "@/assets/void-soft-05.webp";
+import voidSoft10 from "@/assets/void-soft-n10.webp";
+import voidSoft11 from "@/assets/void-soft-06.webp";
+import voidSoft12 from "@/assets/void-soft-n12.webp";
+import voidSoft17 from "@/assets/void-soft-n17.webp";
 import voidEmbracing01 from "@/assets/void-embracing.webp";
 import voidEmbracing02 from "@/assets/void-embracing-n02.webp";
 import voidEmbracing06 from "@/assets/void-embracing-n06.webp";
@@ -177,14 +177,14 @@ export const voidSeries: VoidSeriesData[] = [
     ground: "Charcoal",
     caption: "Strength, set down for a while.",
     total: 17,
-    cover: voidSoft,
+    cover: voidSoft11,
     works: [
-      { src: voidSoft02, ratio: 0.763, caption: "#02" },
-      { src: voidSoft, ratio: 0.960, caption: "#03" },
-      { src: voidSoft03, ratio: 1.257, caption: "#07" },
-      { src: voidSoft04, ratio: 0.887, caption: "#08" },
-      { src: voidSoft05, ratio: 1.000, caption: "#09" },
-      { src: voidSoft06, ratio: 1.000, caption: "#11" },
+      { src: voidSoft01, ratio: 0.789, caption: "#01" },
+      { src: voidSoft09, ratio: 1.000, caption: "#09" },
+      { src: voidSoft10, ratio: 0.800, caption: "#10" },
+      { src: voidSoft11, ratio: 1.000, caption: "#11" },
+      { src: voidSoft12, ratio: 0.908, caption: "#12" },
+      { src: voidSoft17, ratio: 0.839, caption: "#17" },
     ],
   },
   {
