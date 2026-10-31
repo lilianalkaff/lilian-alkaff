@@ -234,8 +234,8 @@ export const voidSeries: VoidSeriesData[] = [
       { src: voidLife03, ratio: 1.000, caption: "#03" },
       { src: voidLife08, ratio: 1.081, caption: "#08" },
       { src: voidLife11, ratio: 1.000, caption: "#11" },
-      { src: voidLife17, ratio: 0.812, caption: "#17" },
-      { src: voidLife18, ratio: 1.000, caption: "#18" },
+      { src: voidLife17, ratio: 0.812, caption: "#16" },
+      { src: voidLife18, ratio: 1.000, caption: "#17" },
     ],
   },
   {
