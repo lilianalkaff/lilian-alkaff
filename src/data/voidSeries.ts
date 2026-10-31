@@ -79,12 +79,12 @@ import voidEmbracing03 from "@/assets/void-embracing-03.webp";
 import voidEmbracing04 from "@/assets/void-embracing-04.webp";
 import voidEmbracing05 from "@/assets/void-embracing-05.webp";
 import voidEmbracing06 from "@/assets/void-embracing-06.webp";
-import voidBlue from "@/assets/void-blue.webp";
-import voidBlue02 from "@/assets/void-blue-02.webp";
-import voidBlue03 from "@/assets/void-blue-03.webp";
-import voidBlue04 from "@/assets/void-blue-04.webp";
-import voidBlue05 from "@/assets/void-blue-05.webp";
-import voidBlue06 from "@/assets/void-blue-06.webp";
+import voidBlue02 from "@/assets/void-blue-n02.webp";
+import voidBlue13 from "@/assets/void-blue-06.webp";
+import voidBlue14 from "@/assets/void-blue-n14.webp";
+import voidBlue15 from "@/assets/void-blue-n15.webp";
+import voidBlue17 from "@/assets/void-blue-n17.webp";
+import voidBlue23 from "@/assets/void-blue-n23.webp";
 import voidRedPeriod01 from "@/assets/void-redperiod-n01.webp";
 import voidRedPeriod09 from "@/assets/void-redperiod-n09.webp";
 import voidRedPeriod10 from "@/assets/void-redperiod-05.webp";
@@ -143,14 +143,14 @@ export const voidSeries: VoidSeriesData[] = [
     ground: "Navy",
     caption: "The same longing, gone cold.",
     total: 24,
-    cover: voidBlue,
+    cover: voidBlue15,
     works: [
-      { src: voidBlue02, ratio: 1.000, caption: "#01" },
-      { src: voidBlue03, ratio: 1.475, caption: "#07" },
-      { src: voidBlue04, ratio: 0.702, caption: "#08" },
-      { src: voidBlue05, ratio: 1.000, caption: "#10" },
-      { src: voidBlue06, ratio: 1.000, caption: "#13" },
-      { src: voidBlue, ratio: 1.000, caption: "#16" },
+      { src: voidBlue02, ratio: 1.000, caption: "#02" },
+      { src: voidBlue13, ratio: 1.000, caption: "#13" },
+      { src: voidBlue14, ratio: 1.000, caption: "#14" },
+      { src: voidBlue15, ratio: 0.696, caption: "#15" },
+      { src: voidBlue17, ratio: 0.749, caption: "#17" },
+      { src: voidBlue23, ratio: 0.765, caption: "#23" },
     ],
   },
   {
