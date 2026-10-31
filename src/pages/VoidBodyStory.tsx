@@ -23,8 +23,8 @@ const story: React.ReactNode[] = [
   </>,
   <>
     In 2023 it was people. I had never been that close to anyone. For a while I thought I'd found it. Then it fell
-    apart. Void Body is what came through me on the way up and on the way down: thirteen series, each one a state I
-    was in.
+    apart. The drawings came the whole way up and the whole way down. That is Void Body:
+    thirteen series, each one a state I was in.
   </>,
   <>
     The faces had been leaving my work for years. In 2019 I drew my own right eye, my first digital line drawing, with
