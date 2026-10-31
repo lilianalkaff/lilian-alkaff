@@ -23,10 +23,11 @@ const story: React.ReactNode[] = [
   </>,
   <>
     In 2023 it was people. I had never been that close to anyone. For a while I thought I'd found it. Then it fell
-    apart. Void Body is what came through me on the way down: thirteen series, each one a state I was in.
+    apart. Void Body is what came through me on the way up and on the way down: thirteen series, each one a state I
+    was in.
   </>,
   <>
-    The faces had been leaving my work for years. In 2019 I drew my own right eye, my first digital drawing, with
+    The faces had been leaving my work for years. In 2019 I drew my own right eye, my first digital line drawing, with
     strokes I made myself. I've drawn every line since with those strokes. Then came bodies without heads. Then
     flowers where the heads should be. Then only lips. Then heads made of tangled lines. In Void Body the face is
     gone. I couldn't draw the people, so I drew bodies that could be anyone.
@@ -46,9 +47,11 @@ const story: React.ReactNode[] = [
   </>,
   <>
     <em>Stuck</em> was the last series. Two figures. I knew who was who, not why. The one at the edge, cropped,
-    never coming in, identical in every frame, was the other person: stuck in place. The one in the middle,
-    trying every position, never landing, was me: stuck in motion. Two years later a friend told me they'd gone
-    back. I had numbered the last two drawings 0 and 00. Both of us, back at zero.
+    never coming in, identical in every frame, was the other person: stuck in place and time. The one in the
+    middle, trying every position, never stopping, never landing, was me: stuck in motion. Two years later a mutual
+    friend said the sentence that turned the series into a record: they went back. The series had drawn the exact
+    shape of the separation two years before it happened. I'd numbered the last two drawings 0 and 00 without
+    knowing why. Zero is where the loop always brings me back.
   </>,
 ];
 
