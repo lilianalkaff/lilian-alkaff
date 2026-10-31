@@ -44,10 +44,10 @@ import voidNutritious from "@/assets/void-nutritious.webp";
 import voidNutritious02 from "@/assets/void-nutritious-02.webp";
 import voidNutritious03 from "@/assets/void-nutritious-03.webp";
 import voidNutritious04 from "@/assets/void-nutritious-04.webp";
-import voidNutritious05 from "@/assets/void-nutritious-05.webp";
+import voidNutritious07n from "@/assets/void-nutritious-n07.webp";
 import voidNutritious06 from "@/assets/void-nutritious-06.webp";
 import voidNutritious07 from "@/assets/void-nutritious-07.webp";
-import voidNutritious08 from "@/assets/void-nutritious-08.webp";
+import voidNutritious10n from "@/assets/void-nutritious-n10.webp";
 import voidLife02 from "@/assets/void-life-03.webp";
 import voidLife03 from "@/assets/void-life-04.webp";
 import voidLife08 from "@/assets/void-life-06.webp";
@@ -250,9 +250,9 @@ export const voidSeries: VoidSeriesData[] = [
       { src: voidNutritious, ratio: 0.662, caption: "#01" },
       { src: voidNutritious03, ratio: 0.853, caption: "#03" },
       { src: voidNutritious04, ratio: 0.828, caption: "#04" },
-      { src: voidNutritious05, ratio: 0.725, caption: "#05" },
       { src: voidNutritious06, ratio: 0.720, caption: "#06" },
-      { src: voidNutritious08, ratio: 1.000, caption: "#11" },
+      { src: voidNutritious07n, ratio: 1.000, caption: "#07" },
+      { src: voidNutritious10n, ratio: 1.000, caption: "#10" },
     ],
   },
   {
