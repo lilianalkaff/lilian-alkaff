@@ -13,8 +13,8 @@ import voidForce03 from "@/assets/void-force-03.webp";
 import voidForce04 from "@/assets/void-force-04.webp";
 import voidForce05 from "@/assets/void-force-05.webp";
 import voidForce06 from "@/assets/void-force-06.webp";
-import voidForce07 from "@/assets/void-force-07.webp";
-import voidForce08 from "@/assets/void-force-08.webp";
+import voidForce05n from "@/assets/void-force-n05.webp";
+import voidForce10n from "@/assets/void-force-n10.webp";
 import voidYours from "@/assets/void-yours.webp";
 import voidYours10n from "@/assets/void-yours-n10.webp";
 import voidYours03 from "@/assets/void-yours-03.webp";
@@ -313,14 +313,14 @@ export const voidSeries: VoidSeriesData[] = [
     ground: "Orange / blue",
     caption: "Heat and cold, held in one embrace.",
     total: 22,
-    cover: voidForce,
+    cover: voidForce05n,
     works: [
       { src: voidForce, ratio: 1.000, caption: "#01" },
       { src: voidForce02, ratio: 1.000, caption: "#02" },
+      { src: voidForce05n, ratio: 1.056, caption: "#05" },
       { src: voidForce03, ratio: 1.000, caption: "#07" },
       { src: voidForce04, ratio: 1.000, caption: "#08" },
-      { src: voidForce07, ratio: 1.000, caption: "#19" },
-      { src: voidForce08, ratio: 0.798, caption: "#22" },
+      { src: voidForce10n, ratio: 1.000, caption: "#10" },
     ],
   },
   {
