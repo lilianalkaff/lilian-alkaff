@@ -260,7 +260,7 @@ export const voidSeries: VoidSeriesData[] = [
     title: "Take Me Home",
     year: "2024",
     ground: "Indigo",
-    caption: "Reaching for home.",
+    caption: "Reaching for a home, yet unknown.",
     total: 16,
     cover: voidTakeMeHome,
     works: [
@@ -277,7 +277,7 @@ export const voidSeries: VoidSeriesData[] = [
     title: "A Piece, Missing",
     year: "2024",
     ground: "Dark red",
-    caption: "I understood it only when it was gone.",
+    caption: "Understanding arrived as loss.",
     total: 27,
     cover: voidPiece21n,
     works: [

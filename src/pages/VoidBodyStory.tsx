@@ -22,8 +22,8 @@ const story: React.ReactNode[] = [
     zero.
   </>,
   <>
-    In 2023 it was people. I had never been that close to anyone. For a while I thought I'd found it. Then it fell
-    apart. I drew it going up and I drew it coming down. That is Void Body:
+    In 2023 it was people. I had never been that close to anyone. For a while I thought I'd found it. I drew while
+    it built, and I drew while it fell apart. That is Void Body:
     thirteen series, each one a state I was in.
   </>,
   <>
