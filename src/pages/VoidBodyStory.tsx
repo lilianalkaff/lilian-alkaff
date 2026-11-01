@@ -14,42 +14,44 @@ import bareDetail from "@/assets/process-bare-detail.webp";
 
 const story: React.ReactNode[] = [
   <>
-    I started drawing at seventeen, on a school night in Aden. I was in bed, trying to sleep, when something got me
-    up to draw. I had never liked art. I was sporty, and art class was the worst part of school. That night I drew
-    Squidward. Then I couldn't stop. Soon after, the war reached the city. I kept drawing.
+    I started drawing at seventeen, on a school night in Aden, before the war reached the city. I was in bed,
+    trying to sleep, and something got me up to draw. I didn't choose it, and I still don't. I draw because I have to. A feeling comes
+    first. Then I see the work, before I make a mark. Then I make it. What it means, I find out later.
   </>,
   <>
-    I didn't choose it, and I still don't. It always comes the same way. First a feeling. Then I see the work, whole
-    or in pieces, before I make a mark. Then I make it. What it means, I find out later. Sometimes years later.
+    My life runs in a loop. Something builds until it looks like the answer. Then it falls apart and I'm back at
+    zero.
   </>,
   <>
-    In 2019 I drew my own right eye, my first digital line drawing, with strokes I made myself in Illustrator. Every
-    line I've drawn since is made of them. Then the faces started to go. First the heads came off. Then flowers grew
-    where the heads had been. Then only the lips were left. Then the heads turned into tangles of line. By 2023 the
-    face was gone.
+    In 2023 it was people. I had never been that close to anyone. For a while I thought I'd found it. I drew while
+    it built, and I drew while it fell apart. That is Void Body:
+    thirteen series, each one a state I was in.
   </>,
   <>
-    That year I got closer to people than I had ever been to anyone. For a while it looked like the answer. Then it
-    fell apart, as everything in my life does, and I was back at zero. I drew it as it built and as it broke.
-    Thirteen series in two years. That is Void Body.
+    The faces had been leaving my work for years. In 2019 I drew my own right eye, my first digital line drawing, with
+    strokes I made myself. I've drawn every line since with those strokes. Then came bodies without heads. Then
+    flowers where the heads should be. Then only lips. Then heads made of tangled lines. In Void Body the face is
+    gone. I couldn't draw the people, so I drew bodies that could be anyone.
   </>,
   <>
-    Each drawing starts with a photo of a stranger I found online. I take away everything that makes them someone:
-    the face, the skin, the setting, the photo itself. I keep the outline and redraw it with my strokes. I couldn't draw the people, so I drew bodies that could be anyone. Whatever the face would have said, the
-    colour says. Oxblood when the heat had nowhere to go. Navy when it went cold. Ice-blue for the calm after.
+    Each drawing starts as a photo of a stranger I found online. I take away everything that makes them someone: face,
+    skin, setting, the photo itself. I keep the outline, redraw it with my strokes in Illustrator, and fill it
+    black. Whatever the face would have said, the colour says. Oxblood when the heat had nowhere to go. Navy when
+    it went cold. Ice-blue for the calm after.
   </>,
   <>
-    While I was making the twelfth series, I was reading David Hawkins's <em>Power vs. Force</em>. Power moves
-    through things. Force pushes from outside, and what force holds together breaks. I meant to call the series
-    Power. What came was <em>A Force, Unbreakable</em>. It made no sense: force breaks. I tried to change it, then
-    let it stand. Months later the bond ended, and the title made sense. What held us was force, so it broke. What
-    couldn't break was the split between us. I had already drawn it.
+    While I was making the twelfth series I was reading David Hawkins's <em>Power vs. Force</em>. Power moves
+    through things; force pushes from outside, and what force holds together breaks. I meant to call the series
+    Power. Force kept coming, so I let it: <em>A Force, Unbreakable</em>. Months later the bond ended, and both
+    words made sense. What held us was force, so it broke. What couldn't break was the split between us. I'd
+    already drawn it: two bodies holding each other across a ground cut in two.
   </>,
   <>
-    <em>Stuck</em> was the last series. I knew who was who the moment I drew them: the one at the edge was the other
-    person, the one in the middle was me. I didn't know why. In 2026 a mutual friend said the sentence that turned
-    the series into a record: they went back. They were stuck in place and time. I was stuck in motion, unable to
-    stop, unable to land. I had drawn the separation two years before it happened.
+    <em>Stuck</em> was the last series. Two figures. I knew who was who, not why. The one at the edge, cropped,
+    never coming in, identical in every frame, was the other person: stuck in place and time. The one in the
+    middle, trying every position, never stopping, never landing, was me: stuck in motion. Two years later a mutual
+    friend said the sentence that turned the series into a record: they went back. The series had drawn the exact
+    shape of the separation before it happened. The work comes first. My life follows.
   </>,
 ];
 
@@ -143,6 +145,9 @@ const VoidBodyStory = () => {
             ]}
           />
           </div>
+          <p className="max-w-2xl text-editorial-body text-foreground" style={{ lineHeight: 1.9 }}>
+            Short marks, tapered at both ends, joined one after another, in different weights.
+          </p>
           <JustifiedGallery
             title="The strokes"
             items={[
