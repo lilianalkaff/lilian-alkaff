@@ -24,7 +24,7 @@ const Dream = ({ src }: { src: string }) => {
           video.pause();
         }
       },
-      { threshold: 0.6 },
+      { threshold: 0.3 },
     );
     observer.observe(video);
     return () => observer.disconnect();
