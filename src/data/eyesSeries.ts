@@ -5,6 +5,7 @@ import eyesStill01New from "@/assets/eyes-still-01-new.webp";
 import eyesStill04New from "@/assets/eyes-still-04-new.webp";
 import eyesStill10 from "@/assets/eyes-still-10.webp";
 import eyesStill13 from "@/assets/eyes-still-13.webp";
+import eye01Source from "@/assets/process-eye-01.webp";
 
 export interface EyesWork {
   src?: string;
@@ -32,6 +33,7 @@ export interface EyesFeatured {
 }
 
 export const eyesFeatured: EyesFeatured[] = [
+  { src: eye01Source, title: "Eye 01 · The source", year: "2019", slug: "eye-01" },
   { src: eyesStill01, title: "Still 01 · Eye 01", year: "2026", slug: "eye-01" },
   { src: eyesStill04, title: "Still 04 · Eye 01", year: "2026", slug: "eye-01" },
   { src: eyesStill10, title: "Still 10 · Eye 01", year: "2026", slug: "eye-01" },
@@ -50,6 +52,7 @@ export const eyesSeries: EyesSeriesData[] = [
     ],
     cover: eyesStill01,
     works: [
+      { src: eye01Source, caption: "Eye 01, 2019. The source." },
       { src: eyesStill01New, caption: "Still 01 · 1/1" },
       { video: "https://res.cloudinary.com/dvsrtp8m2/video/upload/v1778868256/AllSeeingEyes_Eye01_Dream01_v1cwwt.mp4", caption: "Dream 01 · 1/1" },
       { src: eyesStill04New, caption: "Still 04 · 1/1" },

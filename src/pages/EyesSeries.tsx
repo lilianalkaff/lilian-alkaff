@@ -1,6 +1,47 @@
+import { useEffect, useRef } from "react";
 import { useParams, Link } from "react-router-dom";
 import FadeInView from "@/components/FadeInView";
 import { eyesSeries } from "@/data/eyesSeries";
+
+/** First frame of a Cloudinary video, as a still image. */
+const firstFrame = (url: string) =>
+  url.replace("/video/upload/", "/video/upload/so_0/").replace(/\.mp4$/, ".jpg");
+
+/**
+ * A Dream plays once, from the moment it is scrolled into view, and stops on its
+ * last frame. It never loops: the Dreams end mid-motion, like a dream.
+ */
+const Dream = ({ src }: { src: string }) => {
+  const ref = useRef<HTMLVideoElement>(null);
+  useEffect(() => {
+    const video = ref.current;
+    if (!video) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          if (!video.ended) video.play().catch(() => {});
+        } else if (!video.paused) {
+          video.pause();
+        }
+      },
+      { threshold: 0.6 },
+    );
+    observer.observe(video);
+    return () => observer.disconnect();
+  }, []);
+  return (
+    <video
+      ref={ref}
+      src={src}
+      poster={firstFrame(src)}
+      muted
+      playsInline
+      controls
+      preload="metadata"
+      className="w-full aspect-square object-contain bg-black"
+    />
+  );
+};
 
 const EyesSeries = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -62,15 +103,7 @@ const EyesSeries = () => {
             <FadeInView key={i} delay={i === 0 ? 0.1 : 0}>
               <figure>
                 {work.video ? (
-                  <video
-                    src={work.video}
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    controls
-                    className="w-full aspect-square object-contain bg-black"
-                  />
+                  <Dream src={work.video} />
                 ) : work.src ? (
                   <img
                     src={work.src}

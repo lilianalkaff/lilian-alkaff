@@ -47,21 +47,15 @@ const Eyes = () => {
       </section>
 
       <section className="page-padding pb-20 md:pb-32">
-        <FadeInView>
-          <h2 className="text-editorial-sm text-muted-foreground mb-10 md:mb-14">
-            ALL SEEING EYES ARCHIVE
-          </h2>
-        </FadeInView>
-        <ul className="space-y-4">
+        <ul className="mx-auto max-w-3xl space-y-4">
           {eyesSeries.map((series) => (
             <li key={series.slug}>
               <FadeInView>
                 <Link
                   to={`/all-seeing-eyes/${series.slug}`}
-                  className="text-editorial-sm text-muted-foreground hover:text-foreground transition-colors duration-500"
+                  className="text-editorial-body text-foreground hover:text-muted-foreground transition-colors duration-500"
                 >
-                  {series.title.toUpperCase()}
-                  <span className="ml-4 text-muted-foreground/60">{series.year}</span>
+                  {series.title.split(" · ")[0]}: all Stills and Dreams →
                 </Link>
               </FadeInView>
             </li>
