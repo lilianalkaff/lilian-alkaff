@@ -14,7 +14,7 @@ import bareDetail from "@/assets/process-bare-detail.webp";
 
 const story: React.ReactNode[] = [
   <>
-    I started drawing at seventeen, on a school night in Aden, as the war was starting. I didn't choose it. I draw
+    I started drawing at seventeen, on a school night in Aden, as the war began. I didn't choose it. I draw
     because I have to. Things come through me: a colour, a pose, a name. I draw them before I know what they are.
   </>,
   <>
@@ -23,7 +23,7 @@ const story: React.ReactNode[] = [
   </>,
   <>
     In 2023 it was people. I had never been that close to anyone. For a while I thought I'd found it. Then it fell
-    apart. The drawings came going up and coming down. That is Void Body:
+    apart. I drew it going up and I drew it coming down. That is Void Body:
     thirteen series, each one a state I was in.
   </>,
   <>
@@ -33,7 +33,7 @@ const story: React.ReactNode[] = [
     gone. I couldn't draw the people, so I drew bodies that could be anyone.
   </>,
   <>
-    Each one starts as a photo of a stranger I found online. I take away everything that makes them someone: face,
+    Each drawing starts as a photo of a stranger I found online. I take away everything that makes them someone: face,
     skin, setting, the photo itself. I keep the outline, redraw it with my strokes in Illustrator, and fill it
     black. Whatever the face would have said, the colour says. Oxblood when the heat had nowhere to go. Navy when
     it went cold. Ice-blue for the calm after.
@@ -50,13 +50,13 @@ const story: React.ReactNode[] = [
     never coming in, identical in every frame, was the other person: stuck in place and time. The one in the
     middle, trying every position, never stopping, never landing, was me: stuck in motion. Two years later a mutual
     friend said the sentence that turned the series into a record: they went back. The series had drawn the exact
-    shape of the separation two years before it happened. I'd numbered the last two drawings 0 and 00 without
+    shape of the separation before it happened. I'd numbered the last two drawings 0 and 00 without
     knowing why. Zero is where the loop always brings me back.
   </>,
 ];
 
 const bio =
-  "Lilian Alkaff (b. 1998, Aden, Yemen) is an artist based in Riyadh, Saudi Arabia. Born to a Yemeni father and a Ukrainian mother, she grew up in Aden, studied Visual Communication in Malaysia, lived in Egypt, and moved to Riyadh in 2022. Trained in design rather than fine art, she began drawing in 2015, at seventeen, and built her visual language on her own. Since 2019 she has worked digitally, drawing every line with strokes she made herself, first used to draw her own right eye. Her series include Headless People (2019), Flower People (2020), Close Up (2022), Lines (2022–2023), Void Body (2023–2024) and All Seeing Eyes (2026, in progress). She also writes poetry.";
+  "Lilian Alkaff (b. 1998, Aden, Yemen) is an artist based in Riyadh, Saudi Arabia. Born to a Yemeni father and a Ukrainian mother, she grew up in Aden, studied Visual Communication in Malaysia, lived in Egypt, and moved to Riyadh in 2022. Trained in design rather than fine art, she began drawing in 2015, at seventeen, and built her visual language on her own. She draws because she has to. Since 2019 she has worked digitally, drawing every line with strokes she made herself, first used to draw her own right eye. Her series include Headless People (2019), Flower People (2020), Close Up (2022), Lines (2022–2023), Void Body (2023–2024) and All Seeing Eyes (2026, in progress). She also writes poetry.";
 
 const pad = (n: number) => String(n).padStart(2, "0");
 
@@ -80,7 +80,7 @@ const VoidBodyStory = () => {
         <FadeInView>
           <h1 className="text-editorial-title text-foreground font-medium">Void Body</h1>
           <p className="text-editorial-sm text-muted-foreground mt-4">
-            2023–2024 · Thirteen series · Vector drawings, Adobe Illustrator
+            2023–2024 · Thirteen series · {voidMedium}
           </p>
         </FadeInView>
       </section>
@@ -146,8 +146,7 @@ const VoidBodyStory = () => {
           />
           </div>
           <p className="max-w-2xl text-editorial-body text-foreground" style={{ lineHeight: 1.9 }}>
-            I made the strokes in this eye myself, in Illustrator: short marks, tapered at both ends, joined one after
-            another, in different weights. Every line in Void Body is drawn with them.
+            Short marks, tapered at both ends, joined one after another, in different weights.
           </p>
           <JustifiedGallery
             title="The strokes"
@@ -191,7 +190,7 @@ const VoidBodyStory = () => {
                     </p>
                   )}
                   <p className="text-editorial-sm text-muted-foreground">
-                    {series.year} · Ground: {series.ground} · {voidMedium}
+                    {series.year} · Ground: {series.ground}
                   </p>
                   <p className="text-editorial-sm text-muted-foreground/60">
                     {series.works.length} of {series.total} drawings

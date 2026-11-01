@@ -243,7 +243,7 @@ export const voidSeries: VoidSeriesData[] = [
     title: "Nutritious",
     year: "2023",
     ground: "Black, with fruit",
-    caption: "Hunger, fed by hand.",
+    caption: "Hunger, and what feeds it.",
     total: 11,
     cover: voidNutritious,
     works: [
@@ -260,7 +260,7 @@ export const voidSeries: VoidSeriesData[] = [
     title: "Take Me Home",
     year: "2024",
     ground: "Indigo",
-    caption: "Reaching for a home I could not yet name.",
+    caption: "Reaching for home.",
     total: 16,
     cover: voidTakeMeHome,
     works: [
@@ -277,7 +277,7 @@ export const voidSeries: VoidSeriesData[] = [
     title: "A Piece, Missing",
     year: "2024",
     ground: "Dark red",
-    caption: "Understanding arrived as loss.",
+    caption: "I understood it only when it was gone.",
     total: 27,
     cover: voidPiece21n,
     works: [
