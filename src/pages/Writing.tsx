@@ -51,7 +51,7 @@ const notes: Note[] = [
       "Aching to reach a hand",
       "and claim a home that's mine.",
       "",
-      "Tormentingly bidding time,",
+      "Tormentingly biding time,",
       "waiting to reunite with a you that's mine.",
     ],
   },
@@ -180,7 +180,7 @@ const Writing = () => {
         <FadeInView>
           <h2 className="text-editorial-sm text-muted-foreground mb-10 md:mb-14">WRITING</h2>
           <p className="text-editorial-body text-foreground mb-40 md:mb-56 lg:mb-64" style={{ lineHeight: 1.9 }}>
-            Writing arrives the same way the images do — on walks, in the middle of the night, without warning. The poems are not commentary on the visual work, but another form the same interior weather takes.
+            The poems come the way the drawings do: on walks, in the middle of the night, without warning.
           </p>
         </FadeInView>
         <div className="space-y-20 md:space-y-28">

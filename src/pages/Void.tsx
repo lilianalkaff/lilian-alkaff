@@ -13,8 +13,14 @@ const Void = () => {
         <FadeInView>
           <h2 className="text-editorial-sm text-muted-foreground mb-10 md:mb-14">VOID BODY</h2>
           <div className="max-w-2xl text-editorial-body text-foreground space-y-8" style={{ lineHeight: 1.9 }}>
-            <p>The color comes first. It tells you what state the work was born in. Then the body: a silhouette, no face, no location, nothing that would make it one person instead of everyone.</p>
-            <p>The titles name what was happening when it came through. Bare. Soft. Blue. Embracing the Void. The void is not a symbol here. It is what happens when everything you believed collapses and nothing has formed yet to replace it. She has been there. These works came through it.</p>
+            <p>Thirteen series of drawings, made in 2023 and 2024. Each series is a state she was in, and the ground colour says which: oxblood when the heat had nowhere to go, navy when it went cold, ice-blue for the calm after.</p>
+            <p>Every body starts as a photo of a stranger. She takes away the face, the skin and the setting, keeps the outline, redraws it with her own strokes and fills it black. What is left could be anyone.</p>
+            <p>The void is not a symbol. It is what she lived in when everything she believed fell apart and nothing had come to replace it yet.</p>
+            <p>
+              <Link to="/void-body-story" className="text-muted-foreground hover:text-foreground transition-colors duration-500">
+                The story behind the work →
+              </Link>
+            </p>
           </div>
         </FadeInView>
       </section>

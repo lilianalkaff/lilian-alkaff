@@ -1,45 +1,34 @@
+import { Link } from "react-router-dom";
 import FadeInView from "@/components/FadeInView";
 
-const groups: string[][] = [
+const linkClass = "text-muted-foreground hover:text-foreground transition-colors duration-500";
+
+const groups: React.ReactNode[][] = [
   [
-    "It began on a school night in Aden, Yemen, 2015. She was already in bed, trying to sleep. Something made her get up and draw. She didn't choose to start. She was started.",
-    "She had never liked art. She was sporty. Art class was the worst part of school. The war hadn't reached the city yet — or it had just begun, somewhere still distant. But something moved in her before the catastrophe arrived. As if the vessel was being prepared before it was needed. She drew Squidward from SpongeBob. Then she couldn't stop.",
-    "When the war did arrive and the city went quiet in the way cities go quiet when everything collapses, the vessel was already open.",
+    "It began on a school night in Aden, Yemen, in 2015. She was seventeen, in bed, trying to sleep. Something got her up to draw. She didn't choose it.",
+    "She had never liked art. She was sporty, and art class was the worst part of school. That night she drew Squidward, from SpongeBob. Then she couldn't stop. Soon after, the war reached the city. She kept drawing.",
+    "She draws because she has to. First a feeling comes. Then she sees the work, whole or in pieces, before she makes a mark. Then she makes it.",
   ],
   [
-    "Lilian Alkaff was born in 1998 to a Yemeni father and a Ukrainian mother, raised in Aden, studied Visual Communication in Malaysia, passed through Egypt, and has been living in Saudi Arabia since 2022. She has never fully arrived anywhere. The work knows this.",
-    "Her practice begins with a feeling that produces a vision — the work appears whole in the mind's eye before it exists anywhere else. Then she makes it. The act is not invention so much as materialization.",
-    "She does not direct the work so much as follow it.",
+    "Lilian Alkaff was born in 1998 in Aden, to a Yemeni father and a Ukrainian mother. She studied Visual Communication in Malaysia, lived in Egypt, and has lived in Riyadh since 2022. Four countries, and she hasn't landed in any of them.",
+    "She trained in design, not fine art. For years she kept away from the art world on purpose, so her work would form on its own. She began looking at other artists only once she was sure of her own voice.",
   ],
   [
-    "The early work was color and energy — abstract, physical, geological. Spirals, rivers, raw pigment, lines that moved like weather. The body hadn't appeared yet.",
-    "Then came the eye.",
-    "In 2019, she drew her own eye. It was the first digital line work she ever made. It was also, though she didn't know it yet, the source of everything that would follow: Headless People, Flower People, Close Up, and finally the work that named what had always been true — Void Body.",
+    "Her early work, from 2015 to 2018, was colour and line: abstract, spirals and rivers, no bodies yet.",
+    "In 2019 she drew her own right eye, her first digital line drawing, with strokes she made herself in Illustrator. She has used those strokes for every line since.",
+    "Then the faces began to leave. Headless People (2019): bodies without heads. Flower People (2020): flowers where the heads should be. Close Up (2022): only lips. Lines (2022–2023): heads made of tangled lines. In Void Body (2023–2024) the face is gone.",
   ],
   [
-    "Void Body is a practice centered on the body as absence. The silhouette is there but not there. It is the void made visible — not as symbol, not as metaphor, but as operative state.",
-    "The color is the emotional state. The body is universal — no face, no location, no fixed identity. It could be anyone. It is everyone who has been undone and had to wait in the dark for what comes next.",
-    "The titles name the states, not the images: Bare. Soft. Blue. Embracing the Void. A Force, Unbreakable. They remain where they began: in the state that produced them.",
+    "Void Body is thirteen series of bodies drawn from photos of strangers. The face is taken away, and the ground colour holds the state she was in.",
+    <Link to="/void-body-story" className={linkClass}>
+      The story behind Void Body →
+    </Link>,
   ],
   [
-    "All Seeing Eyes is the return to the origin.",
-    "Nine source eyes, created 2019–20. The first is her own eye — the line that started everything, the observer that precedes all creation. Each eye yields twenty-six works across two movements.",
-    "First, she moves through the eye looking for the right fragment — a piece of the iris, the edge, the pupil, the surround. This is not a technical decision. It is an act of attention. She is reading her own eye, choosing what to extract, deciding where to look. Each Still begins here: the same eye, a different region, a different world. Thirteen Stills are thirteen acts of attention — thirteen realities from one source.",
-    "Then she surrenders. Each Still is handed to a process she does not control, which animates it without her direction. Thirteen Dreams. She watches each grow as it wants. What emerges is unpredictable and unrepeatable. The Still and the Dream are distinct works — two separate pieces from one moment of looking.",
-    "The Dreams do not loop. They cut off — unresolved, mid-motion, the way a dream ends before you understand it. You are left with more questions than answers. That is not incidental. That is the work.",
-    "Twenty-six works per eye. Two hundred and thirty-four total across all nine.",
-    "2+3+4 = 9. The full cycle, the number that structures the entire series. The Dreams run for exactly 2 minutes and 34 seconds. The format is square — matter, the physical world, the screen. The eye is a circle. The square is where it lands.",
-    "Nine cycles. Thirteen Dreams per cycle. The thirteenth is what comes after completion: the new perception, the new reality.",
+    "All Seeing Eyes (2026, in progress) goes back to the eye: nine eyes she drew in 2019 and 2020, the first her own. Each becomes thirteen Stills and thirteen Dreams, 234 works in all. Eye 01 is finished.",
   ],
   [
-    "She trained in visual communication, not fine art, and for years she deliberately kept the art world at a distance. She wanted the work to form from the inside out, not the outside in. Only when she was certain enough of her own voice did she begin to learn — not to absorb, but to recognize what had already arrived.",
-    "She writes too. Poems arrive on walks, in the middle of the night. They are part of the same process, not separate from it. Fragments of the same interior weather.",
-  ],
-  [
-    "The practice is ongoing. It goes where it goes. She follows.",
-  ],
-  [
-    "She has been making since 2015.",
+    "She also writes poems. They come the way the drawings do: on walks, in the middle of the night.",
   ],
 ];
 

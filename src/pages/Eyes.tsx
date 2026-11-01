@@ -10,10 +10,10 @@ const Eyes = () => {
         <FadeInView>
           <h2 className="text-editorial-sm text-muted-foreground mb-10 md:mb-14">ALL SEEING EYES</h2>
           <div className="max-w-2xl text-editorial-body text-foreground space-y-8" style={{ lineHeight: 1.9 }}>
-            <p>Every work in this series begins the same way: she looks at an eye.</p>
-            <p>She moves through it slowly — a fragment of the iris, the edge of the pupil, a piece of the surround. When she finds the right place, she takes it. That is a Still.</p>
-            <p>Then she steps back and lets the Still go. Something else takes it from there. She watches without directing. What grows is a Dream. Each Dream runs for exactly 2:34 and stops — not at a resolution, mid-motion, the way all dreams do.</p>
-            <p>The first eye is hers.</p>
+            <p>All Seeing Eyes starts from nine eyes she drew in 2019 and 2020. The first is her own right eye.</p>
+            <p>She moves through each eye slowly and cuts out thirteen fragments: a piece of the iris, the edge of the pupil, the lashes at the corner. Each fragment is a Still.</p>
+            <p>Then she lets each Still go. She gives it to Repper's Dream Mode, a program that animates an image on its own, and does not set it or steer it. She watches. At 2 minutes 34 seconds she stops the recording, mid-motion, the way a dream ends before you understand it. That is a Dream. The program saves nothing, so each Dream happened once.</p>
+            <p>Thirteen Stills and thirteen Dreams per eye, nine eyes: 234 works, and 2 + 3 + 4 = 9. Eye 01 is finished. Eight are still to come.</p>
           </div>
         </FadeInView>
       </section>

@@ -8,7 +8,7 @@ const Works = () => {
       <FadeInView>
         <h2 className="text-editorial-sm text-muted-foreground mb-10 md:mb-14">EARLIER WORKS</h2>
         <div className="max-w-2xl text-editorial-body text-foreground mb-40 md:mb-56 lg:mb-64" style={{ lineHeight: 1.9 }}>
-          <p>Bodies without heads. Flowers instead of faces. Lips. Lines. A city that wasn't gray. Earlier works from the same source, before the later series fully named themselves.</p>
+          <p>Bodies without heads. Flowers where the heads should be. Only lips. Heads made of tangled lines. The face leaving her work, one series at a time. And a city that wasn't gray.</p>
         </div>
       </FadeInView>
       <div className="space-y-24 md:space-y-32">
