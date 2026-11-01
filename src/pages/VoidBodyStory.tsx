@@ -14,8 +14,9 @@ import bareDetail from "@/assets/process-bare-detail.webp";
 
 const story: React.ReactNode[] = [
   <>
-    I started drawing at seventeen, on a school night in Aden, as the war began. I didn't choose it. I draw
-    because I have to. Things come through me: a colour, a pose, a name. I draw them before I know what they are.
+    I started drawing at seventeen, on a school night in Aden, before the war reached the city. I was in bed,
+    trying to sleep, and something got me up to draw. I didn't choose it. I draw because I have to. A feeling comes
+    first. Then I see the work, before I make a mark. Then I make it. What it means, I find out later.
   </>,
   <>
     My life runs in a loop. Something builds until it looks like the answer. Then it falls apart and I'm back at
