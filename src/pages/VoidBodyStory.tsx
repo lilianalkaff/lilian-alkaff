@@ -35,8 +35,7 @@ const story: React.ReactNode[] = [
   </>,
   <>
     Each drawing starts with a photo of a stranger I found online. I take away everything that makes them someone:
-    the face, the skin, the setting, the photo itself. I keep the outline, redraw it with my strokes and fill it
-    black. I couldn't draw the people, so I drew bodies that could be anyone. Whatever the face would have said, the
+    the face, the skin, the setting, the photo itself. I keep the outline and redraw it with my strokes. I couldn't draw the people, so I drew bodies that could be anyone. Whatever the face would have said, the
     colour says. Oxblood when the heat had nowhere to go. Navy when it went cold. Ice-blue for the calm after.
   </>,
   <>
@@ -44,15 +43,13 @@ const story: React.ReactNode[] = [
     through things. Force pushes from outside, and what force holds together breaks. I meant to call the series
     Power. What came was <em>A Force, Unbreakable</em>. It made no sense: force breaks. I tried to change it, then
     let it stand. Months later the bond ended, and the title made sense. What held us was force, so it broke. What
-    couldn't break was the split between us. I had already drawn it: two bodies holding each other across a ground
-    cut in two, orange on one side, blue on the other.
+    couldn't break was the split between us. I had already drawn it.
   </>,
   <>
-    <em>Stuck</em> was the last series. Two figures on charcoal. One is fixed at the edge of every frame, cropped,
-    never coming in, identical every time: stuck in place and time. The other moves through the middle, trying every
-    position, never stopping, never landing: stuck in motion. I knew the one at the edge was the other person and the
-    one in the middle was me. I didn't know why. In 2026 a mutual friend said the sentence that turned the series
-    into a record: they went back. I had drawn the separation two years before it happened.
+    <em>Stuck</em> was the last series. I knew who was who the moment I drew them: the one at the edge was the other
+    person, the one in the middle was me. I didn't know why. In 2026 a mutual friend said the sentence that turned
+    the series into a record: they went back. They were stuck in place and time. I was stuck in motion, unable to
+    stop, unable to land. I had drawn the separation two years before it happened.
   </>,
 ];
 
@@ -146,9 +143,6 @@ const VoidBodyStory = () => {
             ]}
           />
           </div>
-          <p className="max-w-2xl text-editorial-body text-foreground" style={{ lineHeight: 1.9 }}>
-            Short marks, tapered at both ends, joined one after another, in different weights.
-          </p>
           <JustifiedGallery
             title="The strokes"
             items={[
