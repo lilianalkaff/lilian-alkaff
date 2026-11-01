@@ -277,7 +277,7 @@ export const voidSeries: VoidSeriesData[] = [
     title: "A Piece, Missing",
     year: "2024",
     ground: "Dark red",
-    caption: "Understanding arrived as loss.",
+    caption: "They were far away, and I thought I'd lost them.",
     total: 27,
     cover: voidPiece21n,
     works: [
