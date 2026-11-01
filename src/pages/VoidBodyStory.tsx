@@ -80,7 +80,7 @@ const VoidBodyStory = () => {
         <FadeInView>
           <h1 className="text-editorial-title text-foreground font-medium">Void Body</h1>
           <p className="text-editorial-sm text-muted-foreground mt-4">
-            2023–2024 · Thirteen series · {voidMedium}
+            2023–2024 · Thirteen series · {voidMedium.replace("Vector drawing", "Vector drawings")}
           </p>
         </FadeInView>
       </section>
