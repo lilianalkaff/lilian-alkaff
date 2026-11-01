@@ -25,8 +25,36 @@ const Void = () => {
         </FadeInView>
       </section>
 
+      {/* Featured Series */}
+      <section className="page-padding section-spacing pb-0">
+        <FadeInView>
+          <h2 className="text-editorial-sm text-muted-foreground mb-10 md:mb-14">
+            FEATURED SERIES
+          </h2>
+        </FadeInView>
+        <div className="mx-auto max-w-3xl space-y-20 md:space-y-32 lg:space-y-40">
+          {featured.map((series) => (
+            <FadeInView key={series.slug}>
+              <Link to={`/void-body/${series.slug}`} className="block group">
+                <figure>
+                  <img
+                    src={series.cover}
+                    alt={series.title}
+                    className="w-full"
+                    loading="lazy"
+                  />
+                  <figcaption className="mt-4 flex justify-between text-editorial-sm text-muted-foreground">
+                    <span>{series.title.toUpperCase()}</span>
+                    <span className="text-muted-foreground/60">{series.year}</span>
+                  </figcaption>
+                </figure>
+              </Link>
+            </FadeInView>
+          ))}
+        </div>
+      </section>
       {/* The thirteen series, in order of creation */}
-      <section className="page-padding pt-20 md:pt-28 pb-0">
+      <section className="page-padding section-spacing pb-20 md:pb-32">
         <FadeInView>
           <h2 className="text-editorial-sm text-muted-foreground mb-10 md:mb-14">
             THIRTEEN SERIES, IN THE ORDER THEY WERE MADE
@@ -59,34 +87,6 @@ const Void = () => {
         </ol>
       </section>
 
-      {/* Featured Series */}
-      <section className="page-padding section-spacing pb-20 md:pb-32">
-        <FadeInView>
-          <h2 className="text-editorial-sm text-muted-foreground mb-10 md:mb-14">
-            FEATURED SERIES
-          </h2>
-        </FadeInView>
-        <div className="mx-auto max-w-3xl space-y-20 md:space-y-32 lg:space-y-40">
-          {featured.map((series) => (
-            <FadeInView key={series.slug}>
-              <Link to={`/void-body/${series.slug}`} className="block group">
-                <figure>
-                  <img
-                    src={series.cover}
-                    alt={series.title}
-                    className="w-full"
-                    loading="lazy"
-                  />
-                  <figcaption className="mt-4 flex justify-between text-editorial-sm text-muted-foreground">
-                    <span>{series.title.toUpperCase()}</span>
-                    <span className="text-muted-foreground/60">{series.year}</span>
-                  </figcaption>
-                </figure>
-              </Link>
-            </FadeInView>
-          ))}
-        </div>
-      </section>
     </div>
   );
 };
