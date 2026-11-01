@@ -1,4 +1,18 @@
 {
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "lilianalkaff.art" }],
+      "destination": "https://lilianalkaff.com/void-body-story",
+      "permanent": false
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "www.lilianalkaff.art" }],
+      "destination": "https://lilianalkaff.com/void-body-story",
+      "permanent": false
+    }
+  ],
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
