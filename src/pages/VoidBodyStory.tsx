@@ -51,7 +51,7 @@ const story: React.ReactNode[] = [
     never coming in, identical in every frame, was the other person: stuck in place and time. The one in the
     middle, trying every position, never stopping, never landing, was me: stuck in motion. Two years later a mutual
     friend said the sentence that turned the series into a record: they went back. The series had drawn the exact
-    shape of the separation before it happened. The work comes first. My life follows.
+    shape of the separation two years before it happened.
   </>,
 ];
 
